@@ -1,5 +1,5 @@
 <h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> RapidJournalQualCheck </h1> 
-<h2 align="center"> </br> Rapid Quality Check for Journals based on SJR and CCF </h2>
+<h3 align="center"> Rapid Quality Check for Journals based on SJR and CCF </h3>
 </br>
 <p align="center">
     <a href="https://github.com/JuRaKlWi/RapidJournalQualCheck">
