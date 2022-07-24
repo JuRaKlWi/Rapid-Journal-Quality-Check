@@ -15,8 +15,10 @@ Chrome extension to display SJR along with the H-Index and CCF score next to Goo
 
 ## Preview
 
+SJR quality scores with checked journal title and h-index mouseover 
 ![SJR Score](./img/SJR.PNG)
 
+SJR and CCF quality scores with checked journal title in mouseover
 ![SCR and CCF Scores](./img/SJR_and_CCF.PNG)
 
 ## Install
