@@ -15,7 +15,7 @@ Chrome extension to display SJR along with the H-Index and CCF score next to Goo
 
 ## Preview
 
-![SJR Score](./img/SJR.png)
+![SJR Score](./img/sjr.png)
 
 ![SCR and CCF Scores](./img/SJR_and_CCF.png)
 
