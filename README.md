@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> RapidJournalQualCheck - Rapid Quality Check for Journals based on SJR and CCF</h1>
+<h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> RapidJournalQualCheck </br> Rapid Quality Check for Journals based on SJR and CCF</h1>
 <p align="center">
     <a href="https://github.com/JuRaKlWi/RapidJournalQualCheck">
         <img alt="GitHub manifest version" src="https://img.shields.io/github/manifest-json/v/JuRaKlWi/RapidJournalQualCheck?color=%23EA4AAA&label=Github&logo=github&logoColor=%23EA4AAA">
@@ -6,7 +6,12 @@
 </p>
 
 Chrome extension to display SJR along with the H-Index and CCF score next to Google Scholar search results. 
-</p> Icon from Flaticon.com: https://www.flaticon.com/free-icons/research
+
+</p> Based on and adapted from CCFrank by WenyanLiu: https://github.com/WenyanLiu/CCFrank4dblp
+</p> Using the public Crossref API: https://api.crossref.org/swagger-ui/index.html
+</p> Using SCImago Journal & Country Rank (retrieved July 20th, 2022): http://www.scimagojr.com
+</p> Using China Computer Federation (CCF) ranking: https://www.ccf.org.cn/en/Bulletin/2019-05-13/663884.shtml
+</p> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
 
 ## Preview
 
@@ -48,6 +53,11 @@ OR
 
 This package is heavily based on CCFrank by WenyanLiu: https://github.com/WenyanLiu/CCFrank4dblp
 Thanks goes to her and her contributors: https://github.com/WenyanLiu/CCFrank4dblp#contributors-
+
+</p> Using the public Crossref API: https://api.crossref.org/swagger-ui/index.html
+</p> Using SCImago Journal & Country Rank (retrieved July 20th, 2022): http://www.scimagojr.com
+</p> Using China Computer Federation (CCF) ranking: https://www.ccf.org.cn/en/Bulletin/2019-05-13/663884.shtml
+</p> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
 
 Contributions of any kind welcome!
 
