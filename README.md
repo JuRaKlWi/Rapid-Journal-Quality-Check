@@ -8,10 +8,10 @@
 Chrome extension to display SJR along with the H-Index and CCF score next to Google Scholar search results. 
 
 </p> Based on and adapted from CCFrank by WenyanLiu: https://github.com/WenyanLiu/CCFrank4dblp
-</p> Using the public Crossref API: https://api.crossref.org/swagger-ui/index.html
-</p> Using SCImago Journal & Country Rank (retrieved July 20th, 2022): http://www.scimagojr.com
-</p> Using China Computer Federation (CCF) ranking: https://www.ccf.org.cn/en/Bulletin/2019-05-13/663884.shtml
-</p> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
+</br> Using the public Crossref API: https://api.crossref.org/swagger-ui/index.html
+</br> Using SCImago Journal & Country Rank (retrieved July 20th, 2022): http://www.scimagojr.com
+</br> Using China Computer Federation (CCF) ranking: https://www.ccf.org.cn/en/Bulletin/2019-05-13/663884.shtml
+</br> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
 
 ## Preview
 
