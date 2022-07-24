@@ -5,7 +5,7 @@
     </a>
 </p>
 
-Chrome extension to display SJR along with the H-Index and CCF score next to Google Scholar search results. 
+<b> Chrome extension to display SJR along with the H-Index and CCF score next to Google Scholar search results. </b>
 
 </p> Based on and adapted from CCFrank by WenyanLiu: https://github.com/WenyanLiu/CCFrank4dblp
 </br> Using the public Crossref API: https://api.crossref.org/swagger-ui/index.html
