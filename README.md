@@ -1,4 +1,5 @@
-<h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> RapidJournalQualCheck </br> Rapid Quality Check for Journals based on SJR and CCF</h1>
+<h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> RapidJournalQualCheck </h1> 
+<h3 align="center"> </br> Rapid Quality Check for Journals based on SJR and CCF </h3>
 <p align="center">
     <a href="https://github.com/JuRaKlWi/RapidJournalQualCheck">
         <img alt="GitHub manifest version" src="https://img.shields.io/github/manifest-json/v/JuRaKlWi/RapidJournalQualCheck?color=%23EA4AAA&label=Github&logo=github&logoColor=%23EA4AAA">
