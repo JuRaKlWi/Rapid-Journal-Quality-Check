@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Rapid Journal Quality Check",
+    "description": "Extension name."
+  },
+  "extDesc": {
+    "message": "Displays SJR along with the H-Index and CCF score next to Google Scholar search results. Icon from Flaticon.com: https://www.flaticon.com/free-icons/research",
+    "description": "Extension description."
+  }
+}
