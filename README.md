@@ -1,5 +1,5 @@
 <h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> RapidJournalQualCheck </h1> 
-<h3 align="center"> Rapid Quality Check for Journals based on SJR and CCF </h3>
+<h3 align="center"> Rapid Quality Check for Academic Journals in Google Scholar Search Results based on SJR and CCF </h3>
 </br>
 <p align="center">
     <a href="https://github.com/JuRaKlWi/RapidJournalQualCheck">
@@ -7,7 +7,7 @@
     </a>
 </p>
 
-<b> Chrome extension to display SJR along with the H-Index and CCF score next to Google Scholar search results. </b>
+<b> This is a Chrome extension to display SJR along with the H-Index and CCF score next to Google Scholar search results. </b>
 
 </p> Based on and adapted from CCFrank by WenyanLiu: https://github.com/WenyanLiu/CCFrank4dblp
 </br> Using the public Crossref API: https://api.crossref.org/swagger-ui/index.html
