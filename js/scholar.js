@@ -35,7 +35,12 @@ scholar.appendRank = function () {
             .split(" ");
         let author = data[1];
         let year = data.slice(-3)[0];
-        fetchRank(node, title, author, year, scholar);
+        let compl = $(this)
+            .find("div.gs_a")
+            .text()
+            .replace(/[\,\-\…]/g, "")
+            .replace("&nbsp;", "");
+        fetchRank(node, title, author, year, scholar, compl);
     });
 };
 

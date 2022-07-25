@@ -6,11 +6,12 @@
  */
 
 
-function fetchRank(node, title, authorA, year, site) {
+function fetchRank(node, title, authorA, year, site, compl) {
     var xhr = new XMLHttpRequest();
 /*    api_format = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + " " + authorA) + "&format=json"; */
 /*    api_format = "https://api.crossref.org/works?query.title=" + encodeURIComponent(title + " " + authorA) + "&query.author=" + encodeURIComponent(authorA);  + "" */
-    api_format = "https://api.crossref.org/works?query.bibliographic=" + encodeURIComponent(title + " " + authorA + "&rows=2");
+/*    api_format = "https://api.crossref.org/works?query.bibliographic=" + encodeURIComponent(title + " " + authorA + "&rows=2"); */
+    api_format = "https://api.crossref.org/works?query.bibliographic=" + encodeURIComponent(compl + "&rows=2");
     xhr.open("GET", api_format, true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4) {
