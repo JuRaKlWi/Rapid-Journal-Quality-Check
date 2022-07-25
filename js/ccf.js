@@ -87,3 +87,4 @@ ccf.getRankSpan = function (refine, type) {
     }
     return span;
 };
+
