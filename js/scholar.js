@@ -5,6 +5,7 @@
  *                                            WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), Kai Chen (https://github.com/FunClip)
  */
 
+
 const scholar = {};
 
 scholar.rankSpanList = [];
@@ -38,7 +39,7 @@ scholar.appendRank = function () {
         let compl = $(this)
             .find("div.gs_a")
             .text()
-            .replace(/[\,\-\…]/g, "")
+            .replace(/(<([^>]+)>)/gi, "")
             .replace("&nbsp;", "");
         fetchRank(node, title, author, year, scholar, compl);
     });
@@ -56,7 +57,12 @@ scholar.appendRanks = function () {
                 .replace(/[\,\…]/g, "")
                 .split(" ")[1];
             let year = $(this).find("td.gsc_a_y").text();
-            fetchRank(node, title, author, year, scholar);
+            let compl = $(this)
+                .find("div.gs_gray")
+                .text()
+                .replace(/(<([^>]+)>)/gi, "")
+                .replace("&nbsp;", "");
+            fetchRank(node, title, author, year, scholar, compl);
         }
     });
 };

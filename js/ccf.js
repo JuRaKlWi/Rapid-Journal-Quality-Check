@@ -14,27 +14,40 @@ ccf.getRankInfo = function (refine, type) {
     rankInfo.txt = "";
     let rank;
     let rank_CCF;
+    let rank_VHB;
     let url;
     let hindex;
     let rank_txt;
     if (type == 'full_cap') {
         rank = ccf.FullRank[refine];
         rank_CCF = ccf.FullRank_CCF[refine];
+        rank_VHB = ccf.FullRank_VHB[refine];
         url = refine;
         hindex = ccf.FullHindex[refine];
     } 
     if (rank == undefined && rank_CCF == undefined) {
-        rank_txt = "SJR / CCF none";
+        rank_txt = "SJR / CCF none ";
         rankInfo.info += refine + " not found\n";
     } 
     if (rank != undefined) {
-         rank_txt = "SJR " + rank;
+        rank_txt = "SJR " + rank;
         rankInfo.info += refine;
         let abbrname = ccf.FullRank[url];
         if (abbrname != "") {
             rankInfo.info += " (" + abbrname + ")";
         }
         rankInfo.info += "; H-Index: " + hindex + "\n";
+    }
+    if (rank != undefined && rank_VHB != undefined) {
+        rank_txt += "; ";
+    }
+    if (rank_VHB != undefined) {
+        rank_txt += "VHB " + rank_VHB;
+        rankInfo.info += refine;
+        let abbrname = ccf.FullRank_VHB[url];
+        if (abbrname != "") {
+            rankInfo.info += " (" + abbrname + ")";
+        }
     }
     if (rank != undefined && rank_CCF != undefined) {
         rank_txt += "; ";
@@ -87,4 +100,3 @@ ccf.getRankSpan = function (refine, type) {
     }
     return span;
 };
-
