@@ -13,14 +13,22 @@
 }
 
 .ccf-a {
-    background-color: #28a745;
+    background-color: #34ce57;
+}
+
+.ccf-i {
+    background-color: #34ce57;
 }
 
 .ccf-Aplus {
-    background-color: #006400;
+    background-color: #28a745;
 }
 
 .ccf-b {
+    background-color: #ffc107;
+}
+
+.ccf-ii {
     background-color: #ffc107;
 }
 
@@ -28,8 +36,16 @@
     background-color: #dc3545;
 }
 
+.ccf-iii {
+    background-color: #dc3545;
+}
+
+.ccf-d {
+    background-color: #dc3545;
+}
+
 .ccf-q1 {
-    background-color: #28a745;
+    background-color: #34ce57;
 }
 
 .ccf-q2 {
@@ -45,7 +61,7 @@
 }
 
 .ccf-none {
-    background-color: #6c757d;
+    background-color: #a9a9a9;
 }
 
 .ccf-tooltip {

@@ -10,10 +10,10 @@ const ccfRankList_VHB =
     "B		Abacus				\n" +
     "k.w.Z.		Absatzwirtschaft				\n" +
     "A		Academy of Management Annals				\n" +
-    "A+		Academy of Management Journal (AMJ)				\n" +
+    "A+		Academy of Management Journal				\n" +
     "B		Academy of Management Learning & Education				\n" +
     "B		Academy of Management Perspectives				\n" +
-    "A+		Academy of Management Review (AMR)				\n" +
+    "A+		Academy of Management Review				\n" +
     "D		Accountancy				\n" +
     "B		Accounting and Business Research				\n" +
     "C		Accounting and Finance				\n" +
@@ -22,7 +22,7 @@ const ccfRankList_VHB =
     "C		Accounting Forum				\n" +
     "C		Accounting Historians Journal				\n" +
     "C		Accounting History				\n" +
-    "B		Accounting History Review (fr¸her: Accounting, Business & Financial History)				\n" +
+    "B		Accounting History Review				\n" +
     "B		Accounting Horizons				\n" +
     "C		Accounting in Europe				\n" +
     "C		Accounting Perspectives				\n" +
@@ -40,10 +40,10 @@ const ccfRankList_VHB =
     "B		ACM Transactions on Management Information Systems				\n" +
     "C		Administration & Society				\n" +
     "C		Administration and Public Management Review				\n" +
-    "A+		Administrative Science Quarterly (ASQ)				\n" +
-    "C		Advanced Information Systems Engineering. Proceedings of the International Conference CAiSE (fr¸her: Proceedings of the Conference on Advanced Information Systems Engineering)				\n" +
+    "A+		Administrative Science Quarterly				\n" +
+    "C		Advanced Information Systems Engineering. Proceedings of the International Conference CAiSE				\n" +
     "C		Advances in Accounting				\n" +
-    "k.R.		Advances in Applied Business Strategy (eingestellt 2010)				\n" +
+    "k.R.		Advances in Applied Business Strategy				\n" +
     "C		Advances in Consumer Research				\n" +
     "C		Advances in International Marketing				\n" +
     "C		Advances in Management Accounting				\n" +
@@ -75,12 +75,12 @@ const ccfRankList_VHB =
     "B		Auditing: A Journal of Practice & Theory				\n" +
     "D		Australasian Marketing Journal				\n" +
     "C		Australian Accounting Review				\n" +
-    "C		Australian Journal of Information Systems (AJIS)				\n" +
+    "C		Australian Journal of Information Systems				\n" +
     "C		Australian Journal of Management				\n" +
     "k.R.		Australian Journal of Public Administration				\n" +
     "k.R.		Australian Tax Forum: a Journal of Taxation Policy, Law and Reform				\n" +
     "C		Baltic Journal of Management				\n" +
-    "k.R.		Bank Accounting & Finance (eingestellt 2010)				\n" +
+    "k.R.		Bank Accounting & Finance				\n" +
     "D		BankArchiv: Zeitschrift f¸r das gesamte Bank- und Bˆrsenwesen				\n" +
     "k.R.		Bankhistorisches Archiv				\n" +
     "k.w.Z.		BB-Betriebs-Berater				\n" +
@@ -92,40 +92,40 @@ const ccfRankList_VHB =
     "k.R.		BKR - Zeitschrift f¸r Bank- und Kapitalmarktrecht				\n" +
     "C		BMC Health Services Research				\n" +
     "C		British Journal of Healthcare Management				\n" +
-    "k.R.		British Journal of Industrial Relations (BJIR)				\n" +
-    "B		British Journal of Management (BJM)				\n" +
+    "k.R.		British Journal of Industrial Relations				\n" +
+    "B		British Journal of Management				\n" +
     "C		British Tax Review				\n" +
     "k.R.		Bulletin for International Taxation				\n" +
-    "B		Business & Information Systems Engineering (BISE) (fr¸her: Wirtschaftsinformatik WI)				\n" +
+    "B		Business & Information Systems Engineering				\n" +
     "B		Business & Society				\n" +
     "C		Business + Innovation				\n" +
     "C		Business and Society Review				\n" +
-    "B		Business Ethics Quarterly (BEQ)				\n" +
+    "B		Business Ethics Quarterly				\n" +
     "C		Business Ethics: A European Review				\n" +
     "C		Business Horizons				\n" +
     "C		Business Process Management Journal				\n" +
-    "C		Business Process Management Workshops (fr¸her: Proceedings of the International Conference on Business Process Management (BPM))				\n" +
-    "B		Business Research (fr¸her: BuR - Business Research)				\n" +
+    "C		Business Process Management Workshops				\n" +
+    "B		Business Research				\n" +
     "B		Business Strategy and the Environment				\n" +
     "C		Business Strategy Review				\n" +
     "B		California Management Review				\n" +
     "k.R.		Canadian Journal of Economics - Revue Canadienne d'êÈconomique				\n" +
     "k.R.		Canadian Tax Journal - Revue Fiscale Canadienne				\n" +
     "C		Central European Journal of Operations Research				\n" +
-    "B		Communications of the ACM (CACM)				\n" +
-    "C		Communications of the Association for Information Systems (CAIS)				\n" +
+    "B		Communications of the ACM				\n" +
+    "C		Communications of the Association for Information Systems				\n" +
     "k.R.		Computational Management Science				\n" +
     "k.R.		Computer Networks				\n" +
-    "C		Computer Supported Cooperative Work (CSCW)				\n" +
+    "C		Computer Supported Cooperative Work				\n" +
     "B		Computers and Industrial Engineering				\n" +
     "B		Computers and Operations Research				\n" +
     "C		Computers in Industry				\n" +
     "k.R.		Consumption, Markets and Culture				\n" +
     "A		Contemporary Accounting Research - Recherche Comptable Contemporaine				\n" +
     "k.w.Z.		Controller Magazin				\n" +
-    "D		Controlling & Management Review (fr¸her: Zeitschrift f¸r Controlling und Management ZfCM)				\n" +
+    "D		Controlling & Management Review" +
     "D		Controlling, Zeitschrift f¸r erfolgsorientierte Unternehmenssteuerung				\n" +
-    "D		Corporate Finance (fr¸her: Finanz Betrieb FB)				\n" +
+    "D		Corporate Finance				\n" +
     "C		Corporate Governance An International Review				\n" +
     "C		Corporate Governance: The International Journal of Business in Society				\n" +
     "C		Corporate Ownership and Control				\n" +
@@ -145,33 +145,33 @@ const ccfRankList_VHB =
     "k.R.		Das Hochschulwesen				\n" +
     "k.w.Z.		Das Krankenhaus				\n" +
     "B		Data & Knowledge Engineering				\n" +
-    "k.R.		Database and Expert Systems Applications. Proceedings of the International Conference DEXA (fr¸her: Proceedings of the International Conference on Database and Expert Systems Applications)				\n" +
+    "k.R.		Database and Expert Systems Applications. Proceedings of the International Conference DEXA				\n" +
     "k.R.		Datenschutz und Datensicherheit				\n" +
-    "C		DBW Die Betriebswirtschaft- Business Administration Review (BAReV)				\n" +
+    "C		DBW Die Betriebswirtschaft- Business Administration Review				\n" +
     "k.R.		Decision Analysis				\n" +
     "B		Decision Sciences				\n" +
-    "B		Decision Support Systems (DSS)				\n" +
+    "B		Decision Support Systems				\n" +
     "D		Der Betrieb				\n" +
     "D		Der Betriebswirt - Management in Wissenschaft und Praxis				\n" +
     "D		Der Konzern: Zeitschrift fÅr Gesellschaftsrecht, Steuerrecht, Bilanzrecht und Rechnungslegung der verbundenen Unternehmen				\n" +
-    "D		der markt - International Journal of Marketing (eingestellt 2013)				\n" +
-    "C		der moderne staat: Zeitschrift f¸r Public Policy, Recht und Management (DMS)				\n" +
+    "D		der markt - International Journal of Marketing				\n" +
+    "C		der moderne staat: Zeitschrift f¸r Public Policy, Recht und Management				\n" +
     "k.w.Z.		Der Steuerberater - Zeitschrift f¸r Beruf und Praxis				\n" +
     "D		Deutsche SteuerZeitung				\n" +
-    "D		Deutsches Steuerrecht (DStR)				\n" +
+    "D		Deutsches Steuerrecht				\n" +
     "D		Die Aktiengesellschaft				\n" +
     "k.w.Z.		Die Bank				\n" +
-    "k.R.		Die ÷ffentliche Verwaltung (D÷V)				\n" +
-    "k.w.Z.		Die Steuerberatung (Stbg)				\n" +
+    "k.R.		Die ÷ffentliche Verwaltung				\n" +
+    "k.w.Z.		Die Steuerberatung				\n" +
     "k.w.Z.		Die steuerliche Betriebspr¸fung				\n" +
-    "D		Die Unternehmensbesteuerung (Ubg)				\n" +
+    "D		Die Unternehmensbesteuerung				\n" +
     "C		Die Unternehmung - Swiss Journal of Business Research and Practice				\n" +
     "k.R.		Die Verwaltung: Zeitschrift f¸r Verwaltungsrecht und Verwaltungswissenschaften				\n" +
-    "C		Die Wirtschaftspr¸fung (WPg)				\n" +
+    "C		Die Wirtschaftspr¸fung				\n" +
     "A		Discrete Applied Mathematics				\n" +
     "k.R.		EC Tax Review				\n" +
     "B		Ecological Economics				\n" +
-    "k.R.		E-Commerce and Web Technologies. Proceedings of the International Conference EC-Web (fr¸her: Proceedings of the International Conference on Electronic Commerce and Web Technologies)				\n" +
+    "k.R.		E-Commerce and Web Technologies. Proceedings of the International Conference EC-Web				\n" +
     "A+		Econometrica				\n" +
     "k.R.		Economic Journal				\n" +
     "B		Economics Letters				\n" +
@@ -179,20 +179,20 @@ const ccfRankList_VHB =
     "B		Economics of Innovation and New Technology				\n" +
     "k.R.		eJournal of Tax Research				\n" +
     "C		Electronic Commerce Research				\n" +
-    "C		Electronic Commerce Research and Applications (ECRA)				\n" +
-    "B		Electronic Markets (em)				\n" +
+    "C		Electronic Commerce Research and Applications				\n" +
+    "B		Electronic Markets				\n" +
     "B		Employee Relations				\n" +
     "B		Energy Economics				\n" +
     "B		Energy Policy				\n" +
-    "C		Enterprise Modelling and Information Systems Architectures (Online)				\n" +
+    "C		Enterprise Modelling and Information Systems Architectures				\n" +
     "B		Entrepreneurship & Regional Development				\n" +
-    "A		Entrepreneurship: Theory and Practice (ET&P)				\n" +
+    "A		Entrepreneurship: Theory and Practice				\n" +
     "D		e-Service Journal				\n" +
     "k.R.		EURO Journal on Computational Optimization				\n" +
     "k.R.		EURO Journal on Decision Processes				\n" +
     "B		EURO Journal on Transportation and Logistics				\n" +
-    "k.R.		Europ‰ische Zeitschrift f¸r Wirtschaftsrecht (EuZW)				\n" +
-    "k.R.		Europ‰isches Wirtschafts und Steuerrecht (EWS) - Betriebs-Berater Europa				\n" +
+    "k.R.		Europ‰ische Zeitschrift f¸r Wirtschaftsrecht				\n" +
+    "k.R.		Europ‰isches Wirtschafts und Steuerrecht - Betriebs-Berater Europa				\n" +
     "A		European Accounting Review				\n" +
     "C		European Business Journal				\n" +
     "k.R.		European Economic Review				\n" +
@@ -200,17 +200,17 @@ const ccfRankList_VHB =
     "B		European Journal of Finance				\n" +
     "B		European Journal of Health Economics				\n" +
     "k.R.		European Journal of Industrial Relations				\n" +
-    "A		European Journal of Information Systems (EJIS)				\n" +
+    "A		European Journal of Information Systems				\n" +
     "C		European Journal of Innovation Management				\n" +
     "B		European Journal of International Management				\n" +
     "C		European Journal of Law and Economics				\n" +
-    "C		European Journal of Management (EJM): A Publication of the Academy of International Business and Economics				\n" +
+    "C		European Journal of Management: A Publication of the Academy of International Business and Economics				\n" +
     "C		European Journal of Marketing				\n" +
-    "A		European Journal of Operational Research (EJOR)				\n" +
+    "A		European Journal of Operational Research				\n" +
     "k.R.		European Journal of Political Economy				\n" +
     "B		European Journal of Work & Organizational Psychology				\n" +
     "B		European Management Journal				\n" +
-    "B		European Management Review (EMR)				\n" +
+    "B		European Management Review				\n" +
     "k.R.		European Sport Management Quarterly				\n" +
     "C		European Taxation				\n" +
     "k.R.		Evolutionary Computation				\n" +
@@ -220,17 +220,17 @@ const ccfRankList_VHB =
     "B		Finance and Stochastics				\n" +
     "B		Finance Research Letters				\n" +
     "C		Financial Accountability and Management				\n" +
-    "B		Financial Analysts Journal (FAJ)				\n" +
+    "B		Financial Analysts Journal				\n" +
     "B		Financial Management				\n" +
     "C		Financial Markets and Portfolio Management				\n" +
     "k.R.		Financial Markets, Institutions and Instruments				\n" +
     "B/C		Financial Review				\n" +
-    "B		FinanzArchiv - Public Finance Analysis (FA)				\n" +
+    "B		FinanzArchiv - Public Finance Analysis				\n" +
     "C		Finanz-Rundschau				\n" +
     "C		Fiscal Studies				\n" +
-    "B		Flexible Services and Manufacturing Journal (FSM)				\n" +
+    "B		Flexible Services and Manufacturing Journal				\n" +
     "k.w.Z.		Forum Wirtschaftsethik				\n" +
-    "C		Frontiers of Entrepreneurship Research (Proceedings of Babson College Entrepreneurship Research Conference)				\n" +
+    "C		Frontiers of Entrepreneurship Research				\n" +
     "k.R.		Fuzzy Sets and Systems				\n" +
     "D		GAIA - ÷kologische Perspektiven in Natur-, Geistes- und Wirtschaftswissenschaften				\n" +
     "B		Gender, Work & Organization				\n" +
@@ -240,10 +240,10 @@ const ccfRankList_VHB =
     "D		Gesundheitsˆkonomie und Qualit‰tsmanagement				\n" +
     "D		GFK Marketing Intelligence Review				\n" +
     "k.R.		Global Finance Journal				\n" +
-    "B		Global Strategy Journal (GSJ)				\n" +
+    "B		Global Strategy Journal				\n" +
     "k.w.Z.		GmbHRundschau				\n" +
     "A		Governance				\n" +
-    "D		greener management international (eingestellt 2012)				\n" +
+    "D		greener management international			\n" +
     "B		Group & Organization Management				\n" +
     "B		Group Decision and Negotiation				\n" +
     "k.R.		Gruppendynamik & Organisationsberatung				\n" +
@@ -255,7 +255,7 @@ const ccfRankList_VHB =
     "k.R.		Health Economics, Policy and Law				\n" +
     "B		Health Policy				\n" +
     "C		Health Services Management Research				\n" +
-    "A		Health Services Research (HSR)				\n" +
+    "A		Health Services Research				\n" +
     "k.R.		Higher Education				\n" +
     "k.R.		Higher Education Quarterly				\n" +
     "D		HMD - Praxis der Wirtschaftsinformatik				\n" +
@@ -263,29 +263,29 @@ const ccfRankList_VHB =
     "k.R.		Human Performance				\n" +
     "B		Human Relations				\n" +
     "k.R.		Human Resource Development International				\n" +
-    "k.R.		Human Resource Development Review (HRD Review)				\n" +
+    "k.R.		Human Resource Development Review				\n" +
     "B		Human Resource Management				\n" +
     "B		Human Resource Management Journal				\n" +
     "B		Human Resource Management Review				\n" +
     "C		Human-Computer Interaction				\n" +
-    "C		IBM Journal of Research and Development (fr¸her: IBM Systems Journal)				\n" +
+    "C		IBM Journal of Research and Development				\n" +
     "C		IEEE Computer				\n" +
     "k.R.		IEEE Internet Computing				\n" +
     "k.R.		IEEE Pervasive Computing				\n" +
     "C		IEEE Software				\n" +
-    "k.R.		IEEE Transactions on Components, Packaging, and Manufacturing Technology (fr¸her: IEEE Transactions on Product Engineering and Production)				\n" +
+    "k.R.		IEEE Transactions on Components, Packaging, and Manufacturing Technology				\n" +
     "B		IEEE Transactions on Engineering Management				\n" +
     "B		IEEE Transactions on Software Engineering				\n" +
-    "C		IEEE Transactions on Systems, Man, and Cybernetics: Systems (fr¸her: ...Part A: Systems and Humans)				\n" +
+    "C		IEEE Transactions on Systems, Man, and Cybernetics: Systems				\n" +
     "A		IIE Transactions				\n" +
-    "k.w.Z.		IM+io - Das Magazin f¸r Innovation, Organisation und Management (fr¸her: Information Management & Consulting)				\n" +
+    "k.w.Z.		IM+io - Das Magazin f¸r Innovation, Organisation und Management				\n" +
     "B		Industrial and Corporate Change (ICC)				\n" +
     "A/B		Industrial and Labor Relations Review (ILR Review)				\n" +
     "k.R.		Industrial Management & Data Systems				\n" +
     "B		Industrial Marketing Management				\n" +
     "C		Industrielle Beziehungen				\n" +
     "B		Industry & Innovation				\n" +
-    "k.R.		INFOR: Information Systems and Operational Research (fr¸her: Journal for Canadian Operational Research Society)				\n" +
+    "k.R.		INFOR: Information Systems and Operational Research				\n" +
     "D		Informatik-Spektrum				\n" +
     "B		Information & Management				\n" +
     "B		Information and Organization				\n" +
@@ -898,8 +898,17 @@ var ccfFullRank_VHB = {};
 
 for (x of ccfRankList_VHB.split("\n")) {
     y = x.split("\t");
-    ccfFullRank_VHB[y[2].toUpperCase()] = y[0];
+    y[0] = y[0].replace(/k.w.Z/g, "NA");
+    y[0] = y[0].replace(/k.R./g, "NA");
+    y[2] = y[2].toUpperCase();
+    y[2] = y[2].replace(/ *\([^)]*\) */g, "");
+    y[2] = y[2].replace(/AND/g, "");
+    y[2] = y[2].replace(/&AMP;/g, "");
+    y[2] = y[2].replace(/[^A-Z0-9]/ig, "");
+
+    ccfFullRank_VHB[y[2]] = y[0];
 }
+
 
 const fs = require("fs");
 fs.writeFileSync(

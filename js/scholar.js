@@ -29,19 +29,12 @@ scholar.appendRank = function () {
     elements.each(function () {
         let node = $(this).find("h3 > a");
         let title = node.text();
-        let data = $(this)
-            .find("div.gs_a")
-            .text()
-            .replace(/[\,\-\…]/g, "")
-            .split(" ");
-        let author = data[1];
-        let year = data.slice(-3)[0];
         let compl = $(this)
             .find("div.gs_a")
             .text()
             .replace(/(<([^>]+)>)/gi, "")
             .replace("&nbsp;", "");
-        fetchRank(node, title, author, year, scholar, compl);
+        fetchRank(node, title, compl, scholar);
     });
 };
 
@@ -62,7 +55,7 @@ scholar.appendRanks = function () {
                 .text()
                 .replace(/(<([^>]+)>)/gi, "")
                 .replace("&nbsp;", "");
-            fetchRank(node, title, author, year, scholar, compl);
+            fetchRank(node, title, compl, scholar);
         }
     });
 };

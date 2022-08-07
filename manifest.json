@@ -118,7 +118,6 @@
         "data/ccfFullRank.js",
         "data/ccfFullRank_CCF.js",
         "data/ccfFullRank_VHB.js",
-        "data/ccfFullHindex.js",
         "script.js"
       ]
     }

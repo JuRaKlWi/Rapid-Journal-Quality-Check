@@ -5,6 +5,7 @@
  *                                            WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), Kai Chen (https://github.com/FunClip)
  */
 
+
 const ccfRankList_CCF =
     "A		ACM Transactions on Computer Systems		\n" +
     "A		ACM Transactions on Storage		\n" +
@@ -652,7 +653,17 @@ var ccfFullRank_CCF = {};
 
 for (x of ccfRankList_CCF.split("\n")) {
     y = x.split("\t");
-    ccfFullRank_CCF[y[2].toUpperCase()] = y[0];
+    y[0] = y[0].replace(/A/g, "I");
+    y[0] = y[0].replace(/B/g, "II");
+    y[0] = y[0].replace(/C/g, "III");
+
+    y[2] = y[2].toUpperCase();
+    y[2] = y[2].replace(/ *\([^)]*\) */g, "");
+    y[2] = y[2].replace(/AND/g, "");
+    y[2] = y[2].replace(/&AMP;/g, "");
+    y[2] = y[2].replace(/[^A-Z0-9]/ig, "");
+
+    ccfFullRank_CCF[y[2]] = y[0];
 }
 
 const fs = require("fs");

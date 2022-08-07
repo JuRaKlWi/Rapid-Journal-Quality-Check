@@ -5,6 +5,10 @@
  *                                            WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), Kai Chen (https://github.com/FunClip)
  */
 
+/* To Do: 
+    - Automate the process from raw data to this
+ */
+
 const ccfRankList =
     "Q1	182	Ca-A Cancer Journal for Clinicians		\n" +
     "Q1	452	Nature Reviews Molecular Cell Biology		\n" +
@@ -768,7 +772,7 @@ const ccfRankList =
     "Q1	89	Economic Geography		\n" +
     "Q1	172	Astrophysical Journal Letters		\n" +
     "Q1	74	Protein and Cell		\n" +
-    "Q1	425	Environmental Science &amp; Technology		\n" +
+    "Q1	425	Environmental Science & Technology		\n" +
     "Q1	58	Mind		\n" +
     "Q1	142	Small Business Economics		\n" +
     "Q1	79	Economic Policy		\n" +
@@ -1116,7 +1120,7 @@ const ccfRankList =
     "Q1	189	Heart		\n" +
     "Q1	176	IEEE/ACM Transactions on Networking		\n" +
     "Q1	54	mSystems		\n" +
-    "Q1	255	ACS applied materials &amp; interfaces		\n" +
+    "Q1	255	ACS applied materials & interfaces		\n" +
     "Q1	213	Biological Conservation		\n" +
     "Q1	239	British Journal of Psychiatry		\n" +
     "Q1	84	Biostatistics		\n" +
@@ -1587,7 +1591,7 @@ const ccfRankList =
     "Q1	50	Journal of Destination Marketing and Management		\n" +
     "Q1	43	Materials Today Energy		\n" +
     "Q1	5	Meteorological Monographs		\n" +
-    "Q1	17	American journal of obstetrics &amp; gynecology MFM		\n" +
+    "Q1	17	American journal of obstetrics & gynecology MFM		\n" +
     "Q1	148	IEEE Transactions on Visualization and Computer Graphics		\n" +
     "Q1	140	Systems and Control Letters		\n" +
     "Q1	70	Language Testing		\n" +
@@ -1636,7 +1640,7 @@ const ccfRankList =
     "Q1	78	Environmental Chemistry Letters		\n" +
     "Q1	110	Higher Education		\n" +
     "Q1	94	Justice Quarterly		\n" +
-    "Q1	24	European heart journal. Quality of care &amp; clinical outcomes		\n" +
+    "Q1	24	European heart journal. Quality of care & clinical outcomes		\n" +
     "Q1	102	Computers and Security		\n" +
     "Q1	69	European Union Politics		\n" +
     "Q1	102	Journal of Geodesy		\n" +
@@ -1965,7 +1969,7 @@ const ccfRankList =
     "Q1	183	European Physical Journal C		\n" +
     "Q1	41	Genes and Diseases		\n" +
     "Q1	42	Journal of Research in Interactive Marketing		\n" +
-    "Q1	252	Materials Science &amp; Engineering A: Structural Materials: Properties, Microstructure and Processing		\n" +
+    "Q1	252	Materials Science & Engineering A: Structural Materials: Properties, Microstructure and Processing		\n" +
     "Q1	125	Nuclear Fusion		\n" +
     "Q1	181	Rheumatology		\n" +
     "Q1	34	SOIL		\n" +
@@ -2520,7 +2524,7 @@ const ccfRankList =
     "Q1	68	Human Resources for Health		\n" +
     "Q1	198	Climatic Change		\n" +
     "Q1	125	Journal of Sleep Research		\n" +
-    "Q1	40	Addiction science &amp; clinical practice		\n" +
+    "Q1	40	Addiction science & clinical practice		\n" +
     "Q1	88	Nonprofit and Voluntary Sector Quarterly		\n" +
     "Q1	48	Sustainable Energy Technologies and Assessments		\n" +
     "Q1	68	Frontiers in Marine Science		\n" +
@@ -2904,7 +2908,7 @@ const ccfRankList =
     "Q1	49	Sociology of Religion		\n" +
     "Q1	28	Behavioral Research in Accounting		\n" +
     "Q1	31	International Theory		\n" +
-    "Q1	21	Journalism &amp; communication monographs		\n" +
+    "Q1	21	Journalism & communication monographs		\n" +
     "Q1	90	Journal of the Franklin Institute		\n" +
     "Q1	41	Current Opinion in Green and Sustainable Chemistry		\n" +
     "Q1	99	Journal of Behavioral Medicine		\n" +
@@ -3195,7 +3199,7 @@ const ccfRankList =
     "Q2	35	Virologica Sinica		\n" +
     "Q1	108	Applied Geography		\n" +
     "Q1	70	Precision Agriculture		\n" +
-    "Q1	40	Anaesthesia, critical care &amp; pain medicine		\n" +
+    "Q1	40	Anaesthesia, critical care & pain medicine		\n" +
     "Q1	36	Current Protocols in Protein Science		\n" +
     "Q1	33	Global Spine Journal		\n" +
     "Q2	86	Journal of the Meteorological Society of Japan		\n" +
@@ -3403,7 +3407,7 @@ const ccfRankList =
     "Q1	107	Journal of Physics G: Nuclear and Particle Physics		\n" +
     "Q1	104	Materials Characterization		\n" +
     "Q1	39	Mental Health and Physical Activity		\n" +
-    "Q1	28	Public Performance &amp; Management Review		\n" +
+    "Q1	28	Public Performance & Management Review		\n" +
     "Q2	72	Advances in Atmospheric Sciences		\n" +
     "Q1	135	Cognition and Emotion		\n" +
     "Q1	73	Environment and Planning C: Politics and Space		\n" +
@@ -5521,7 +5525,7 @@ const ccfRankList =
     "Q2	38	Annals of Laboratory Medicine		\n" +
     "Q1	49	Dendrochronologia		\n" +
     "Q1	9	Electronic Structure		\n" +
-    "Q1	198	Energy &amp; Fuels		\n" +
+    "Q1	198	Energy & Fuels		\n" +
     "Q1	50	Physical Therapy in Sport		\n" +
     "Q2	91	Endocrine Practice		\n" +
     "Q2	53	Immunotherapy		\n" +
@@ -5563,7 +5567,7 @@ const ccfRankList =
     "Q1	87	Child: Care, Health and Development		\n" +
     "Q2	18	Chronic Stress		\n" +
     "Q1	88	Health Promotion International		\n" +
-    "Q1	231	Industrial &amp; Engineering Chemistry Research		\n" +
+    "Q1	231	Industrial & Engineering Chemistry Research		\n" +
     "Q1	86	International Journal of Periodontics and Restorative Dentistry		\n" +
     "Q1	29	Journal of Eastern African Studies		\n" +
     "Q1	44	Journal of Human Kinetics		\n" +
@@ -5989,7 +5993,7 @@ const ccfRankList =
     "Q1	127	Animal Feed Science and Technology		\n" +
     "Q2	54	Canadian Journal of Ophthalmology		\n" +
     "Q1	25	Case Studies on Transport Policy		\n" +
-    "Q2	21	Journal of frailty &amp; aging,The		\n" +
+    "Q2	21	Journal of frailty & aging,The		\n" +
     "Q1	29	Journal of Hydrology and Hydromechanics		\n" +
     "Q1	49	Navigation, Journal of the Institute of Navigation		\n" +
     "Q2	67	Ophthalmic Epidemiology		\n" +
@@ -6079,7 +6083,7 @@ const ccfRankList =
     "Q1	15	Internet of Things		\n" +
     "Q2	38	Journal of Current Issues and Research in Advertising		\n" +
     "Q2	80	Journal of Physical Activity and Health		\n" +
-    "Q1	48	Surveillance &amp; Society		\n" +
+    "Q1	48	Surveillance & Society		\n" +
     "Q1	102	Violence Against Women		\n" +
     "Q1	48	Asian Journal of Organic Chemistry		\n" +
     "Q1	70	Best Practice and Research in Clinical Anaesthesiology		\n" +
@@ -6874,7 +6878,7 @@ const ccfRankList =
     "Q2	39	JBI evidence implementation		\n" +
     "Q1	73	Journal of Aerosol Medicine and Pulmonary Drug Delivery		\n" +
     "Q2	49	Journal of High Technology Management Research		\n" +
-    "Q1	66	Journal of managed care &amp; specialty pharmacy		\n" +
+    "Q1	66	Journal of managed care & specialty pharmacy		\n" +
     "Q2	80	Journal of Sex and Marital Therapy		\n" +
     "Q1	60	Journal of Sport and Social Issues		\n" +
     "Q1	99	Journal of Zoology		\n" +
@@ -6990,7 +6994,7 @@ const ccfRankList =
     "Q2	41	Industrial and Organizational Psychology		\n" +
     "Q2	11	JMIR Cardio		\n" +
     "Q2	5	Journal of Asian Earth Sciences: X		\n" +
-    "Q1	140	Journal of Chemical &amp; Engineering Data		\n" +
+    "Q1	140	Journal of Chemical & Engineering Data		\n" +
     "Q1	131	Journal of Experimental Marine Biology and Ecology		\n" +
     "Q2	62	Journal of Thermal Stresses		\n" +
     "Q1	19	Maritime Studies		\n" +
@@ -7629,7 +7633,7 @@ const ccfRankList =
     "Q2	59	Advances in Applied Probability		\n" +
     "Q2	57	Bulletin - Societie Geologique de France		\n" +
     "Q2	28	Chinese Clinical Oncology		\n" +
-    "Q1	120	Comparative biochemistry and physiology. Part A, Molecular &amp; integrative physiology		\n" +
+    "Q1	120	Comparative biochemistry and physiology. Part A, Molecular & integrative physiology		\n" +
     "Q2	22	Galaxies		\n" +
     "Q2	50	Hydrology Research		\n" +
     "Q1	63	Integrative Cancer Therapies		\n" +
@@ -8002,7 +8006,7 @@ const ccfRankList =
     "Q2	101	Journal of Forensic Sciences		\n" +
     "Q2	26	Journal of Location Based Services		\n" +
     "Q1	21	Journal of Spatial Information Science		\n" +
-    "Q3	34	Molecular genetics &amp; genomic medicine		\n" +
+    "Q3	34	Molecular genetics & genomic medicine		\n" +
     "Q3	32	Neurology: Clinical Practice		\n" +
     "Q1	45	Software Quality Journal		\n" +
     "Q1	56	Theory and Psychology		\n" +
@@ -8925,7 +8929,7 @@ const ccfRankList =
     "Q2	25	CISM International Centre for Mechanical Sciences, Courses and Lectures		\n" +
     "Q2	36	Clinical Respiratory Journal		\n" +
     "Q2	26	Data		\n" +
-    "Q2	33	Ethics &amp; human research		\n" +
+    "Q2	33	Ethics & human research		\n" +
     "Q1	14	Frontiers in Sociology		\n" +
     "Q1	41	International Relations		\n" +
     "Q1	63	Journal of Cardiovascular Nursing		\n" +
@@ -9691,7 +9695,7 @@ const ccfRankList =
     "Q2	61	Cartography and Geographic Information Science		\n" +
     "Q1	31	GAIA		\n" +
     "Q2	52	International Journal of Communication Systems		\n" +
-    "Q2	12	Journal of Agricultural &amp; Applied Economics		\n" +
+    "Q2	12	Journal of Agricultural & Applied Economics		\n" +
     "Q1	28	Journal of Applied Biobehavioral Research		\n" +
     "Q2	76	Journal of Clinical Pharmacy and Therapeutics		\n" +
     "Q3	55	Journal of Environmental Science and Health, Part C: Toxicology and Carcinogenesis		\n" +
@@ -9811,7 +9815,7 @@ const ccfRankList =
     "Q2	53	Applied Composite Materials		\n" +
     "Q2	12	BMC Zoology		\n" +
     "Q3	29	Clinical Pharmacology: Advances and Applications		\n" +
-    "Q2	67	Deutsches A&amp;#x0308;rzteblatt international		\n" +
+    "Q2	67	Deutsches A&#x0308;rzteblatt international		\n" +
     "Q3	90	Inhalation Toxicology		\n" +
     "Q1	77	JOGNN - Journal of Obstetric, Gynecologic, and Neonatal Nursing		\n" +
     "Q1	29	Journal of Applied Animal Research		\n" +
@@ -10070,7 +10074,7 @@ const ccfRankList =
     "Q2	21	World Electric Vehicle Journal		\n" +
     "Q2	16	Annals of Functional Analysis		\n" +
     "Q3	111	Antonie van Leeuwenhoek		\n" +
-    "Q3	34	BMC pharmacology &amp; toxicology		\n" +
+    "Q3	34	BMC pharmacology & toxicology		\n" +
     "Q3	70	Brazilian Journal of Microbiology		\n" +
     "Q2	112	Climate Research		\n" +
     "Q2	39	Communications		\n" +
@@ -11500,7 +11504,7 @@ const ccfRankList =
     "Q2	22	Plant Gene		\n" +
     "Q2	14	Veterinary Medicine and Science		\n" +
     "Q1	4	Yearbook of European Law		\n" +
-    "Q1	27	Adoption &amp; Fostering		\n" +
+    "Q1	27	Adoption & Fostering		\n" +
     "Q2	19	Advances in Tribology		\n" +
     "Q3	14	American Journal of Ophthalmology Case Reports		\n" +
     "Q1	31	Asian Studies Review		\n" +
@@ -13068,7 +13072,7 @@ const ccfRankList =
     "Q3	69	Parallel Computing		\n" +
     "Q2	31	Policy, Politics, and Nursing Practice		\n" +
     "Q2	8	Radiation Detection Technology and Methods		\n" +
-    "Q2	29	Recent patents on food, nutrition &amp; agriculture		\n" +
+    "Q2	29	Recent patents on food, nutrition & agriculture		\n" +
     "Q2	5	School Science and Mathematics		\n" +
     "Q3	27	Soft Materials		\n" +
     "Q1	31	Studia Linguistica		\n" +
@@ -13319,7 +13323,7 @@ const ccfRankList =
     "Q3	24	Journal of Teaching in Travel and Tourism		\n" +
     "Q3	73	Journal of the Brazilian Chemical Society		\n" +
     "Q2	16	Letters in Spatial and Resource Sciences		\n" +
-    "Q2	37	Oral health &amp; preventive dentistry		\n" +
+    "Q2	37	Oral health & preventive dentistry		\n" +
     "Q3	12	Photochemistry		\n" +
     "Q3	19	Yonago Acta Medica		\n" +
     "Q3	43	Chemical and Biochemical Engineering Quarterly		\n" +
@@ -13376,7 +13380,7 @@ const ccfRankList =
     "Q4	41	Biochemistry and Molecular Biology Education		\n" +
     "Q3	68	Biomedical Chromatography		\n" +
     "Q3	14	Biomedical Glasses		\n" +
-    "Q3	48	Biomedical papers of the Medical Faculty of the University Palacky&amp;#x0301;, Olomouc, Czechoslovakia		\n" +
+    "Q3	48	Biomedical papers of the Medical Faculty of the University Palacky&#x0301;, Olomouc, Czechoslovakia		\n" +
     "Q3	40	Biomedizinische Technik		\n" +
     "Q2	22	Boletin de la Asociacion de Geografos Espanoles		\n" +
     "Q1	6	Constructional Approaches to Language		\n" +
@@ -13589,7 +13593,7 @@ const ccfRankList =
     "Q3	19	Taiwania		\n" +
     "Q3	31	Urology Journal		\n" +
     "Q3	46	Waterbirds		\n" +
-    "Q3	25	World journal for pediatric &amp; congenital heart surgery		\n" +
+    "Q3	25	World journal for pediatric & congenital heart surgery		\n" +
     "Q3	7	Bezopasnost' Truda v Promyshlennosti		\n" +
     "Q3	25	Building Acoustics		\n" +
     "Q2	44	Bulletin of the Polish Academy of Sciences: Technical Sciences		\n" +
@@ -14415,7 +14419,7 @@ const ccfRankList =
     "Q2	25	Main Group Metal Chemistry		\n" +
     "Q3	16	Nankai Business Review International		\n" +
     "Q3	44	Presse Medicale		\n" +
-    "Q3	16	Psychiatrike&amp;#x0304; = Psychiatriki		\n" +
+    "Q3	16	Psychiatrike&#x0304; = Psychiatriki		\n" +
     "Q3	19	Psychiatry and Clinical Psychopharmacology		\n" +
     "Q2	30	Revista Latinoamericana de Psicologia		\n" +
     "Q3	5	Trudy Instituta Matematiki i Mekhaniki UrO RAN		\n" +
@@ -15167,7 +15171,7 @@ const ccfRankList =
     "Q2	10	Iraqi Journal of Agricultural Sciences		\n" +
     "Q3	45	Journal of Bioinformatics and Computational Biology		\n" +
     "Q3	37	Journal of Carbohydrate Chemistry		\n" +
-    "Q3	26	Journal of dance medicine &amp; science : official publication of the International Association for Dance Medicine &amp; Science		\n" +
+    "Q3	26	Journal of dance medicine & science : official publication of the International Association for Dance Medicine & Science		\n" +
     "Q3	22	Journal of Mining and Metallurgy, Section B: Metallurgy		\n" +
     "Q3	26	Journal of Optical Communications		\n" +
     "Q3	14	Journal of Thermal Engineering		\n" +
@@ -16329,7 +16333,7 @@ const ccfRankList =
     "Q1	8	Open Library of Humanities		\n" +
     "Q2	10	Papers in Applied Geography		\n" +
     "Q3	21	Physical and Occupational Therapy in Geriatrics		\n" +
-    "Q1	6	Poverty &amp; Public Policy		\n" +
+    "Q1	6	Poverty & Public Policy		\n" +
     "Q1	7	Quaestio Rossica		\n" +
     "Q3	10	Recherche et Applications en Marketing		\n" +
     "Q3	45	Surface Review and Letters		\n" +
@@ -17295,7 +17299,7 @@ const ccfRankList =
     "Q3	14	Salud Colectiva		\n" +
     "Q2	7	Sound Studies		\n" +
     "Q1	17	Victorian Literature and Culture		\n" +
-    "Q4	16	A&amp;A practice		\n" +
+    "Q4	16	A&A practice		\n" +
     "Q3	14	Acta Metallurgica Slovaca		\n" +
     "Q3	12	Agriculture		\n" +
     "Q4	24	Anales del Sistema Sanitario de Navarra		\n" +
@@ -18852,7 +18856,7 @@ const ccfRankList =
     "Q4	12	Italian Journal of Engineering Geology and Environment		\n" +
     "Q3	38	Journal of Cosmetic Science		\n" +
     "Q3	4	Journal of Graphic Engineering and Design		\n" +
-    "Q4	20	Journal of pastoral care &amp; counseling : JPCC, The		\n" +
+    "Q4	20	Journal of pastoral care & counseling : JPCC, The		\n" +
     "Q4	18	Journal of the Saudi Heart Association		\n" +
     "Q4	3	Jurnal Ilmiah Perikanan dan Kelautan		\n" +
     "Q4	7	Khimiya Rastitel'nogo Syr'ya		\n" +
@@ -19539,7 +19543,7 @@ const ccfRankList =
     "Q2	25	Foucault Studies		\n" +
     "Q4	27	Fuhe Cailiao Xuebao/Acta Materiae Compositae Sinica		\n" +
     "Q4	15	Gaoya Wuli Xuebao/Chinese Journal of High Pressure Physics		\n" +
-    "Q4	29	Hawai'i journal of health &amp; social welfare		\n" +
+    "Q4	29	Hawai'i journal of health & social welfare		\n" +
     "Q2	6	Iberoamerican Journal of Development Studies		\n" +
     "Q4	13	International Journal of Plasma Environmental Science and Technology		\n" +
     "Q4	4	International Journal of Thin Film Science and Technology		\n" +
@@ -19641,7 +19645,7 @@ const ccfRankList =
     "Q4	18	International Journal of Globalisation and Small Business		\n" +
     "Q4	13	International Journal of Signal and Imaging Systems Engineering		\n" +
     "Q4	7	Izvestiya Rossiiskoi Akademii Nauk. Seriya Geograficheskaya		\n" +
-    "Q4	12	Journal of business continuity &amp; emergency planning		\n" +
+    "Q4	12	Journal of business continuity & emergency planning		\n" +
     "Q3	3	Journal of Digital and Social Media Marketing		\n" +
     "Q3	14	Journal of Intellectual Property Rights		\n" +
     "Q3	7	Journal of Media Law		\n" +
@@ -19816,7 +19820,7 @@ const ccfRankList =
     "Q3	43	American Journal of Comparative Law		\n" +
     "Q3	25	Archivos Espanoles de Urologia		\n" +
     "Q3	29	Asian Journal of Anesthesiology		\n" +
-    "Q2	3	Business &amp; professional ethics journal		\n" +
+    "Q2	3	Business & professional ethics journal		\n" +
     "Q4	20	Cardiovascular Therapy and Prevention (Russian Federation)		\n" +
     "Q4	43	Cereal Foods World		\n" +
     "Q4	16	Chinese Journal of Schistosomiasis Control		\n" +
@@ -19970,7 +19974,7 @@ const ccfRankList =
     "Q1	6	Tydskrif vir Letterkunde		\n" +
     "Q3	6	Veterinarska Stanica		\n" +
     "Q4	18	WSEAS Transactions on Systems and Control		\n" +
-    "Q2	15	Xi'an Jianzhu Keji Daxue Xuebao/Journal of Xi'an University of Architecture &amp; Technology		\n" +
+    "Q2	15	Xi'an Jianzhu Keji Daxue Xuebao/Journal of Xi'an University of Architecture & Technology		\n" +
     "Q4	10	Yingyong Kexue Xuebao/Journal of Applied Sciences		\n" +
     "Q4	14	Zhen ci yan jiu = Acupuncture research / [Zhongguo yi xue ke xue yuan Yi xue qing bao yan jiu suo bian ji]		\n" +
     "Q4	6	African Finance Journal		\n" +
@@ -20841,7 +20845,7 @@ const ccfRankList =
     "Q2	20	Modern Theology		\n" +
     "Q4	14	Neiranji Gongcheng/Chinese Internal Combustion Engine Engineering		\n" +
     "Q2	10	Oriens		\n" +
-    "Q4	12	Pharmeuropa bio &amp; scientific notes		\n" +
+    "Q4	12	Pharmeuropa bio & scientific notes		\n" +
     "Q3	8	Research in Urbanism Series		\n" +
     "Q2	4	Revista de Filosofia (Spain)		\n" +
     "Q4	4	Revista de Osteoporosis y Metabolismo Mineral		\n" +
@@ -21039,7 +21043,7 @@ const ccfRankList =
     "Q4	12	Engineering Review		\n" +
     "Q4	6	European Journal of General Dentistry		\n" +
     "Q4	3	Food Engineering Progress		\n" +
-    "Q2	5	French Politics, Culture &amp; Society		\n" +
+    "Q2	5	French Politics, Culture & Society		\n" +
     "Q4	22	Gaceta Medica de Mexico		\n" +
     "Q2	8	Historia y Politica		\n" +
     "Q4	38	Indian Journal of Biotechnology		\n" +
@@ -21087,7 +21091,7 @@ const ccfRankList =
     "Q4	9	Biharean Biologist		\n" +
     "Q4	1	Biomedical Research and Therapy		\n" +
     "Q4	13	Brain and Nerve		\n" +
-    "Q4	21	Canadian journal of rural medicine : the official journal of the Society of Rural Physicians of Canada = Journal canadien de la m&amp;#x00e9;decine rurale : le journal officiel de la Soci&amp;#x00e9;t&amp;#x00e9; de m&amp;#x00e9;decine rurale du Canada		\n" +
+    "Q4	21	Canadian journal of rural medicine : the official journal of the Society of Rural Physicians of Canada = Journal canadien de la m&#x00e9;decine rurale : le journal officiel de la Soci&#x00e9;t&#x00e9; de m&#x00e9;decine rurale du Canada		\n" +
     "Q4	18	Current Signal Transduction Therapy		\n" +
     "Q3	17	CyberGeo		\n" +
     "Q1	2	Edgar Allan Poe Review		\n" +
@@ -21262,7 +21266,7 @@ const ccfRankList =
     "Q4	10	ERCOFTAC Series		\n" +
     "Q2	4	Etudes Mongoles et Siberiennes, Centrasiatiques et Tibetaines		\n" +
     "Q3	2	ExELL		\n" +
-    "Q4	14	Giornale italiano di nefrologia : organo ufficiale della Societa&amp;#x0300; italiana di nefrologia		\n" +
+    "Q4	14	Giornale italiano di nefrologia : organo ufficiale della Societa&#x0300; italiana di nefrologia		\n" +
     "Q4	4	gis.Science - Die Zeitschrift fur Geoinformatik		\n" +
     "Q4	17	Human Physiology		\n" +
     "Q2	12	Intellectual History Review		\n" +
@@ -23665,7 +23669,7 @@ const ccfRankList =
     "Q4	18	Zhonghua nan ke xue = National journal of andrology		\n" +
     "Q4	9	Acta Facultatis Medicae Naissensis		\n" +
     "Q2	3	ArchiDOCT		\n" +
-    "Q4	4	Archivos de prevencio&amp;#x0301;n de riesgos laborales		\n" +
+    "Q4	4	Archivos de prevencio&#x0301;n de riesgos laborales		\n" +
     "Q3	3	Arete		\n" +
     "Q4	11	Biochimica Clinica		\n" +
     "Q4	28	Biomedical Instrumentation and Technology		\n" +
@@ -23755,7 +23759,7 @@ const ccfRankList =
     "Q4	29	Ugeskrift for Laeger		\n" +
     "Q2	3	Vox Romanica		\n" +
     "Q4	9	Water and Energy International		\n" +
-    "Q4	15	World health &amp; population		\n" +
+    "Q4	15	World health & population		\n" +
     "Q4	2	Youth Voice Journal		\n" +
     "Q2	6	Zeitschrift fur Slawistik		\n" +
     "Q3	6	Zeitschrift fur Theologie und Kirche		\n" +
@@ -23785,7 +23789,7 @@ const ccfRankList =
     "Q3	42	Computer Music Journal		\n" +
     "Q4	3	Comunicacao Midia e Consumo		\n" +
     "Q3	3	Confluenze		\n" +
-    "Q4	7	Cuadernos de bioe&amp;#x0301;tica : revista oficial de la Asociacio&amp;#x0301;n Espan&amp;#x0303;ola de Bioe&amp;#x0301;tica y E&amp;#x0301;tica Me&amp;#x0301;dica		\n" +
+    "Q4	7	Cuadernos de bioe&#x0301;tica : revista oficial de la Asociacio&#x0301;n Espan&#x0303;ola de Bioe&#x0301;tica y E&#x0301;tica Me&#x0301;dica		\n" +
     "Q2	5	Cultura Neolatina		\n" +
     "Q4	2	Delaware Journal of Public Health		\n" +
     "Q4	3	Digital Textile		\n" +
@@ -23856,7 +23860,7 @@ const ccfRankList =
     "Q2	3	Linguistic Approaches to Literature		\n" +
     "Q4	6	Logistics Journal		\n" +
     "Q4	13	London Journal		\n" +
-    "Q4	9	L' Orthodontie fran&amp;#x00e7;aise		\n" +
+    "Q4	9	L' Orthodontie fran&#x00e7;aise		\n" +
     "Q4	6	Medical Journal of Wuhan University		\n" +
     "Q3	2	Mesto a Dejiny		\n" +
     "Q3	5	Ming studies		\n" +
@@ -24004,7 +24008,7 @@ const ccfRankList =
     "Q4	3	Bulletin of the Physical Fitness Research Institute		\n" +
     "Q3	9	Cahiers de Linguistique Asie Orientale		\n" +
     "Q2	18	Camera Obscura		\n" +
-    "Q4	15	Canadian bulletin of medical history = Bulletin canadien d'histoire de la m&amp;#x00e9;decine		\n" +
+    "Q4	15	Canadian bulletin of medical history = Bulletin canadien d'histoire de la m&#x00e9;decine		\n" +
     "Q4	7	Caribbean Geography		\n" +
     "Q4	10	Chem-Bio Informatics Journal		\n" +
     "Q4	3	Chinese Journal of Dermatology		\n" +
@@ -24500,7 +24504,7 @@ const ccfRankList =
     "Q4	8	Synthesis Lectures on Biomedical Engineering		\n" +
     "Q4	10	Toraibarojisuto/Journal of Japanese Society of Tribologists		\n" +
     "Q3	2	Torres de Lucca		\n" +
-    "Q4	2	Tort trial &amp; insurance practice law journal		\n" +
+    "Q4	2	Tort trial & insurance practice law journal		\n" +
     "Q4	36	Trends in Biomaterials and Artificial Organs		\n" +
     "Q3	10	Tulsa Studies in Womens Literature		\n" +
     "Q4	16	University of Pittsburgh Law Review		\n" +
@@ -24665,7 +24669,7 @@ const ccfRankList =
     "Q4	5	Terrain		\n" +
     "Q4	5	VDI-Z Integrierte Produktion		\n" +
     "Q4	25	VLSI Design		\n" +
-    "Q3	7	War &amp; society		\n" +
+    "Q3	7	War & society		\n" +
     "Q4	9	Zeitschrift fur Arznei- und Gewurzpflanzen		\n" +
     "Q4	13	Zhuzao/Foundry		\n" +
     "Q4	1	Acta Geographica Universitatis Comenianae		\n" +
@@ -26271,7 +26275,7 @@ const ccfRankList =
     "Q4	2	Parlement[s]		\n" +
     "Q4	9	Pennsylvania Magazine of History and Biography		\n" +
     "Q4	7	Perfusion (Germany)		\n" +
-    "Q4	6	Perspective infirmie&amp;#x0300;re : revue officielle de l'Ordre des infirmie&amp;#x0300;res et infirmiers du Que&amp;#x0301;bec		\n" +
+    "Q4	6	Perspective infirmie&#x0300;re : revue officielle de l'Ordre des infirmie&#x0300;res et infirmiers du Que&#x0301;bec		\n" +
     "Q4	6	Pharmaceutical Outsourcing		\n" +
     "Q4	9	Pharmaceutisch Weekblad		\n" +
     "Q4	19	Pharmazeutische Industrie		\n" +
@@ -26487,7 +26491,7 @@ const ccfRankList =
     "Q4	1	Zeithistorische Forschungen		\n" +
     "Q4	5	Zeitschrift der Savigny-Stiftung fur Rechtsgeschichte, Germanistische Abteilung		\n" +
     "Q4	4	Zeitschrift der Savigny-Stiftung fur Rechtsgeschichte, Kanonistische Abteilung		\n" +
-    "Q4	7	Zeitschrift fu&amp;#x0308;r Kunstgeschichte		\n" +
+    "Q4	7	Zeitschrift fu&#x0308;r Kunstgeschichte		\n" +
     "Q4	10	Zeitschrift fur Historische Forschung		\n" +
     "Q4	2	Zeitschrift fur Katholische Theologie		\n" +
     "Q4	1	Zgodovina za Vse		\n" +
@@ -27264,7 +27268,7 @@ const ccfRankList =
     "Q4	1	Revista Argentina de Cirugia(Argentina)		\n" +
     "Q4	1	Revista Bioetica		\n" +
     "Q4	1	Revista Brasileira de Cirurgia Plastica		\n" +
-    "Q4	0	Revista cl&amp;#x00ed;nica espan&amp;#x00f5;la		\n" +
+    "Q4	0	Revista cl&#x00ed;nica espan&#x00f5;la		\n" +
     "Q4	1	Revista Colombiana de Cirugia		\n" +
     "Q4	1	Revista Cuidarte		\n" +
     "Q4	0	Revista de Biologia Neotropical / Journal of Neotropical Biology		\n" +
@@ -27344,25 +27348,33 @@ const ccfRankList =
     "Q4	21	WSEAS Transactions on Information Science and Applications		\n" +
     "Q4	27	WSEAS Transactions on Systems		\n" +
     "Q4	0	Z Badan nad Ksiazka i Ksiegozbiorami Historycznymi		\n" +
-    "Q4	20	Zhongguo ji sheng chong xue yu ji sheng chong bing za zhi = Chinese journal of parasitology &amp; parasitic diseases";
+    "Q4	20	Zhongguo ji sheng chong xue yu ji sheng chong bing za zhi = Chinese journal of parasitology & parasitic diseases";
 
 var ccfFullRank = {};
 var ccfFullHindex = {};
 
 for (x of ccfRankList.split("\n")) {
     y = x.split("\t");
-    ccfFullRank[y[2].toUpperCase()] = y[0];
-    ccfFullHindex[y[2].toUpperCase()] = y[1];
+    y[2] = y[2].toUpperCase();
+    y[2] = y[2].replace(/AND/g, "");
+    y[2] = y[2].replace(/&AMP;/g, "");
+    y[2] = y[2].replace(/[^A-Z0-9]/ig, "");
+    
+    ccfFullRank[y[2]] = y[0];
+    ccfFullHindex[y[2]] = y[1];
 }
 
+
+const journal = Object.keys(ccfFullRank);
+const ranking = Object.values(ccfFullRank);
+const hindex = Object.values(ccfFullHindex);
+
+
+ccfFullRank = [hindex, ranking, journal].reduce((a, b) => a.map((v, i) => ' ' + v + ' - ' + b[i] + ' '));
+ 
 const fs = require("fs");
 fs.writeFileSync(
     "ccfFullRank.js",
-    "ccf.FullRank = " + JSON.stringify(ccfFullRank),
-    "utf8"
-);
-fs.writeFileSync(
-    "ccfFullHindex.js",
-    "ccf.FullHindex = " + JSON.stringify(ccfFullHindex),
+    "ccf.FullRank = '" + ccfFullRank + "'",
     "utf8"
 );
