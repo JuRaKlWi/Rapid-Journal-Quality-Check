@@ -17,6 +17,12 @@
 </br> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
 
 ## Preview
+<div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 180px;">
+  <a target="_blank" href="./img/SJR.PNG">
+    <img src="./img/SJR.PNG" alt="Cinque Terre" height="auto" width="100%">
+  </a>
+  <div class="desc" padding="15px">Add a description of the image here</div>
+</div>
 
 <div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 	20%;">
   <a target="_blank" href="SJR_VHB.png">
