@@ -1,5 +1,5 @@
 <h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> RapidJournalQualCheck </h1> 
-<h3 align="center"> Rapid Quality Check for Academic Journals in Google Scholar Search Results based on SJR and CCF </h3>
+<h3 align="center"> Rapid Quality Check for Academic Journals in Google Scholar Search Results based on SJR, VHB, and CCF </h3>
 </br>
 <p align="center">
     <a href="https://github.com/JuRaKlWi/RapidJournalQualCheck">
@@ -12,10 +12,49 @@
 </p> Based on and adapted from CCFrank by WenyanLiu: https://github.com/WenyanLiu/CCFrank4dblp
 </br> Using the public Crossref API: https://api.crossref.org/swagger-ui/index.html
 </br> Using SCImago Journal & Country Rank (retrieved July 20th, 2022): http://www.scimagojr.com
+</br> Using VHB-JOURQUAL ranking: https://vhbonline.org/en/vhb4you/vhb-jourqual/vhb-jourqual-3
 </br> Using China Computer Federation (CCF) ranking: https://www.ccf.org.cn/en/Bulletin/2019-05-13/663884.shtml
 </br> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
 
 ## Preview
+
+<div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 	20%;">
+  <a target="_blank" href="SJR_VHB.png">
+    <img src="SJR_VHB.png" alt="SJR_VHB" height="auto" width="100%" 
+    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
+    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
+  </a>
+  <div class="desc" padding="15px">Journal rankings are directly added to Google Search results</div>
+</div>
+
+<div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
+  <a target="_blank" href="SJR_and_CCF.png">
+    <img src="SJR_and_CCF.png" alt="SJR_and_CCF" width="100%" height="auto"
+    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
+    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
+  </a>
+  <div class="desc" padding="15px">Rankings currently include SJR, VHB, and CCF. Please check the links above for more information on each ranking. The colors also indicate quality from green (higher quality) to red (lower quality).</div>
+</div>
+
+<div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
+	<a target="_blank" href="SJR_VHB_with mouseover.png">
+    <img src="SJR_VHB_with mouseover.png" alt="SJR_VHB_with mouseover" width="100%" height="auto"
+    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
+    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
+
+  </a>
+  <div class="desc" padding="15px">Hovering with your cursor over the ranking scores gives you additional information such as the journals h-index and the name of the journal that was identified based on the input from Google Scholar.</div>
+</div>
+
+<div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
+  <a target="_blank" href="doi_link.png">
+    <img src="doi_link.png" alt="doi_link" width="100%" height="auto"
+    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
+    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
+  </a>
+  <div class="desc" padding="15px">Clicking on the ranking scores takes you to the identified work via its DOI. This along with the identified journal name helps you to check, whether indeed the correct journal was identified based on the Google Scholar input.</div>
+</div>
+
 
 SJR quality scores with checked journal title and h-index mouseover 
 ![SJR Score](./img/SJR.PNG)
@@ -49,17 +88,21 @@ OR
 
 ## What's New
 
-**Version 1.0.2**
+**Version 2.0.1**
 
-> tbd
+> Significantly improved layout and performance. Results are displayed more rapidly and concisely now. 
+> VHB ranking was added for a more fine-grained evaluation of sources. 
+> Clicking on an individual ranking score now takes you to the work via doi.org that crossref identified based on the input from Google Scholar. Along with the reported journal in the mouseover infobox, this allows you to check, whether crossref identified the correct journal/work. In addition, it may help you find a similar work by the same author(s) published in a "more proper" outlet. 
+
 
 ## Contributors ✨
 
-This package is heavily based on CCFrank by WenyanLiu: https://github.com/WenyanLiu/CCFrank4dblp
+This package is based on CCFrank by WenyanLiu: https://github.com/WenyanLiu/CCFrank4dblp
 Thanks goes to her and her contributors: https://github.com/WenyanLiu/CCFrank4dblp#contributors-
 
 </p> Using the public Crossref API: https://api.crossref.org/swagger-ui/index.html
 </p> Using SCImago Journal & Country Rank (retrieved July 20th, 2022): http://www.scimagojr.com
+</br> Using VHB-JOURQUAL3 ranking: https://vhbonline.org/en/vhb4you/vhb-jourqual/vhb-jourqual-3
 </p> Using China Computer Federation (CCF) ranking: https://www.ccf.org.cn/en/Bulletin/2019-05-13/663884.shtml
 </p> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
 
