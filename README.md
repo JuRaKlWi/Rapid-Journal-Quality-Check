@@ -17,56 +17,19 @@
 </br> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
 
 ## Preview
-<div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 180px;">
-  <a target="_blank" href="./img/SJR.PNG">
-    <img src="./img/SJR.PNG" alt="Cinque Terre" height="auto" width="100%">
-  </a>
-  <div class="desc" padding="15px">Add a description of the image here</div>
-</div>
 
-<div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 	20%;">
-  <a target="_blank" href="SJR_VHB.png">
-    <img src="SJR_VHB.png" alt="SJR_VHB" height="auto" width="100%" 
-    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
-    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
-  </a>
-  <div class="desc" padding="15px">Journal rankings are directly added to Google Search results</div>
-</div>
+Journal rankings are directly added to Google Search results.
+<br />![SJR and VHB Scores](./img/SJR_VHB.PNG)
 
-<div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
-  <a target="_blank" href="SJR_and_CCF.png">
-    <img src="SJR_and_CCF.png" alt="SJR_and_CCF" width="100%" height="auto"
-    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
-    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
-  </a>
-  <div class="desc" padding="15px">Rankings currently include SJR, VHB, and CCF. Please check the links above for more information on each ranking. The colors also indicate quality from green (higher quality) to red (lower quality).</div>
-</div>
+<br /><br />Rankings currently include SJR, VHB, and CCF. Please check the links above for more information on each ranking. The colors also indicate quality from green (higher quality) to red (lower quality).
+![SJR and CCF Scores](./img/SJR_and_CCF.PNG)
 
-<div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
-	<a target="_blank" href="SJR_VHB_with mouseover.png">
-    <img src="SJR_VHB_with mouseover.png" alt="SJR_VHB_with mouseover" width="100%" height="auto"
-    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
-    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
+<br /><br />Hovering with your cursor over the ranking scores gives you additional information such as the journals h-index and the name of the journal that was identified based on the input from Google Scholar.
+![SJR and VHB Scores with mouseover info](./img/SJR_VHB_with%20mouseover.PNG)
 
-  </a>
-  <div class="desc" padding="15px">Hovering with your cursor over the ranking scores gives you additional information such as the journals h-index and the name of the journal that was identified based on the input from Google Scholar.</div>
-</div>
+<br /><br />Clicking on the ranking scores takes you to the identified work via its DOI. This along with the identified journal name helps you to check, whether indeed the correct journal was identified based on the Google Scholar input.
+![Link to DOI](./img/doi_link.PNG)
 
-<div class="gallery" style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
-  <a target="_blank" href="doi_link.png">
-    <img src="doi_link.png" alt="doi_link" width="100%" height="auto"
-    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
-    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
-  </a>
-  <div class="desc" padding="15px">Clicking on the ranking scores takes you to the identified work via its DOI. This along with the identified journal name helps you to check, whether indeed the correct journal was identified based on the Google Scholar input.</div>
-</div>
-
-
-SJR quality scores with checked journal title and h-index mouseover 
-![SJR Score](./img/SJR.PNG)
-
-SJR and CCF quality scores with checked journal title in mouseover
-![SCR and CCF Scores](./img/SJR_and_CCF.PNG)
 
 ## Install
 
