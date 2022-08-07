@@ -17,41 +17,19 @@
 </br> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
 
 ## Preview
-<div style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
-  <a target="_blank" href="./img/SJR_VHB.PNG">
-    <img src="./img/SJR_VHB.PNG" alt="SJR_VHB" height="auto" width="100%" 
-    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
-    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
-  </a>
-  <div class="desc" padding="15px">Journal rankings are directly added to Google Search results</div>
-</div>
 
-<div style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
-  <a target="_blank" href="./img/SJR_and_CCF.PNG">
-    <img src="./img/SJR_and_CCF.PNG" alt="SJR_and_CCF" width="100%" height="auto"
-    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
-    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
-  </a>
-  <div class="desc" padding="15px">Rankings currently include SJR, VHB, and CCF. Please check the links above for more information on each ranking. The colors also indicate quality from green (higher quality) to red (lower quality).</div>
-</div>
+Journal rankings are directly added to Google Search results.
+<br />![SJR and VHB Scores](./img/SJR_VHB.PNG)
 
-<div style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
-  <a target="_blank" href="./img/SJR_VHB_with mouseover.PNG">
-    <img src="./img/SJR_VHB_with mouseover.PNG" alt="SJR_VHB_with mouseover" width="100%" height="auto"
-    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
-    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
-  </a>
-  <div class="desc" padding="15px">Hovering with your cursor over the ranking scores gives you additional information such as the journals h-index and the name of the journal that was identified based on the input from Google Scholar.</div>
-</div>
+<br /><br />Rankings currently include SJR, VHB, and CCF. Please check the links above for more information on each ranking. The colors also indicate quality from green (higher quality) to red (lower quality).
+![SJR and CCF Scores](./img/SJR_and_CCF.PNG)
 
-<div style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
-  <a target="_blank" href="./img/doi_link.PNG">
-    <img src="./img/doi_link.PNG" alt="doi_link" width="100%" height="auto"
-    onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
-    onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
-  </a>
-  <div class="desc" padding="15px">Clicking on the ranking scores takes you to the identified work via its DOI. This along with the identified journal name helps you to check, whether indeed the correct journal was identified based on the Google Scholar input.</div>
-</div>
+<br /><br />Hovering with your cursor over the ranking scores gives you additional information such as the journals h-index and the name of the journal that was identified based on the input from Google Scholar.
+![SJR and VHB Scores with mouseover info](./img/SJR_VHB_with%20mouseover.PNG)
+
+<br /><br />Clicking on the ranking scores takes you to the identified work via its DOI. This along with the identified journal name helps you to check, whether indeed the correct journal was identified based on the Google Scholar input.
+![Link to DOI](./img/doi_link.PNG)
+
 
 ## Install
 
