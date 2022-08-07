@@ -17,9 +17,9 @@
 </br> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
 
 ## Preview
-<div style="margin: 5px; border: 1px solid #ccc; float: left; width: 	20%;">
-  <a target="_blank" href="./img/SJR_VHB.png">
-    <img src="./img/SJR_VHB.png" alt="SJR_VHB" height="auto" width="100%" 
+<div style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
+  <a target="_blank" href="./img/SJR_VHB.PNG">
+    <img src="./img/SJR_VHB.PNG" alt="SJR_VHB" height="auto" width="100%" 
     onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
     onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
   </a>
@@ -27,8 +27,8 @@
 </div>
 
 <div style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
-  <a target="_blank" href="./img/SJR_and_CCF.png">
-    <img src="./img/SJR_and_CCF.png" alt="SJR_and_CCF" width="100%" height="auto"
+  <a target="_blank" href="./img/SJR_and_CCF.PNG">
+    <img src="./img/SJR_and_CCF.PNG" alt="SJR_and_CCF" width="100%" height="auto"
     onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
     onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
   </a>
@@ -36,8 +36,8 @@
 </div>
 
 <div style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
-  <a target="_blank" href="./img/SJR_VHB_with mouseover.png">
-    <img src="./img/SJR_VHB_with mouseover.png" alt="SJR_VHB_with mouseover" width="100%" height="auto"
+  <a target="_blank" href="./img/SJR_VHB_with mouseover.PNG">
+    <img src="./img/SJR_VHB_with mouseover.PNG" alt="SJR_VHB_with mouseover" width="100%" height="auto"
     onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
     onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
   </a>
@@ -45,8 +45,8 @@
 </div>
 
 <div style="margin: 5px; border: 1px solid #ccc; float: left; width: 20%;">
-  <a target="_blank" href="./img/doi_link.png">
-    <img src="./img/doi_link.png" alt="doi_link" width="100%" height="auto"
+  <a target="_blank" href="./img/doi_link.PNG">
+    <img src="./img/doi_link.PNG" alt="doi_link" width="100%" height="auto"
     onmouseover= "this.style.width='200%';this.style.height='auto';this.style.zIndex='10';this.style.position='relative';" 
     onmouseout="this.style.width='100%';this.style.height='auto';this.style.zIndex='1';this.style.position='relative';">
   </a>
