@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "Displays SJR along with the H-Index and CCF score next to Google Scholar search results. Icon from Flaticon.com: https://www.flaticon.com/free-icons/research",
+    "message": "Displays journals' SJR, VHB, and CCF rankings along with their h-index next to Google Scholar search results.",
     "description": "Extension description."
   }
 }
