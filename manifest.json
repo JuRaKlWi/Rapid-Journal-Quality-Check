@@ -21,10 +21,6 @@
   "content_scripts": [
     {
       "matches": [
-        "https://dblp.org/*",
-        "https://dblp.uni-trier.de/*",
-        "https://dblp2.uni-trier.de/*",
-        "https://dblp.dagstuhl.de/*",
         "https://scholar.google.ae/*",
         "https://scholar.google.at/*",
         "https://scholar.google.be/*",
@@ -102,10 +98,7 @@
         "https://scholar.google.ru/*",
         "https://scholar.google.se/*",
         "https://scholar.google.si/*",
-        "https://scholar.google.sk/*",
-        "https://www.connectedpapers.com/main/*",
-        "https://www.webofscience.com/*",
-        "https://www.semanticscholar.org/*"
+        "https://scholar.google.sk/*"
       ],
       "css": [
         "css/style.css"
@@ -121,8 +114,5 @@
         "script.js"
       ]
     }
-  ],
-  "host_permissions": [
-    "*://dblp.org/*"
   ]
 }
