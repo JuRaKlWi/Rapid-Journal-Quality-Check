@@ -15,12 +15,7 @@ scholar.run = function () {
     if (url == "/scholar") {
         scholar.appendRank();
     } else if (url == "/citations") {
-        setInterval(function () {
-            $(window).bind("popstate", function () {
                 scholar.appendRanks();
-            });
-            scholar.appendRanks();
-        }, 2000);
     }
 };
 
