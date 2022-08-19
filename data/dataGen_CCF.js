@@ -659,7 +659,7 @@ for (x of ccfRankList_CCF.split("\n")) {
 
     y[2] = y[2].toUpperCase();
     y[2] = y[2].replace(/ *\([^)]*\) */g, "");
-    y[2] = y[2].replace(/AND/g, "");
+    y[2] = y[2].replace(/ AND /g, "");
     y[2] = y[2].replace(/&AMP;/g, "");
     y[2] = y[2].replace(/[^A-Z0-9]/ig, "");
 

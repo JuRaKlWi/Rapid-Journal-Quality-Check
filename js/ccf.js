@@ -20,7 +20,10 @@ ccf.getRankInfo = function (refine, type) {
     
     if (type == 'full_cap') {
         url = refine;
-        url = url.replace(/AND/g, "");
+        
+        url = url.toUpperCase();
+        url = url.replace(/&AMP;/g, "&");
+        url = url.replace(/ AND /g, "");
         url = url.replace(/[^A-Z0-9]/ig, "");
         
         let position = ccf.FullRank.indexOf(" " + url + " ");
@@ -69,8 +72,12 @@ ccf.getRankInfo_VHB = function (refine, type) {
     
     if (type == 'full_cap') {
         url = refine;
-        url = url.replace(/AND/g, "");
+
+        url = url.toUpperCase();
+        url = url.replace(/&AMP;/g, "&");
+        url = url.replace(/ AND /g, "");
         url = url.replace(/[^A-Z0-9]/ig, "");
+
         rank = ccf.FullRank_VHB[url];
     } 
     
@@ -109,8 +116,12 @@ ccf.getRankInfo_CCF = function (refine, type) {
    
     if (type == 'full_cap') {
         url = refine;
-        url = url.replace(/AND/g, "");
+
+        url = url.toUpperCase();
+        url = url.replace(/&AMP;/g, "&");
+        url = url.replace(/ AND /g, "");
         url = url.replace(/[^A-Z0-9]/ig, "");
+
         rank = ccf.FullRank_CCF[url];
     } 
  
@@ -185,8 +196,9 @@ ccf.getRankClass_CCF = function (ranks) {
     return "ccf-none"; 
 };
 
-ccf.getRankSpan = function (refine, type, doi) {
-    
+ccf.getRankSpan = function (refine, type, doi, elid) {
+   
+ 
     let rankInfo = ccf.getRankInfo(refine, type);
     let span1 = $("<span>")
     if (rankInfo.txt != "NA") {
@@ -244,12 +256,18 @@ ccf.getRankSpan = function (refine, type, doi) {
             .append($("<pre>").addClass("ccf-tooltiptext").text(rankInfo.info));
     }
     
-    link_text = "https://doi.org/" + doi;
-    
-    let span = $('<a href="" target="_blank">')
-        .attr("href", link_text)
-        .append(span123);
-    
-    return span;
+    link_text = "https://doi.org/" + doi; 
+            
+    if(doi != "") { 
+        span = $('<a href="" target="_blank">')
+            .attr("href", link_text)
+            .append(span123); 
+    } else {
+        span = $('<span>')
+            .append(span123);     
+    } 
+
+    document.getElementById(elid).remove();
+    return span; 
 };
 

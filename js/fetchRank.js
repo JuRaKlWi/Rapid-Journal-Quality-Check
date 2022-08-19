@@ -6,9 +6,13 @@
  */
 
 
-function fetchRank(node, title, compl, site) {
+function fetchRank(node, title, compl, site, elid) {
+        
     var xhr = new XMLHttpRequest();
-      api_format = "https://api.crossref.org/works?query.bibliographic=" + encodeURIComponent(title + " " + compl) + "&rows=1&select=DOI,container-title"; 
+    /* Public API 
+      api_format = "https://api.crossref.org/works?query.bibliographic=" + encodeURIComponent(title + " " + compl) + "&rows=1&select=DOI,container-title";  */
+    /* Polite API */
+      api_format = "https://api.crossref.org/works?query.bibliographic=" + encodeURIComponent(title + " " + compl) + "&rows=1&select=DOI,container-title&mailto=jrk.devgit@gmail.com";  
         xhr.open("GET", api_format, true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4) {
@@ -29,12 +33,10 @@ function fetchRank(node, title, compl, site) {
                 doi = resp.items[0]["DOI"];
             } 
             
-            dblp_url = dblp_url.toUpperCase();
-            dblp_url = dblp_url.replace(/&AMP;/g, "&");
             doi = doi.replaceAll('\\','');
             
             for (let getRankSpan of site.rankSpanList) {
-                $(node).after(getRankSpan(dblp_url, "full_cap", doi))
+                $(node).after(getRankSpan(dblp_url, "full_cap", doi, elid));
             }
         }
     };

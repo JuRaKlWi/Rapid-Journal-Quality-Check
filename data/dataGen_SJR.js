@@ -27356,7 +27356,7 @@ var ccfFullHindex = {};
 for (x of ccfRankList.split("\n")) {
     y = x.split("\t");
     y[2] = y[2].toUpperCase();
-    y[2] = y[2].replace(/AND/g, "");
+    y[2] = y[2].replace(/ AND /g, "");
     y[2] = y[2].replace(/&AMP;/g, "");
     y[2] = y[2].replace(/[^A-Z0-9]/ig, "");
     

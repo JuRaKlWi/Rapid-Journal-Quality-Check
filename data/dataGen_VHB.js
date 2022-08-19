@@ -902,7 +902,7 @@ for (x of ccfRankList_VHB.split("\n")) {
     y[0] = y[0].replace(/k.R./g, "NA");
     y[2] = y[2].toUpperCase();
     y[2] = y[2].replace(/ *\([^)]*\) */g, "");
-    y[2] = y[2].replace(/AND/g, "");
+    y[2] = y[2].replace(/ AND /g, "");
     y[2] = y[2].replace(/&AMP;/g, "");
     y[2] = y[2].replace(/[^A-Z0-9]/ig, "");
 
