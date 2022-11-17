@@ -1,5 +1,5 @@
 <h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> RapidJournalQualCheck </h1> 
-<h3 align="center"> Rapid Quality Check for Academic Journals in Google Scholar Search Results based on SJR, VHB, and CCF </h3>
+<h3 align="center"> Rapid Quality Check for Academic Journals in Google Scholar Search Results </h3>
 </br>
 <p align="center">
     <a href="https://github.com/JuRaKlWi/RapidJournalQualCheck">
@@ -11,9 +11,18 @@
 
 </p> Based on and adapted from CCFrank by WenyanLiu: https://github.com/WenyanLiu/CCFrank4dblp
 </br> Using the public Crossref API: https://api.crossref.org/swagger-ui/index.html
+</br> Using the public dblp API: https://dblp.org/
+</br> Using Australian Business Deans Council (ABDC) list: https://abdc.edu.au/research/abdc-journal-quality-list/
+</br> Using Academic Journal Guide (AJG) by the Chartered Association of Business Schools (C_ABS): https://charteredabs.org/academic-journal-guide-2021/
+</br> Using Bibliometriske Forskningsindikator (BFI) of the Danish Ministry of Higher Education and Science ranking: ufm.dk
+</br> Using Ranking of the Chinese Computer Foundation (CCF): https://www.ccf.org.cn/en/Bulletin/2019-05-13/663884.shtml
+</br> Using CNRS ranking: https://www.gate.cnrs.fr/spip.php?rubrique31&lang=en
+</br> Using Foundation National pour l’Enseignement de la Gestion des Enterprises (FNEGE) ranking: https://www.fnege.org/classement-des-revues-scientifiques-en-sciences-de-gestion/
+</br> Using Financial Times (FT) research rank:
+</br> Using High Council for Evaluation of Research & Higher Education (HCERES) ranking: https://www.hceres.fr/sites/default/files/media/downloads/2020-liste-hceres-domaine-shs1-economie-et-gestion_0.pdf
 </br> Using SCImago Journal & Country Rank (retrieved July 20th, 2022): http://www.scimagojr.com
-</br> Using VHB-JOURQUAL ranking: https://vhbonline.org/en/vhb4you/vhb-jourqual/vhb-jourqual-3
-</br> Using China Computer Federation (CCF) ranking: https://www.ccf.org.cn/en/Bulletin/2019-05-13/663884.shtml
+</br> Using CORE journal and conference ranking: http://portal.core.edu.au/jnl-ranks/
+</br> Using Financial Time's FT50 ranking: https://www.ft.com/content/3405a512-5cbb-11e1-8f1f-00144feabdc0
 </br> Icons from Flaticon.com: https://www.flaticon.com/free-icons/research
 
 ## Preview
@@ -21,7 +30,7 @@
 Journal rankings are directly added to Google Search results.
 <br />![SJR and VHB Scores](./img/SJR_VHB.PNG)
 
-<br /><br />Rankings currently include SJR, VHB, and CCF. Please check the links above for more information on each ranking. The colors also indicate quality from green (higher quality) to red (lower quality).
+<br /><br />Currently includes a broad range of rankings. Please check the links above for more information on each ranking. The colors also indicate quality from green (higher quality) to red (lower quality).
 ![SJR and CCF Scores](./img/SJR_and_CCF.PNG)
 
 <br /><br />Hovering with your cursor over the ranking scores gives you additional information such as the journals h-index and the name of the journal that was identified based on the input from Google Scholar.

@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "Displays journals' SJR, VHB, and CCF rankings along with their h-index next to Google Scholar search results.",
+    "message": "Displays rankings and h-index for academic journals next to Google Scholar search results.",
     "description": "Extension description."
   }
 }

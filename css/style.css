@@ -1,3 +1,12 @@
+:root {
+  --aplus-color: #28a745;
+  --a-color: #34ce57;
+  --b-color: #ffc107;
+  --c-color: #ff8800;
+  --d-color: #dc3545;
+  --na-color: #a9a9a9;
+}
+
 .ccf-rank {
     display: inline-block;
     height: 18.35px;
@@ -10,6 +19,10 @@
     padding: 1px 8px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.ccf-none {
+    background-color: #a9a9a9;
 }
 
 .ccf-waiting_surr {
@@ -47,57 +60,252 @@
 }
 
 
-.ccf-a {
-    background-color: #34ce57;
+/* SJR */
+.SJR_Q2_q1 {
+    background-color: var(--a-color);
 }
 
-.ccf-i {
-    background-color: #34ce57;
+.SJR_Q2_q2 {
+    background-color:  var(--b-color);
 }
 
-.ccf-Aplus {
-    background-color: #28a745;
+.SJR_Q2_q3 {
+    background-color:  var(--c-color);
 }
 
-.ccf-b {
-    background-color: #ffc107;
+.SJR_Q2_q4 {
+    background-color:  var(--d-color);
 }
 
-.ccf-ii {
-    background-color: #ffc107;
+/* VHB */
+.VHB_a {
+    background-color:  var(--a-color);
 }
 
-.ccf-c {
-    background-color: #ff8800;
+.VHB_aplus {
+    background-color:  var(--aplus-color);
 }
 
-.ccf-iii {
-    background-color: #ff8800;
+.VHB_b {
+    background-color:  var(--b-color);
 }
 
-.ccf-d {
-    background-color: #dc3545;
+.VHB_c {
+    background-color:  var(--c-color);
 }
 
-.ccf-q1 {
-    background-color: #34ce57;
+.VHB_d {
+    background-color:  var(--d-color);
 }
 
-.ccf-q2 {
-    background-color: #ffc107;
+.VHB_aplusb {
+    background-color:  var(--aplus-color);
 }
 
-.ccf-q3 {
-    background-color: #ff8800;
+.VHB_bplusc {
+    background-color:  var(--b-color);
 }
 
-.ccf-q4 {
-    background-color: #dc3545;
+.VHB_cplusd {
+    background-color:  var(--c-color);
 }
 
-.ccf-none {
-    background-color: #a9a9a9;
+/* FNEGE */
+.FNEGE_1 {
+    background-color:  var(--a-color);
 }
+
+.FNEGE_1plus {
+    background-color:  var(--aplus-color);
+}
+
+.FNEGE_2 {
+    background-color:  var(--b-color);
+}
+
+.FNEGE_3 {
+    background-color:  var(--c-color);
+}
+
+.FNEGE_4 {
+    background-color:  var(--d-color);
+}
+
+/* CoNRS */
+.CoNRS_1 {
+    background-color:  var(--a-color);
+}
+
+.CoNRS_1e {
+    background-color:  var(--aplus-color);
+}
+
+.CoNRS_1g {
+    background-color:  var(--aplus-color);
+}
+
+.CoNRS_1eg {
+    background-color:  var(--aplus-color);
+}
+
+.CoNRS_2 {
+    background-color:  var(--b-color);
+}
+
+.CoNRS_3 {
+    background-color:  var(--c-color);
+}
+
+.CoNRS_4 {
+    background-color:  var(--d-color);
+}
+
+/* HCERE */
+.HCERE_a {
+    background-color:  var(--a-color);
+}
+
+.HCERE_b {
+    background-color:  var(--b-color);
+}
+
+.HCERE_c {
+    background-color:  var(--d-color);
+}
+
+/* CORE */
+.CORE_a {
+    background-color:  var(--a-color);
+}
+
+.CORE_aplus {
+    background-color:  var(--aplus-color);
+}
+
+.CORE_b {
+    background-color:  var(--b-color);
+}
+
+.CORE_c {
+    background-color:  var(--c-color);
+}
+
+/* CCF */
+.CCF_a {
+    background-color:  var(--aplus-color);
+}
+
+.CCF_b {
+    background-color:  var(--a-color);
+}
+
+.CCF_c {
+    background-color:  var(--b-color);
+}
+
+/* DAEN */
+.DAEN_1 {
+    background-color:  var(--b-color);
+}
+
+.DAEN_2 {
+    background-color:  var(--a-color);
+}
+
+.DAEN_3 {
+    background-color:  var(--aplus-color);
+}
+
+/* AJG */
+.AJG_4 {
+    background-color:  var(--a-color);
+}
+
+.AJG_4plus {
+    background-color:  var(--aplus-color);
+}
+
+.AJG_3 {
+    background-color:  var(--b-color);
+}
+
+.AJG_2 {
+    background-color:  var(--c-color);
+}
+
+.AJG_1 {
+    background-color:  var(--d-color);
+}
+
+/* ABDC */
+.ABDC_a {
+    background-color:  var(--a-color);
+}
+
+.ABDC_aplus {
+    background-color:  var(--aplus-color);
+}
+
+.ABDC_b {
+    background-color:  var(--b-color);
+}
+
+.ABDC_c {
+    background-color:  var(--c-color);
+}
+
+/* FT50 */
+.FT50_ft50 {
+    background-color:  var(--aplus-color);
+}
+
+
+/* NAs */
+
+.SJR_Q2_na {
+   background-color:  var(--na-color);
+}
+
+.VHB_na {
+    background-color: var(--na-color);
+}
+
+.FNEGE_na {
+    background-color: var(--na-color);
+}
+
+.CoNRS_na {
+    background-color: var(--na-color);
+}
+
+.HCERE_na {
+    background-color: var(--na-color);
+}
+
+.CORE_na {
+    background-color: var(--na-color);
+}
+
+.CCF_na {
+    background-color: var(--na-color);
+}
+
+.DAEN_na {
+    background-color: var(--na-color);
+}
+
+.AJG_na {
+    background-color: var(--na-color);
+}
+
+.ABDC_na {
+    background-color: var(--na-color);
+}
+
+.FT50_na {
+    background-color: var(--na-color);
+}
+
 
 .ccf-tooltip {
     display: inline-block;
@@ -119,3 +327,34 @@
 .ccf-tooltip:hover .ccf-tooltiptext {
     visibility: visible;
 }
+
+.circle {
+        border-radius: 50%;
+        padding: 3px;
+        width: 15px;
+        height: 15px;
+        font: 14px Arial;
+        font-weight: bold;
+        background: #fff;
+        border: 2px solid #000;
+        color: #000;
+        text-align: center;
+        cursor: default;
+}
+
+
+.closed {
+    background-color:  #4682B4;
+    text-align:left;
+    cursor: pointer;
+}
+
+.open {
+    background-color:  #4682B4;
+    text-align: right;
+    cursor: pointer;
+}
+
+#add_ranks {
+    background-color:  #4682B4;
+} 

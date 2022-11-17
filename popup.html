@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Rapid Journal Quality Check</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.header1 {
+  font-weight: bold;
+  text-align: justify;
+  font-size: 11px;
+}
+
+/* Large Slider */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+/*  -webkit-transition: .4s;
+  transition: .4s;*/
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+/*  -webkit-transition: .4s;
+  transition: .4s;*/
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* Small Slider */
+
+.switch_s {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+.switch_s input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider_s {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+}
+
+.slider_s:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+}
+
+input:checked + .slider_s {
+  background-color: #2196F3;
+}
+
+input:focus + .slider_s {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider_s:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+.slider_s.round {
+  border-radius: 17px;
+}
+
+.slider_s.round:before {
+  border-radius: 50%;
+}
+
+
+.circle {
+        border-radius: 50%;
+        padding: 3px;
+        width: 15px;
+        height: 15px;
+        font: 14px Arial;
+        font-weight: bold;
+        background: #fff;
+        border: 2px solid #000;
+        color: #000;
+        text-align: center;
+        cursor: default;
+}
+
+table {
+        table-layout: fixed;
+        width: 100%;
+}
+
+.closed {
+    background-color:  #4682B4;
+    text-align:left;
+    cursor: pointer;
+    display: none;
+  /*  background-image: url(../icon/arrow.png); */
+}
+
+.open {
+    background-color:  #4682B4;
+    text-align: right;
+    cursor: pointer;
+    display: inline;
+   /* background-image: url(../icon/arrow_rev.png); */
+}
+    
+</style>
+</head>
+<body style="width: 180px;">
+
+<table style="margin-left: auto; margin-right: auto;">
+  <tr>
+  	<td colspan="3">  
+		<form id="joursearch_form" action="#">
+ 		    <input type="text" id="journal_query" name="search" style="width: 75%;" placeholder="Search for a journal" title="Type in a journal name">
+ 		    <button type="submit"><i class="fa fa-search"></i></button>
+    	</form>
+	</td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+</table>
+
+<table style="margin-left: auto; margin-right: auto;"> 
+  <tr>
+	<td colspan="3" style="text-align: center"> 
+    	<span style="font-size: 11px"> Hover over ? to get info </span> 
+	</td>
+  </tr>
+  
+  <tr>
+    <td colspan="3"> </td>
+  </tr>
+  
+  <tr>
+    <td> <span> Turbo </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="turbo" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="The turbo crawls the journal title directly from google scholar. &#10;If google thinks you might be a bot and this is a problem for you, turning this off should help. &#10;But it will also slow down the rank search as the journal needs to be crawled from crossref." style="margin:0 auto">?</div> </td>
+  </tr>
+  
+  <tr>
+    <td colspan="3"> </td>
+  </tr>
+  
+  <tr>
+    <td colspan="3"> <span class="header1">Select rankings</span> </td>
+  </tr>
+
+  <tr>
+    <td> <span> ABDC </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="ABDC" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Australian Business Deans Council (ABDC) list. &#10;Business, management, and connected disciplines, 2682 journals ranked, &#10;A*: leading journals in the field - C: recognized journals, abdc.edu.au" style="margin:0 auto">?</div> </td>
+  </tr>
+  
+  <tr>
+    <td> <span> AJG / ABS</span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="AJG" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Academic Journal Guide (AJG) by the Chartered Association of Business Schools (C_ABS). &#10;Business, management, and connected disciplines, 1703 journals ranked, &#10;4*: world elite journals - 1: recognized journals, charteredabs.org" style="margin:0 auto">?</div> </td>
+  </tr>
+
+  <tr>
+    <td> <span> BFI </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="DAEN" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Bibliometriske Forskningsindikator (BFI) of the Danish Ministry of Higher Education and Science. &#10;Various disciplines, > 20,000 journals, &#10;1: most prestigious - 3: ordinary, ufm.dk" style="margin:0 auto">?</div> </td>
+  </tr>
+
+  <tr>
+    <td> <span> CCF </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="CCF" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Ranking of the Chinese Computer Foundation (CCF). &#10;Computer science conferences, 63 conferences, &#10;A: highly recommended - C: acceptable, ccf.org.cn" style="margin:0 auto">?</div> </td>
+  </tr>
+
+  <tr>
+    <td> <span> CNRS </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="CoNRS" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Journal ranking in Economics and Management, 800 journals ranked, &#10;1*: highest quality - 4: lowest quality, cnrs.fr" style="margin:0 auto">?</div> </td>
+  </tr>
+  
+  <tr>
+    <td> <span> CORE </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="CORE" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="CORE. Computer science journals and conferences, &#10;639 journals, 2212 conferences, &#10;A*: world leading  - C: acceptable standards, portal.core.edu.au" style="margin:0 auto">?</div> </td>
+  </tr>
+
+  <tr>
+    <td> <span> FNEGE </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="FNEGE" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Foundation National pour l’Enseignement de la Gestion des Enterprises (FNEGE). &#10;Management Sciences, 720 journals ranked, &#10;1*: most notable journals - 4: good journals, fnege.org" style="margin:0 auto">?</div> </td>
+  </tr>  
+
+  <tr>
+    <td> <span> FT50 </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="FT50" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Financial Times (FT) research rank. &#10;Business and management, 50 journals identified as the &#10;world leading journals in the discipline, ft.com" style="margin:0 auto">?</div> </td>
+  </tr>
+
+  <tr>
+    <td> <span> HCERES </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="HCERE" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="High Council for Evaluation of Research & Higher Education (HCERES). &#10;Business, Economics, and Social Sciences, 940 journals ranked, &#10;A: leading journal - C: peer reviewed journal, hceres.fr" style="margin:0 auto">?</div> </td>
+  </tr>
+
+  <tr>
+    <td> <span> SJR </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="SJR" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Scientific Journal Ranking. &#10;Various disciplines, > 27,000 journals ranked, &#10;Q1: top 25% - Q4: bottom 25%, scimagojr.com" style="margin:0 auto">?</div> </td>
+  </tr>
+
+  <tr>
+    <td> <span> VHB </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="VHB" checked>
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="VHB/JOURQUAL Ranking. &#10;Business Administration, 934 journals ranked, &#10;A+: world leading - D: peer reviewed journal, vhbonline.de" style="margin:0 auto">?</div> </td>
+  </tr>
+ 	
+  <tr>
+  	<td colspan="3"> </td>
+  </tr>
+  
+  <tr>
+    <tr>
+    <td colspan="1" style="text-align: center; vertical-align: middle;"> <span class="header1" title="Turn the extension on or off">On/Off</span> </td>
+	<td colspan="1" style="text-align: center; vertical-align: middle;"> <span class="header1" title="Access settings">Settings</span> </td>
+	<td colspan="1" style="text-align: center; vertical-align: middle;"> <span class="header1" title="Access settings">Refresh</span> </td>
+  </tr>
+  <tr>
+    <td colspan="1" style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch">
+ 	 	<input type="checkbox" id="on" checked>
+  		<span class="slider round"> </span>
+	</td>
+	<td colspan="1" style="text-align: center; vertical-align: middle;"> 
+    	<img src='./icon/settings.png' id='settings' height="34px" width="34px" style="cursor: pointer"> 
+	</td>
+	<td colspan="1" style="text-align: center"> 
+    	<img src='./icon/refresh.png' id='refresh' height="34px" width="34px" style="cursor: pointer">
+	</td>
+  </tr>
+ 
+  <tr>
+  	<td colspan="3"> </td>
+  </tr>  
+ 
+</table>
+
+<script src="popup.js"> </script>
+
+
+</body>
+</html> 
+
+
