@@ -523,9 +523,14 @@ ccf.getRankInfo = function (refine, type, ISSN1, ISSN2, dblp_venue) {
         if ( (refine == "" && ISSN1 == "") || (Object.keys(rankInfo.AllRanks).length === 0  && rankInfo.AllRanks.constructor === Object) ) {
             rankInfo.only_CORE = 1; 
         }
+// JW 28112022 //        
+        if ( rankInfo.AllRanks.CORE_Conf == "NA" || rankInfo.AllRanks.CORE_Conf == undefined) { 
+        
         rank = rankInfo.rank_CORE;
         rankInfo.AllRanks.CORE_Conf = rank;
         rankInfo.ranks.push(rank);
+        
+        }
 
     }
     
@@ -803,9 +808,9 @@ ccf.getRankSpan = function (refine, type, doi, elid, ISSN1, ISSN2, dblp_venue, d
        } else { 
           span456.append(span6);
           span456.append(span7);
-          if(rankInfo.AllRanks.CORE != "NA") { popup_text += "CORE (Jour.): " + rankInfo.AllRanks.CORE + "   "; }
-          if(rankInfo.AllRanks.CORE_Conf != "NA") { popup_text += "CORE (Conf.): " + rankInfo.AllRanks.CORE_Conf + " "; }
-          if(rankInfo.AllRanks.CORE_Conf == "NA" && rankInfo.AllRanks.CORE == "NA") { popup_text += "CORE: " + rankInfo.AllRanks.CORE_Conf + "   "; }
+          if(rankInfo.AllRanks.CORE != "NA") { popup_text_add += "CORE (Jour.): " + rankInfo.AllRanks.CORE + "   "; }
+          if(rankInfo.AllRanks.CORE_Conf != "NA") { popup_text_add += "CORE (Conf.): " + rankInfo.AllRanks.CORE_Conf + " "; }
+          if(rankInfo.AllRanks.CORE_Conf == "NA" && rankInfo.AllRanks.CORE == "NA") { popup_text_add += "CORE: " + rankInfo.AllRanks.CORE_Conf + "   "; }
           if(rankInfo.only_CORE == 1) { 
               popup_text_CORE_add = rankInfo.refine_CORE + "; H-Index: NA " + "\n" + "CORE (Conf.): " + rankInfo.rank_CORE;
               show_only_CORE_add = 1; 
@@ -906,7 +911,7 @@ let additional = 0;
          } else {
            span456  
                 .addClass("ccf-tooltip")
-                .append($("<pre>").addClass("ccf-tooltiptext").text(popup_text_CORE));    
+                .append($("<pre>").addClass("ccf-tooltiptext").text(popup_text_CORE_add));    
         }
     } else if ( (Ranks_additional.every(isundef)) ) {   
         
@@ -927,15 +932,40 @@ let additional = 0;
         .addClass("ccf-rank closed")
         .text("+")
         .on("click", function(){ $(document.getElementById(elid_ar)).toggle({direction: "right"},3000); $(document.getElementById(elid_er)).toggleClass( "open closed" ); });   
-                        
+    
     if(doi != "") { 
-        span = $('<a href="" target="_blank">')
+        span_link = $('<a href="" target="_blank">')
             .attr("href", link_text)
-            .append(span123)
+            .append(span123);
+            
         if(additional === 1) {
-        span
-            .append(span456)
-            .append(expand_rank);
+            span_link
+                .append(span456);
+        }
+        
+        span_span_link = $('<span>')
+            .append(span_link);
+   
+    } else if (rankInfo.rank_CORE != "NA" && rankInfo.rank_CORE != undefined && show_only_CORE == 1) {
+        span_link = $('<a href="" target="_blank">')
+            .attr("href", "https://doi.org/" + dblp_doi)
+            .append(span123);
+            
+        if(additional === 1) {
+            span_link
+                .append(span456);
+        }   
+
+        span_span_link = $('<span>')
+            .append(span_link);
+ 
+    }
+
+    if(doi != "") { 
+        span = span_span_link;
+        if(additional === 1) {
+            span
+                .append(expand_rank);
         }
     } else if(doi === "" || doi === undefined) { 
         span = $('<span>')
@@ -946,12 +976,11 @@ let additional = 0;
             .append(expand_rank);
         }
     } else if (rankInfo.rank_CORE != "NA" && rankInfo.rank_CORE != undefined && show_only_CORE == 1) {
-        span = $('<span>')
-            .attr("href", "https://doi.org/" + dblp_doi)
+        span = span_span_link;
         if(additional === 1) {
-        span
-            .append(span456)
-            .append(expand_rank);
+            span
+                .append(span456)
+                .append(expand_rank);
         }    
     } else {
         span = $('<span>')
