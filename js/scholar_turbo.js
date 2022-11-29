@@ -102,7 +102,9 @@ scholar_turbo.appendRank = function (full_url, settings) {
         journal3 = journal.substring(r1+3, r1+3+r2); 
         journal3 = journal3.replace(/, \d\d\d\d/, "");
                 
-        full_url = "https://scholar.google.com/scholar"
+        // full_url = "https://scholar.google.com/scholar";
+        full_url = window.location.hostname;
+        full_url += "/scholar";
         let cite_link = full_url + "?q=info:" + elid_id + ":scholar.google.com/&output=cite&scirp=8&hl=de";
   
         let r3 = journal3.indexOf("…");
