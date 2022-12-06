@@ -51,18 +51,56 @@ scholar_turbo.run = function (settings) {
 };
 
 
-function ajax(cite_link) {
+/*function ajax(cite_link) {
  return new Promise(function(resolve, reject) {       
     $.get(cite_link, function(data, status){
         resolve(data);
         reject("");
     }, "text");
 });
-};
+};*/
 
 
 scholar_turbo.appendRank = function (full_url, settings) {
     let elements = $("#gs_res_ccl_mid > div > div.gs_ri");
+    let n_crawls = 0; 
+    
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    
+    async function crawl() {
+        if (n_crawls >= 2) {
+            await sleep(1 * 1000);
+            n_crawls = 0;
+        }
+            
+        let pos_start = result.indexOf("<i>",1);
+        let pos_end = result.indexOf("</i>",1);
+        let scholar_journal = result.substring( (pos_start + 3), pos_end);
+        //alert(scholar_journal); 
+        let journal4 = scholar_journal;               
+                
+        n_crawls = n_crawls + 1;
+                
+        if(journal4 != "" && journal4 != undefined && journal4 != "<d") {
+            CircumventCrossRef(journal4, node, title, compl, scholar, elid, author, settings); 
+        } else {
+            fetchRank(node, title, compl, scholar, elid, author, settings);
+        }
+                    
+    };
+
+/*    async function demo() {
+        for (let i = 0; i < 5; i++) {
+            console.log(`Waiting ${i} seconds...`);
+            await sleep(i * 1000);
+        }
+        console.log('Done');
+    }
+
+demo(); */
+
     elements.each(async function () {
         
         let node = $(this).find("h3 > a");
@@ -114,17 +152,29 @@ scholar_turbo.appendRank = function (full_url, settings) {
 
         } else if (r3 != -1) {    
             ajax(cite_link).then(function(result) {
+
+                async function crawl() {
+                if (n_crawls >= 2) {
+                    await sleep(1 * 1000);
+                    n_crawls = 0;
+                }
+            
                 let pos_start = result.indexOf("<i>",1);
                 let pos_end = result.indexOf("</i>",1);
                 let scholar_journal = result.substring( (pos_start + 3), pos_end);
                 //alert(scholar_journal); 
                 let journal4 = scholar_journal;               
+                
+                n_crawls = n_crawls + 1;
+                
                 if(journal4 != "" && journal4 != undefined && journal4 != "<d") {
                     CircumventCrossRef(journal4, node, title, compl, scholar, elid, author, settings); 
                 } else {
                     fetchRank(node, title, compl, scholar, elid, author, settings);
-                }
-          });      
+                }        
+                };
+                crawl();            
+            });     
         } else {
                     fetchRank(node, title, compl, scholar, elid, author, settings);
                 }  
