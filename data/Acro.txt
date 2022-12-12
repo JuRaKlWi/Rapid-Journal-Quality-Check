@@ -1,0 +1,1967 @@
+" 	C	Thermo and Fluid Dynamic Processes in Diesel Engines \n" + 
+" 3DIM	C	3-D Digital Imaging and Modelling \n" + 
+" 3DPVT	C	International Symposium on 3D Data Processing Visualization and Transmission \n" + 
+" 3DUI	B	IEEE Symposium on 3D User Interfaces \n" + 
+" 3G	C	International Conference on 3G Mobile Communication Technologies \n" + 
+" AAAAECC	B	International Symposium on Applied Algebra, Algebraic Algorithms and Error-Correcting Codes \n" + 
+" AAAC	C	Symposium of Asian Association for Algorithms and Computation \n" + 
+" AAAI	A*	National Conference of the American Association for Artificial Intelligence \n" + 
+" AAAIDEA	C	International Workshop on Advanced Architectures and Algorithms for Internet Delivery and Applications \n" + 
+" AACE	A	American Association of Cost Engineers Annual Meeting \n" + 
+" AAIM	C	Conference on Algorithmic Aspects in Information and Management \n" + 
+" AAMAS	A*	International Joint Conference on Autonomous Agents and Multiagent Systems  \n" + 
+" AASA	C	Association of Architecture Schools of Australasia Annual Conference  \n" + 
+" ABZ	C	International Conference Abstract State Machines, Alloy, B, TLA, VDM, and Z  \n" + 
+" ACAC	C	Athens Colloquium on Algorithms and Complexity \n" + 
+" ACADIA	A	Association for Computer Aided Design in Architecture  Conference \n" + 
+" ACAI	C	Advanced Course on Artificial Intelligence \n" + 
+" ACALCI	NA	Australian Conference on Artificial Life and Computational Intelligence \n" + 
+" ACC	C	Applied Computing Conference \n" + 
+" ACCMCC	NA	Australasian Conference on Combinatorial Mathematics and Combinatorial Computing \n" + 
+" ACCT	NA	International Workshop on Algebraic and Combinatorial Coding Theory \n" + 
+" ACCV	B	Asian Conference on Computer Vision \n" + 
+" ACE	B	ACM International Conference on Advances in Computer Entertainment  \n" + 
+" ACEC	NA	Australasian Computers in Education Conference \n" + 
+" ACG	C	Workshop on Algorithms, Combinatorics, and Geometry \n" + 
+" ACHI	C	International Conference on Advances in Computer-Human Interactions \n" + 
+" ACID	C	Algorithms and Complexity in Durham \n" + 
+" ACII	C	International Conference on Affective Computing and Intelligent \n" + 
+" ACIIDS	B	Asian Conference on Intelligent Information and Database Systems \n" + 
+" ACIS	NA	Australasian Conference on Information Systems \n" + 
+" ACISP	NA	Australasian Conference on Information Security and Privacy \n" + 
+" ACIVS	B	Advanced Concepts for Intelligent Vision Systems \n" + 
+" ACKMIDS	NA	Australian Conference for Knowledge Management and Intelligent Decision Support \n" + 
+" ACL	A*	Association of Computational Linguistics \n" + 
+" ACMA	NA	Australasian Computer Music Conference \n" + 
+" ACMIMC	A	ACM SIGCOMM Internet Measurement Conference \n" + 
+" ACML	NA	 Asian Conference on Machine Learning \n" + 
+" ACMMM	A*	ACM Multimedia \n" + 
+" ACMSIGMISCPR	B	ACM SIGMIS Computers and People Research \n" + 
+" ACNN	NA	Australian Conference on Neural Networks \n" + 
+" ACNS	B	International Conference on Applied Cryptography and Network Security \n" + 
+" ACOSM	NA	Australian Conference on Software Metrics \n" + 
+" ACP4IS	C	Workshop on Aspects, Components, and Patterns for Infrastructure Software \n" + 
+" ACRA	NA	Australasian Conference on Robotics and Automation \n" + 
+" ACS	NA	Australian Supercomputing Conference \n" + 
+" ACSA	B	Association of Collegiate Schools of Architecture  Annual Meeting \n" + 
+" ACSAC	NA	Australasian Computer Systems Architecture Conference  \n" + 
+" ACSC	NA	Australasian Computer Science Conference \n" + 
+" ACSD	B	Application of Concurrency to System Design \n" + 
+" ACSSC	NA	Asilomar Conference on Signals, Systems and Computing \n" + 
+" ADAEUROPE	B	International Conference on Reliable Software Technologies \n" + 
+" ADBIS	B	Symposium on Advances in DB and Information Systems \n" + 
+" ADC	NA	Australasian Database Conference \n" + 
+" ADCOM	NA	International Conference on Advanced Computing and Communications \n" + 
+" ADCS	NA	Australasian Document Computing Symposium \n" + 
+" ADHOCNOW	C	International Conference on AD-HOC Networks and Wireless \n" + 
+" ADMA	B	International Conference on Advanced Data Mining and Applications \n" + 
+" ADMI	B	International Workshop on Agents and Data Mining Interaction \n" + 
+" ADTI	B	International Symposium on Advanced DB Technologies and Integration \n" + 
+" ADVIS	C	Advances in Information Systems \n" + 
+" AEC	C	International Conference on Innovation in Architecture, Engineering and Construction \n" + 
+" AEN	C	IASTED International Conferenceon AI, Exp Sys & Neural Networks \n" + 
+" AFAANZ	NA	Accounting and Finance Association of Australia and New Zealand Conference \n" + 
+" AFETE	C	Asia-Pacific Forum on Engineering and Technology Education \n" + 
+" AFIPS	A	American Federation of Information Processing Societies \n" + 
+" AFRIGRAPH	C	International Conference on Computer Graphics, Virtual Reality, Visualisation and Interaction in Africa \n" + 
+" AGDC	NA	Australian Game Developers Conference \n" + 
+" AHRC	A	Australasian Housing Researchers Conference \n" + 
+" AI	C	IASTED International Conference on Applied Informatics \n" + 
+" AIA	C	Artificial Intelligence and Applications Conference \n" + 
+" AIAI	C	Artificial Intelligence Applications and Innovations \n" + 
+" AIBS	B	Australian Institute of Building Surveyors International Refereed Conference \n" + 
+" AICCSA	C	ACS/IEEE International Conference on Computer Systems and Applications \n" + 
+" AICE	NA	Australian Institute of Computer Ethics Conference \n" + 
+" AICEC	NA	Australian Institute of Computer Ethics Conference \n" + 
+" AID	A	International Conference on AI in Design \n" + 
+" AIED	A	International Conference on Artificial Intelligence in Education \n" + 
+" AIIA	B	Congress of the Italian Assoc for AI \n" + 
+" AIIM	A	Artificial Intelligence in Medicine \n" + 
+" AIKM	C	Artificial Intelligence in Knowledge Management \n" + 
+" AIME	B	Artificial Intelligence in Medicine in Europe \n" + 
+" AIML	B	Advances in Modal Logic \n" + 
+" AIMSA	NA	International Conference on Artificial Intelligence: Methodology, Systems, Applications \n" + 
+" AINA	B	International Conference on Advanced Information Networking and Applications  \n" + 
+" AIPR	C	International Conference on Artificial Intelligence and Pattern Recognition \n" + 
+" AIRS	C	Asia Information Retrieval Symposium \n" + 
+" AIS	C	Ambient Information Systems \n" + 
+" AISAT	C	International Conference on Artificial Intelligence in Science and Technology \n" + 
+" AISB	B	AISB Convention  \n" + 
+" AISC	NA	Australasian Information Security Conference \n" + 
+" AISP	NA	Australasia Conference on Information Security and Privacy \n" + 
+" AISSIGEDIAIM	B	International Conference on Informatics Education and Research \n" + 
+" AIST	NA	International Conference on Analysis of Images, Social Networks and Texts \n" + 
+" AISTA	B	International Conference on Advances in Intelligent Systems: Theory and Applications \n" + 
+" AISTATS	A	International Conference on Artificial Intelligence and Statistics \n" + 
+" AISW	NA	Workshop on Australasian Information Security, Data Mining and Web Intelligence, and Software Internationalisation \n" + 
+" AISWPET	NA	Australasian Information Security Workshop 2007  \n" + 
+" AITC	C	Advances in the Theory of Computing \n" + 
+" AKAW	NA	Australian Knowledge Acquisition Workshop \n" + 
+" ALENEX	A	Workshop on Algorithm Engineering and Experiments \n" + 
+" ALEX	B	Algorithms and Experiments \n" + 
+" ALGOSENSORS	C	International Symposium on Algorithms and Experiments for  Wireless Networks \n" + 
+" ALICE	C	SIAM Workshop on Algorithms for Listing, Counting, and Enumeration \n" + 
+" ALIFE	C	International Conference on the Simulation and Synthesis of Living Systems \n" + 
+" ALP	B	International Conference on Algebraic and Logic Programming \n" + 
+" ALPIT	C	International Conference on Advanced Language Processing and Web Information Technology \n" + 
+" ALT	B	Algorithmic Learning Theory \n" + 
+" ALTA	NA	Australasian Language Technology Workshop \n" + 
+" AMAST	C	Algebraic Methodology and Software Technology \n" + 
+" AMCIS	A	Americas Conference on Information Systems \n" + 
+" AMI	C	European Conference on Ambient Intelligence \n" + 
+" AMIA	NA	American Medical Informatics Annual Fall Symposium \n" + 
+" AMIGE	C	IEEE Symposium on Advanced Management of Information for Globalized Enterprises \n" + 
+" AMLD	C	Ambient Intelligence Developments \n" + 
+" AMOC	C	Asian International Mobile Computing Conference \n" + 
+" AMS	C	Asia International Conference on Modelling and Simulation \n" + 
+" AMTA	B	Conference of the Association for Machine Translation in the Americas \n" + 
+" ANALCO	B	Workshop on Analytic Algorithmics and Combinatorics \n" + 
+" ANNES	C	Conference on Artificial Neural Networks and Expert systems \n" + 
+" ANNIE	B	Artificial Neural Networks in Engineering Conference \n" + 
+" ANSS	B	Annual Simulation Symposium \n" + 
+" ANT	NA	 International Conference on Ambient Systems, Networks and Technologies \n" + 
+" ANTS	B	International Workshop on Ant Colony \n" + 
+" ANZAM	NA	Australian and New Zealand Academy of Management Conference \n" + 
+" ANZAPS	B	Australian and New Zealand Association of Planning schools \n" + 
+" ANZASCA	B	Australian and New Zealand Architectural Science Association  Annual Conference \n" + 
+" ANZIIS	NA	Australian and New Zealand Intelligent Information Systems Conference \n" + 
+" ANZMAC	NA	Australian and New Zealand Marketing Academy Conference \n" + 
+" ANZMODS	NA	The Modelling and Simulation Society of Australia and New Zealand Meeting \n" + 
+" AOASIA	C	Aspect-Orientation Asia \n" + 
+" AOFA	B	International Conference on Probabilistic, Combinatorial, and Asymptotic Methods in the Analysis of Algorithms  \n" + 
+" AOIR	C	Internet Research \n" + 
+" AOIS	B	Agent-Oriented Information Systems Workshop \n" + 
+" AOM	C	Workshop on Aspect-Oriented Modelling \n" + 
+" AOSD	A	Aspect-Oriented Software Development \n" + 
+" AOSE	C	Agent-Oriented Software Engineering Workshop  \n" + 
+" APAMI	B	Asia Pacific Association for Medical Informatics Conference \n" + 
+" APBC	B	Asia-Pacific Bioinformatics Conference \n" + 
+" APCC	C	Asia Pacific Conference on Communications \n" + 
+" APCCM	NA	Asia-Pacific Conference on Conceptual Modelling \n" + 
+" APCHDL	C	Asia Pacific Conference on Hardware Description Languages  \n" + 
+" APCHI	C	Asia-Pacific Computer Human Interaction Conference \n" + 
+" APCOM	A	Asian-Pacific Conference on Computational Mechanics \n" + 
+" APCOMIN	A	Application of Computers and Operations Research in the Minerals Industries \n" + 
+" APDSI	C	Asia Pacific Decision Science Institute Conference \n" + 
+" APGV	C	Applied Perception in Graphics and Visualization \n" + 
+" APIEMSCIIEC	C	Asia Pacific Industrial Engineering and Management Systems and Chinese Institute of Industrial Engineers Conference \n" + 
+" APLAS	B	ASIAN Symposium on Programming Languages and Systems \n" + 
+" APNOMS	C	Asia-Pacific Network Operations and Management Symposium \n" + 
+" APORS	C	Conference of the Association of Asian-Pacific Operational Research Societies \n" + 
+" APPIAGULPPRODE	C	Joint Conference on Declarative Programming APPIA-GULP-PRODE \n" + 
+" APPROX	A	International Workshop on Approximation Algorithms for Combinatorial Optimization Problems \n" + 
+" APRSAIS	C	Asia Pacific Research Symposium on Accounting Information Systems \n" + 
+" APRTS	NA	Australasian Conference on Parallel and Real-Time Systems \n" + 
+" APSCC	C	Asia-Pacific Services Computing Conference \n" + 
+" APSEC	B	Asia-Pacific Software Engineering Conference \n" + 
+" APSECEASEC	B	Structural Engineering and Construction Conference \n" + 
+" APWEB	B	Web and Big Data \n" + 
+" AQSDT	C	Symposium on Assessment of Quality S/W Dev Tools \n" + 
+" ARA	NA	National Conference of the Australian Robot Association \n" + 
+" ARACNE	C	Workshop on Approximation and Randomization Algorithms in Communication Networks \n" + 
+" ARCOM	A	Association of Researchers in Construction Management Annual Conference \n" + 
+" ARCS	C	International Conference on Automation, Robotics and Control Systems \n" + 
+" ARES	B	International Conference on Availability, Reliability and Security \n" + 
+" ARITH	C	IEEE Symposium on Computer Arithmetic \n" + 
+" AROB	C	International Symposium on Artificial Life and Robotics \n" + 
+" ARSC	NA	Australasian Remote Sensing Conference \n" + 
+" ARSPC	C	Australasian Remote Sensing Conference and Photogrammetry Conference \n" + 
+" ARTDB	C	Active and Real-Time Database Systems \n" + 
+" ARTSIT	C	ArtsIT, Interactivity & Game Creation  \n" + 
+" ARVLSI	C	Advanced Research in VLSI \n" + 
+" ASADM	B	Chicago ASA Data Mining Conference- A Hard Look at DM \n" + 
+" ASAI	C	Argentine Symposium on Artificial Intelligence \n" + 
+" ASAP	A	International Conference on Application-specific Systems, Architectures and Processors \n" + 
+" ASC	C	IASTED International Conference on Artificial Intelligence and Soft Computing \n" + 
+" ASCILITE	NA	Annual Conference of the Australasian Society for Computers in Learning in Tertiary Education \n" + 
+" ASCM	C	Asian Symposium on Computer Mathematics \n" + 
+" ASE	A*	Automated Software Engineering Conference \n" + 
+" ASHRAE	A	American Society for Heating, Refrigeration and Air Conditioning \n" + 
+" ASIACCS	A	Asia Conference on Information, Computer and Communications Security \n" + 
+" ASIACRYPT	A	International Conference on the Theory and Application of Cryptology and Information Security \n" + 
+" ASIAN	B	Asian Computing Science Conference \n" + 
+" ASIST	A	Annual conference of American Society for Information Science and Technology \n" + 
+" ASIV	NA	Australian Symposium on Information Visualisation \n" + 
+" ASM	C	IASTED International Conference on Applied Simulation and Modelling \n" + 
+" ASMW	C	International Workshop on Abstract State Machines \n" + 
+" ASOR	NA	National Conference of The Australian Society for Operations Research \n" + 
+" ASPDAC	C	Asia and South Pacific Design Automation Conference \n" + 
+" ASPLOS	A*	Architectural Support for Programming Languages and Operating Systems \n" + 
+" ASR	C	ISCA Tutorial and Research Workshop Automatic Speech Recognition \n" + 
+" ASRU	C	IEEE Automatic Speech Recognition and Understanding Workshop \n" + 
+" ASSETS	A	International ACM SIGACCESS Conference on Computers and Accessibility \n" + 
+" AST	C	Automation of Software Test \n" + 
+" ASWEC	NA	Australian Software Engineering Conference \n" + 
+" ATC	C	International Conference on Advanced and Trusted Computing  \n" + 
+" ATMOS	C	Workshop on Algorithmic Approaches for Transportation Modelling, Optimization, and Systems \n" + 
+" ATRF	A	Australasian Transport Research Forum \n" + 
+" ATSIP	NA	International Conference on Advanced Technologies For Signal & Image Processing \n" + 
+" ATVA	B	International Symposium on Automated Technology for Verification and Analysis \n" + 
+" AUBEA	B	Australian Universities Building Education Association Annual Conference \n" + 
+" AUC	C	Workshop on Ad Hoc and Ubiquitous computing \n" + 
+" AUCADC	C	Apple University Consortium Academic and Developers Conference \n" + 
+" AUCSS	NA	Australasian Cognitive Science Society Conference \n" + 
+" AUIC	NA	Australasian User Interface Conference \n" + 
+" AURISA	NA	Australasian Urban and Regional Information Systems Association Conference \n" + 
+" AURW	NA	Australasian Refinement Workshop \n" + 
+" AUSAI	NA	Australian Joint Conference on Artificial Intelligence \n" + 
+" AUSDM	NA	Australian Data Mining Conference \n" + 
+" AUSGRID	NA	Australasian Symposium on Grid Computing and e-Research  \n" + 
+" AUSPDC	NA	Australasian Symposium on Parallel and Distributed Computing  \n" + 
+" AUSWEB	NA	Australian World Wide Web Conference \n" + 
+" AUSWIT	NA	Australian Women in IT Conference \n" + 
+" AUUG	NA	Australian UNIX Users Group National Conference \n" + 
+" AVI	B	Advanced Visual Interfaces \n" + 
+" AVSS	B	IEEE International Conference on Advanced Video and Signal Based Surveillance \n" + 
+" AWIC	C	International Atlantic Web Intelligence Conference \n" + 
+" AWOCA	NA	Australasian Workshop on Combinatorial Algorithms \n" + 
+" AWRE	NA	Australian Workshop on Requirements Engineering \n" + 
+" AWSA	NA	Australian Workshop on Software Architecture \n" + 
+" AWTI	B	Argentine Workshop on Theoretical Informatics \n" + 
+" BASYS	B	IEEE/IFIP International Conference on Information Technology for Balanced Automation Systems \n" + 
+" BC	C	IFIP International Conference on Broadband Communications \n" + 
+" BCSFMW	C	British Computer Society Formal Aspects of Computing Science Specialist Group Workshop \n" + 
+" BCTCS	C	British Colloquium for Theoretical Computer Science \n" + 
+" BDCAT	C	IEEE/ACM International Conference on Big Data Computing, Applications and Technologies \n" + 
+" BECC	B	Bled Electronic Commerce Conference \n" + 
+" BEECON	B	Built Environment Education Conference \n" + 
+" BFCA	C	International Workshop on Boolean Functions: Cryptography and Applications \n" + 
+" BIBE	C	IEEE Bioinformatics and Bioengineering \n" + 
+" BICC	C	IFIP Conference on Biologically Inspired Collaborative Computing \n" + 
+" BIGDATA	B	IEEE International Conference on Big Data \n" + 
+" BIOROB	B	2008 International Conference on Biomedical Robotics and Biomechatronics \n" + 
+" BIOVIZ	C	Bioinformatics Visualization \n" + 
+" BIS	B	International Conference on Business Information Systems \n" + 
+" BMVC	B	British Machine Vision Conference \n" + 
+" BNCOD	B	British National Conference on Databases \n" + 
+" BPD	C	International Workshop on Business Process Design \n" + 
+" BPI	C	International Workshop on Business Process Intelligence \n" + 
+" BPM	A	International Conference in Business Process Management \n" + 
+" BPMDS	C	International Workshop on Business Process Modelling, Development, and Support \n" + 
+" BROADCOM	C	International Conference of Broadband Communication, Information Technology and Biomedical Applications \n" + 
+" BROADNETS	B	International Conference on Broadband Communications, Networks and Systems \n" + 
+" BSN	C	Body Sensor Networks \n" + 
+" BTW	NA	Datenbanksysteme für Business, Technologie und Web \n" + 
+" BUHUIPGRC	C	International Postgraduate Research Conference  \n" + 
+" BUILDSYS	A	ACM International Conference on Systems for Energy-Efficient Built Environments \n" + 
+" BUILTVIZ	C	Visualisation in Built and Rural Environments \n" + 
+" C	C	International Workshop on C# and .NET Technologies \n" + 
+" C5	C	International Conference on Creating Connecting and Collaborating through Computing \n" + 
+" CAADFUTURES	A	CAADFutures Biennial conference \n" + 
+" CAADRIA	B	Association for Computer-Aided Architectural Design Research in Asia  annual conference \n" + 
+" CAAI	B	Canadian Artificial Intelligence Conference \n" + 
+" CAAN	B	Workshop on Combinatorial and Algorithmic Aspects of Networking \n" + 
+" CACSD	B	IEEE/IFAC Computer Aided Control System Design \n" + 
+" CADE	A	International Conference on Automated Deduction \n" + 
+" CAIA	B	Conference on Artificial Intelligence for Applications \n" + 
+" CAINE	C	ISCA International Conference on Computer Applications in Industry and Engineering \n" + 
+" CAIP	B	International Conference on Computer Analysis of Images and Patterns \n" + 
+" CAISE	A	International Conference on Advanced Information Systems Engineering \n" + 
+" CAITR	C	Conference of the Australian Institutes of Transport Research \n" + 
+" CAIVDE	C	Computer Animation, Information Visualisation, and Digital Effects \n" + 
+" CALCO	B	Conference on Algebra and Coalgebra in Computer Science \n" + 
+" CAMEA	A	Centre for Asian and Middle Eastern Architecture conference \n" + 
+" CANADAM	C	Canadian Discrete and Algorithmic Mathematics Conference \n" + 
+" CANS	B	International Conference on Cryptology and Network Security \n" + 
+" CARDIS	B	Smart Card Research and Advanced Application Conference \n" + 
+" CASC	B	Computer Algebra in Scientific Computing \n" + 
+" CASES	B	International Conference on Compilers, Architecture, and Synthesis for Embedded Systems \n" + 
+" CATA	NA	International Conference on Computers and their Applications \n" + 
+" CATAC	B	Cultural Attitudes towards Technology and Communications \n" + 
+" CATE	C	IASTED International Conference on Computers and Advanced Technology in Education  \n" + 
+" CATS	NA	Computing: The Australasian Theory Symposium \n" + 
+" CAV	A*	Computer Aided Verification \n" + 
+" CAVR	C	Construction Applications of Virtual Reality, International Conference \n" + 
+" CBIWASCECEEE	B	IEEE Conference on Electronic Commerce Technology and Enterprise Computing, e_Commerce and e-Services  \n" + 
+" CBSE	B	International Symposium Component-Based Software Engineering \n" + 
+" CC	A	ACM Creativity and Cognition \n" + 
+" CCA	B	International Conference on Computability and Complexity in Analysis \n" + 
+" CCC	A	IEEE Conference on Computational Complexity \n" + 
+" CCCG	C	Canadian Conference on Computational Geometry \n" + 
+" CCECE	C	Canadian Conference on Electrical and Computer Engineering \n" + 
+" CCEM	NA	IEEE International Conference on Cloud Computing in Emerging Markets \n" + 
+" CCG	C	Workshop on Computational and Conformal Geometry \n" + 
+" CCGRID	A	IEEE International Symposium on Cluster, Cloud and Grid Computing \n" + 
+" CCRTS	C	International Command and Control Research and Technology Symposium  \n" + 
+" CCS	A*	ACM Conference on Computer and Communications Security \n" + 
+" CCSC	B	Journal of Computing Science in Colleges  \n" + 
+" CCTAF	C	Intelligent Multimedia, Computing and Communications Technologies and Applications of the Future  \n" + 
+" CCW	B	IEEE Computer Communications Workshop \n" + 
+" CD	B	IFIP/ACM Working Conference on Component Deployment \n" + 
+" CDB	C	Constraint Databases and Applications \n" + 
+" CDC	A	IEEE Conference on Decision and Control \n" + 
+" CDMAKE	C	International Cross-Domain Conference for Machine Learning and Knowledge Extraction \n" + 
+" CDVE	C	Cooperative Design, Visualization, and Engineering \n" + 
+" CEAS	B	International Conference on Email and Anti-Spam \n" + 
+" CEC	C	IEEE Conference on Electronic Commerce Technology  \n" + 
+" CEG	C	Computing in Education Group of Victoria Conference \n" + 
+" CENTERIS	NA	CENTERIS - Conference on ENTERprise Information Systems \n" + 
+" CERE	C	International Workshop on Comparative Evaluation in Requirements Engineering \n" + 
+" CERIAS	NA	Information Security Symposium \n" + 
+" CFET	C	International Conference on Cybercrime Forensics Education and Training \n" + 
+" CFP	C	Conference on Computers, Freedom, and Privacy \n" + 
+" CGA	C	Workshop on Computational Geometry and Applications \n" + 
+" CGAL	C	CGAL User Workshop \n" + 
+" CGI	B	Computer Graphics International \n" + 
+" CGIE	C	Joint International Conference on CyberGames and Interactive Entertainment \n" + 
+" CGIV	C	International Conference Computer Graphics, Imaging and Visualization \n" + 
+" CGO	A	International Symposium on Code Generation and Optimization \n" + 
+" CGTDG	C	Conference on Graph Theory and Discrete Geometry \n" + 
+" CGW	C	Annual Fall Workshop on Computational Geometry \n" + 
+" CHES	A	Workshop on Cryptographic Hardware and Embedded Systems \n" + 
+" CHI	A*	International Conference on Human Factors in Computing Systems \n" + 
+" CHILIPLOP	C	Southwestern Conference on Pattern Languages of Programs \n" + 
+" CHINAGRID	C	ChinaGrid Annual Conference \n" + 
+" CHIPLAY	NA	CHI PLAY: The Annual Symposium on Computer-Human Interaction in Play \n" + 
+" CHIRA	C	International Conference on Computer-Human Interaction Research and Applications \n" + 
+" CHKV	C	Cultural Heritage Knowledge Visualisation \n" + 
+" CIAA	B	International Conference on Implementation and Application of Automata \n" + 
+" CIAC	C	International Conference on Algorithms and Complexity  \n" + 
+" CIARP	C	IberoAmerican Congress on Pattern Recognition \n" + 
+" CIB	A	International Council for Research and Innovation in Building and Construction  Meetings, Workshops, Symposia, Conferences \n" + 
+" CIBCB	C	IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology \n" + 
+" CIC	C	International Conference on Communications in Computing \n" + 
+" CICLING	B	International Conference on Intelligent Text Processing and Computational Linguistics \n" + 
+" CICM	C	Conference on Intelligent Computer Mathematics \n" + 
+" CIDM	C	IEEE Symposium on Computational Intelligence and Data Mining \n" + 
+" CIDR	A	Conference on Innovative Data Systems Research \n" + 
+" CIE	C	Computability in Europe: Logic and Theory of Algorithms \n" + 
+" CIEAEM	C	Conference of the Commission Internationale pour l'Etude et l'Amelioration de l'Enseignement des Mathematiques \n" + 
+" CIHSPS	C	IEEE International Conference on Intelligence for Homeland Security and Personal Safety \n" + 
+" CIIHK	C	Conference on Construction Partnering \n" + 
+" CIISP	C	IEEE Symposium on Computational Intelligence in Image and Signal Processing \n" + 
+" CIKM	A	ACM International Conference on Information and Knowledge Management \n" + 
+" CIMA	C	International Workshop on Combinations of Intelligent Methods and Applications \n" + 
+" CIMCA	C	International Conference on Computational Intelligence for Modelling, Control and Automation \n" + 
+" CIMSA	C	IEEE International Conference on Computational Intelligence for Measurement Systems and Applications \n" + 
+" CIRAS	C	International Conference on Computational Intelligence, Robotics and Autonomous Systems \n" + 
+" CIRSYS	C	International Symposium on Circuits and Systems \n" + 
+" CIS	C	IEEE International Conference on Cybernetics and Intelligent Systems \n" + 
+" CISE	C	International Conference on Computational Intelligence and Software Engineering \n" + 
+" CISIM	C	International Conference on Computer Information Systems and Industrial Management Applications \n" + 
+" CISIS	NA	Computational Intelligence in Security for Information Systems \n" + 
+" CISS	NA	Conference on Information Sciences and Systems \n" + 
+" CISST	C	International Conference Imaging Science, Systems and Technology \n" + 
+" CISTI	NA	Iberian Conference on Information Systems and Technologies \n" + 
+" CISTM	B	Conference on Information Science, Technology and Management \n" + 
+" CIT	C	IEEE International Conference on Computer and Information Technology \n" + 
+" CITB	B	Complexity and information-theoretic approaches to biology \n" + 
+" CITC	B	Construction in the Twenty-first Century Conferences \n" + 
+" CIVILCOMP	A	International Conference on Civil, Structural and Environmental Engineering Computing \n" + 
+" CLADE	C	Challenges of Large Applications in Distributed Environments \n" + 
+" CLEI	C	Latin American Conference on Informatics \n" + 
+" CLOSER	C	International Conference on Cloud Computing and Services Science \n" + 
+" CLOUD	B	IEEE International Conference on Cloud Computing \n" + 
+" CLOUDCOM	C	IEEE International Conference on Cloud Computing Technology and Science  \n" + 
+" CLUSTER	A	IEEE International Conference on Cluster Computing \n" + 
+" CME25	A	Construction Management and Economics Conference \n" + 
+" CMS	C	Joint Working Conference on Secure Information Networks: Communications and Multimedia Security \n" + 
+" CMV	C	Coordinated and Multiple Views in Exploratory Visualization \n" + 
+" CN	NA	International Science Conference on Computer Networks \n" + 
+" CNNA	C	IEEE International Workshop on Cellular Nanoscale Networks and Applications \n" + 
+" CNSM	B	International Conference on Network and Service Management  \n" + 
+" COBEE	NA	1st International Conference on Building Energy and Environment \n" + 
+" COBRA	A	RICS conference \n" + 
+" COCOA	B	Conference on Combinatorial Optimization and Applications \n" + 
+" COCOON	NA	International Conference on Computing and Combinatorics \n" + 
+" CODAS	C	International Symposium on Cooperative Database Systems for Advanced Applications \n" + 
+" CODATA	C	Committee on Data for Science and Technology \n" + 
+" CODESISSS	C	International Conference on Hardware/Software Codesign and System Synthesis  \n" + 
+" CODIT	C	International Conference on Control, Decision and Information Technologies \n" + 
+" COG	C	Conference on Games  \n" + 
+" COGROBO	B	International Cognitive Robotics Conference \n" + 
+" COGSCI	A	Annual Meeting of the Cognitive Science Society \n" + 
+" COGSIMA	NA	IEEE Conference on Cognitive and Computational Aspects of Situation Management  \n" + 
+" COINE	B	International Workshop on Coordination, Organizations, Institutions, Norms and Ethics for Governance of Multi-Agent Systems  \n" + 
+" COLING	A	International Conference on Computational Linguistics \n" + 
+" COLLABORATECOM	C	International Conference on Collaborative Computing: Networks, Applications and Worksharing \n" + 
+" COLLECTER	B	Collaborative Electronic Commerce Technology and Research \n" + 
+" COLT	A*	Conference on Learning Theory \n" + 
+" COMAD	NA	International Conference on Management of Data \n" + 
+" COMAI	C	Franco-Canadian Workshop on Combinatorial Algorithms \n" + 
+" COMBINATEXAS	C	CombinaTexas: Combinatorics in the South-Central U.S. \n" + 
+" COMMONSENSE	B	Symposium on Logical Formalizations of Commonsense Reasoning \n" + 
+" COMPDES	C	International Symposium on Computer Design \n" + 
+" COMPLAS	A	International Conference on Computational Plasticity \n" + 
+" COMPLEX	C	Asia-Pacific Conference on Complex Systems \n" + 
+" COMPLEXIS	C	International Conference on Complexity, Future Information Systems and Risk \n" + 
+" COMPLIFE	B	International Symposium on Computational Life Science \n" + 
+" COMPSAC	B	International Computer Software and Applications Conference \n" + 
+" COMPUMOD	NA	Australasian Compumod Users' Conference \n" + 
+" COMSNETS	NA	International Conference on COMmunication Systems & NETworkS \n" + 
+" COMSWARE	C	International Conference on Communication System Software and Middleware \n" + 
+" CONCUR	A	International Conference on Concurrency Theory \n" + 
+" CONEXT	A	ACM International Conference on Emerging Networking Experiments and Technologies \n" + 
+" CONFIRM	B	International Conference on Information Resources Management \n" + 
+" CONLL	A	Conference on Computational Natural Language Learning \n" + 
+" CONNECTED	C	ConnectED: International Conference on Design Education \n" + 
+" CONPAR	C	Conference on Algorithms and Hardware for Parallel Processing \n" + 
+" CONTEXT	C	International and Interdisciplinary Conference on Modelling and Using Context \n" + 
+" CONVR	C	Construction Applications to Virtual Reality Conference \n" + 
+" COOPIS	B	International Conference on Cooperative Information Systems \n" + 
+" COORDINATION	C	International Conference on Coordination Models and Languages \n" + 
+" COPLAS	B	Workshop on Constraint Satisfaction for Planning and Scheduling \n" + 
+" CORIA	C	Conférence en Recherche d'information et Applications \n" + 
+" COSIGN	C	International Conference on Computational Semiotics for Games and New Media \n" + 
+" COSIT	C	Conference on Spatial Information Theory \n" + 
+" COV	C	Complex Objects Visualization Workshop \n" + 
+" CP	A	International Conference on Principles and Practice of Constraint Programming \n" + 
+" CPAIOR	B	International Conference on Integration of Artificial Intelligence and Operations Research Techniques in Constraint Programming for Combinatorial Optimization Problems \n" + 
+" CPD	C	Constraint Programming Day \n" + 
+" CPM	B	Combinatorial Pattern Matching \n" + 
+" CRCCI	B	Cooperative Research Centre for Construction Innovation International Conference \n" + 
+" CRIOCM	B	Construction Management and Real Estate International Symposium \n" + 
+" CRISIS	C	International Conference on Risks and Security of Internet and Systems \n" + 
+" CRITIS	C	International Workshop on Critical Information Infrastructures Security \n" + 
+" CRV	C	Canadian Conference on Computer and Robot Vision \n" + 
+" CRYPAC	C	Cryptography Policy and Algorithms Conference \n" + 
+" CRYPTO	A*	Advances in Cryptology \n" + 
+" CRYPTOPUCES	C	Crypto'Puces \n" + 
+" CSB	A	IEEE Computational Systems Bioinformatics Conference \n" + 
+" CSC	C	ACM Annual Computer Science Conference \n" + 
+" CSCL	B	Computer Supported Collaborative Learning \n" + 
+" CSCW	A	ACM Conference on Computer Supported Cooperative Work \n" + 
+" CSCWD	B	International Conference on Computer Supported Cooperative Work in Design \n" + 
+" CSEDU	B	International Conference on Computer Supported Education \n" + 
+" CSEET	C	Conference on Software Engineering Education and Training  \n" + 
+" CSF	A	IEEE Computer Security Foundations Symposium  \n" + 
+" CSFW	A	IEEE Computer Security Foundations Workshop \n" + 
+" CSICC	NA	International CSI Computer Conference \n" + 
+" CSIT	NA	Computer Sciences and Information Technologies \n" + 
+" CSL	B	Annual Conference on Computer Science Logic \n" + 
+" CSMR	C	European Conference on Software Maintenance and Reengineering \n" + 
+" CSR	NA	International Computer Science Symposium in Russia \n" + 
+" CSRC	C	Computer Science Research Conference \n" + 
+" CT	C	Computational Topology Workshop \n" + 
+" CTAC	C	Computational Techniques and Applications Conference \n" + 
+" CTRSA	B	Cryptographers Track at RSA Conference \n" + 
+" CTS	C	International Symposium on Collaborative Technologies and Systems \n" + 
+" CTW	C	Cologne-Twente Workshop on Graphs and Combinatorial Optimization \n" + 
+" CUMULUS	C	Cumulus - International Association of Universities and Colleges of Art, Design and Media \n" + 
+" CUPUM	A	International Conference on Computers in Urban Planning and Urban Management \n" + 
+" CVPR	A*	IEEE Conference on Computer Vision and Pattern Recognition \n" + 
+" CW	B	International Conference on Cyberworlds  \n" + 
+" CXS	C	International Conference on Complex Systems \n" + 
+" DAARC	C	Discourse Anaphora and Anaphor Resolution Colloquium \n" + 
+" DAC	A	Digital Arts and Culture \n" + 
+" DAFX	B	Digital Audio Effects Conference \n" + 
+" DAG	C	Discrete and Algorithmic Geometry \n" + 
+" DAGM	B	Deutsche Arbeitsgemeinschaft für Mustererkennung DAGM e.V \n" + 
+" DAIS	C	IFIP International Conference on Distributed Applications and Interoperable Systems \n" + 
+" DALT	B	Declarative Agent Languages and Technologies  \n" + 
+" DAMON	C	International Workshop on Data Management on New Hardware \n" + 
+" DAS	B	International Workshop on Document Analysis Systems \n" + 
+" DASC	C	International Conference on Dependable, Autonomic and Secure Computing \n" + 
+" DASD	C	Symposium on Design, Analysis, and Simulation of Distributed Systems \n" + 
+" DASFAA	B	International Conference on Database Systems for Advanced Applications \n" + 
+" DASWIS	C	Data Semantics in Web Information Systems \n" + 
+" DATA	C	International Conference on Data Science, Technology and Applications \n" + 
+" DATE	B	Design, Automation and Test in Europe Conference \n" + 
+" DAVIZ	C	Design and Aesthetics in Visualisation \n" + 
+" DAWAK	B	Data Warehousing and Knowledge Discovery \n" + 
+" DBIS	NA	International Baltic Conference on Databases and Information Systems \n" + 
+" DBMC	C	Durability of Building Materials and Components Conference \n" + 
+" DBPL	B	Database Programming Languages \n" + 
+" DBSEC	B	IFIP WG 11.3 Working Conference on Data and Applications Security  \n" + 
+" DC	C	International Conference on Dublin Core and Metadata Applications \n" + 
+" DCAI	NA	International Conference on Distributed Computing and Artificial Intelligence \n" + 
+" DCC	A	Data Compression Conference \n" + 
+" DCM	C	International Workshop on Developments in Computational Models \n" + 
+" DCOSS	B	IEEE International Conference on Distributed Computing in Sensor Systems \n" + 
+" DCW	C	Distributed Communities on the Web Workshop \n" + 
+" DDDM	C	International Workshop on Domain Driven Data Mining \n" + 
+" DE	A	Design and Emotion Society Conferences \n" + 
+" DECI	C	IEEE Information Theory Workshop on Detection, Estimation, Classification and Imaging \n" + 
+" DEPCOS	NA	International Conference on Dependability of Computer Systems \n" + 
+" DESE	C	Developments in eSystems Engineering \n" + 
+" DESRIST	A	International Conference on Design Science Research in Information Systems and Technology \n" + 
+" DEXA	B	International Conference on Database and Expert Systems Applications \n" + 
+" DFMA	C	International Conference on Distributed Frameworks for Multimedia Applications \n" + 
+" DGCI	C	International Conference on Discrete Geometry for Computer Imagery \n" + 
+" DGO	B	International Conference on Digital Government Research \n" + 
+" DGW	C	Dynamic Graph Workshop \n" + 
+" DIAGRAMS	B	The Theory and Application of Diagrams \n" + 
+" DICTA	NA	Australian Pattern Recognition Society Conference \n" + 
+" DICTAIVCNZ	NA	Joint DICTA & IVCNZ \n" + 
+" DIGRA	C	Digital Games Research Conference \n" + 
+" DIMA	C	Conference on Discrete Mathematics, Algebra and their Application \n" + 
+" DIMACSINTRINSIC	C	DIMACS Workshop on Intrinsic Complexity of Computation \n" + 
+" DIMVA	C	GI International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment \n" + 
+" DIS	A	Designing Interactive Systems \n" + 
+" DISC	A	International Symposium on Distributed Computing  \n" + 
+" DITAM	NA	Doing IT at Melbourne \n" + 
+" DITW	C	Internationale Tagung Wirtschaftsinformatik \n" + 
+" DIVC	NA	Joint Australia and New Zealand Biennial Conference on Digital Image and Vision Computing \n" + 
+" DLS	C	Dynamic Languages Symposium \n" + 
+" DLT	B	Developments in Language Theory \n" + 
+" DM	C	SIAM Conference on Discrete Mathematics \n" + 
+" DMCCG	C	Discrete Models: Combinatorics, Computation and Geometry \n" + 
+" DMDW	C	Design and Management of Data Warehouses \n" + 
+" DMKD	C	Workshop on Research Issues in Data Mining and Knowledge Discovery \n" + 
+" DMTCS	B	International Conference on Discrete Mathematics and Theoretical Computer Science \n" + 
+" DMVC	C	VisMasters Design Modelling and Visualization Conference \n" + 
+" DNA	B	DNA Computing and Molecular Programming \n" + 
+" DOCENG	B	ACM Symposium on Document Engineering \n" + 
+" DOLAP	B	International Workshop on Data Warehousing and OLAP \n" + 
+" DOOD	A	Deductive and Object-Oriented Databases \n" + 
+" DPCOOL	C	Workshop on Declarative Programming in the Context of OO Languages \n" + 
+" DPPI	B	Designing Pleasurable Products And Interfaces \n" + 
+" DRM	C	ACM Digital Rights Management Workshop \n" + 
+" DRS	B	Design Research Society  International Conference \n" + 
+" DS	NA	Discovery Science \n" + 
+" DSAA	A	IEEE International Conference on Data Science and Advanced Analytics \n" + 
+" DSAL	C	Domain Specific Aspect Languages \n" + 
+" DSI	C	Annual Meeting of the Decision Sciences Institute \n" + 
+" DSKDB	C	International Colloquium on Data Sciences, Knowledge Discovery and Business Intelligence \n" + 
+" DSLSE	C	Domain - Specific Languages for Software Engineering \n" + 
+" DSM	C	Workshop on Domain Specific Modelling \n" + 
+" DSN	C	Workshop on Assurance Cases for Security \n" + 
+" DSRT	C	International Symposium on Distributed Simulation and Real Time Applications \n" + 
+" DSS	B	Distributed Simulation Symposium  \n" + 
+" DSTKM	C	International Conference on Decision Support Through Knowledge Management  \n" + 
+" DTM	A	International Conference on Design Theory and Methodology  \n" + 
+" DTVE	C	Workshop on Database Technology for Virtual Enterprises \n" + 
+" DUTCHCG	C	Dutch Computational Geometry Day \n" + 
+" DUX	B	Design for User Experience \n" + 
+" DVAT	C	Information Systems &Technologies /SPIE Conference on Digital Video Compression Algorithms & Techniques \n" + 
+" DX	C	International Workshop on Principles of Diagnosis \n" + 
+" DYSPAN	B	IEEE Dynamic Spectrum Access Networks  \n" + 
+" EAAI	A	Engineering Applications of Artifical Intelligence  \n" + 
+" EACL	A	European Association of Computational Linguistics \n" + 
+" EAD	C	European Academy of Design conferences \n" + 
+" EAMT	B	Conference of the European Association for Machine Translation \n" + 
+" EANN	C	International Conference on Engineering Applications of Neural Networks \n" + 
+" EARLYASPECTS	C	Workshop on Aspect Oriented Requirements Engineering and Architecture Design \n" + 
+" EASE	A	International Conference on Evaluation and Assessment in Software Engineering \n" + 
+" EASTS	C	East Asia Society for Transportation Studies Conference  \n" + 
+" EATIS	C	EURO AMERICAN CONFERENCE ON TELEMATICS AND INFORMATION SYSTEMS \n" + 
+" EC	A*	ACM Conference on Economics and Computation \n" + 
+" ECAADE	B	Education and Research in Computer Aided Architectural Design in Europe \n" + 
+" ECAI	A	European Conference on Artificial Intelligence \n" + 
+" ECAL	B	European Conference on Artificial Life \n" + 
+" ECBS	B	IEEE International Conference and Workshop on the Engineering of Computer Based Systems \n" + 
+" ECC	C	European Computing Conference \n" + 
+" ECCB	B	European Conference on Computational Biology \n" + 
+" ECCM	A	European Conference on Computational Mechanics \n" + 
+" ECCO	C	European Chapter on Combinatorial Optimization \n" + 
+" ECCV	A*	European Conference on Computer Vision \n" + 
+" ECDG	C	European Conference on Digital Government  \n" + 
+" ECDM	C	International Workshop on Evolution and Change in Data Management \n" + 
+" ECIME	C	European Conference on Information Management and Evaluation \n" + 
+" ECIR	A	European Conference on Information Retrieval \n" + 
+" ECIS	A	European Conference on Information Systems \n" + 
+" ECIW	C	European Conference of Information Warfare \n" + 
+" ECMFA	NA	European Conference on Modelling Foundations and Applications \n" + 
+" ECML	A	European Conference on Machine Learning  \n" + 
+" ECMLPKDD	A	European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Database  \n" + 
+" ECMS	B	International Conference on Modelling and Simulation \n" + 
+" ECOOP	A	European Conference on Object-Oriented Programming \n" + 
+" ECOWS	C	IEEE European Conference on Web Services \n" + 
+" ECRM	C	European Conference on Research Methodology for Business and Management Studies \n" + 
+" ECRTS	A	Euromicro Conference on Real-Time Systems \n" + 
+" ECRYPT	C	ECRYPT Workshop on Cryptographic Hash Functions \n" + 
+" ECSA	A	European Conference on Software Architecture \n" + 
+" ECSCW	B	European Conference on Computer Supported Cooperative Work \n" + 
+" ECSQARU	C	European Conference on Symbolic and Quantitative Approaches to Reasoning with Uncertainty \n" + 
+" ECTEL	B	European Conference on Technology Enhanced Learning \n" + 
+" ECUMN	C	European Conference on Universal Multiservice Networks \n" + 
+" ECWEB	B	International Conference on Electronic Commerce and Web Technology \n" + 
+" EDBT	A	Extending Database Technology \n" + 
+" EDCC	NA	European Dependable Computing Conference \n" + 
+" EDM	C	Symposium on Discrete Mathematics \n" + 
+" EDMEDIA	B	World Conference on Educational Multimedia, Hypermedia and Telecommunications  \n" + 
+" EDOC	B	IEEE International Enterprise Distributed Object Computing Conference \n" + 
+" EDRA	B	Environmental Design Research Association \n" + 
+" EDSER	C	International Workshop on Economics-Driven Software Engineering Research \n" + 
+" EEE	C	IEEE International Conference on Enterprise Computing, E-Commerce and E-Services \n" + 
+" EFISEFDBS	C	Engineering Federated Information  Systems  \n" + 
+" EFTFIFCS	C	Joint Meeting of the European Frequency and Time Forum and the Institute of Electrical and Electronics Engineers In \n" + 
+" EGC	B	French Speaking Conference on the Extraction and Management of Knowledge \n" + 
+" EGEE	C	Enabling Grids for E-Science European Conference \n" + 
+" EGPGV	B	Eurographics Symposium on Parallel Graphics and Visualization \n" + 
+" EGVE	B	International Conference on Artificial Reality and Telexistance & Eurographics Symposium on Virtual Environments \n" + 
+" EICAR	C	European Institute for Computer Anti-Virus Research EICAR Conference \n" + 
+" EICS	NA	Engineering Interactive Computing Systems \n" + 
+" EISWT	C	International Conference on Enterprise Information Systems and Web Technologies \n" + 
+" EJC	C	European-Japanese Conference on Information Modelling and Knowledge Bases \n" + 
+" EKAW	B	International Conference on Knowledge Engineering and Knowledge Management \n" + 
+" EKM	B	European Conference on Knowledge Management \n" + 
+" ELW	C	European Lisp Workshop \n" + 
+" EMAS	B	EMAS  \n" + 
+" EMBC	C	The Annual International Conference of the IEEE Engineering in Medicine and Biology Society \n" + 
+" EMCIS	B	European, Mediterranean and Middle Eastern Conference on Information Systems \n" + 
+" EMMSAD	C	Exploring Modelling Methods in Systems Analysis and Design \n" + 
+" EMNETS	C	Embedded Sensor Networks Workshop \n" + 
+" EMNLP	A	Empirical Methods in Natural Language Processing \n" + 
+" EMSOFT	NA	ACM Conference on Embedded Software \n" + 
+" ENASE	B	International Conference on Evaluation of Novel Approaches to Software Engineering \n" + 
+" ENC	C	Mexican International Conference on Current Trends in Computer Science  \n" + 
+" ENTER	C	International Conference on Information and Communication Technologies in Tourism \n" + 
+" EOMAS	C	International Workshop on Enterprise and Organizational Modelling and Simulation \n" + 
+" EP	C	Annual Conference on Evolutionary Programming \n" + 
+" EPIA	NA	Portuguese Conference on Artificial Intelligence \n" + 
+" EQIS	C	ERATO Conference on Quantum Information Science \n" + 
+" ER	NA	International Conference on Conceptual Modelling \n" + 
+" ERCIMCSCLP	B	ERCIM Annual Workshop on Constraint Solving and Constraint Logic Programming \n" + 
+" ESA	A	European Symposium on Algorithms \n" + 
+" ESANN	B	European Symposium on Artificial Neural Networks \n" + 
+" ESAS	C	European Workshop on Security and Privacy in Ad -Hoc and Sensor Networks \n" + 
+" ESCAPE	C	Symposium On Combinatorics, Algorithms, Probabilistic and Experimental Methodologies \n" + 
+" ESCIENCE	B	IEEE International Conference on e-Science and Grid Computing \n" + 
+" ESECFSE	A*	European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  \n" + 
+" ESEM	A	International Symposium on Empirical Software Engineering and Measurement \n" + 
+" ESGICT	C	European Symposium on Gender and ICT \n" + 
+" ESOP	A	European Symposium on Programming \n" + 
+" ESORICS	A	European Symposium On Research In Computer Security \n" + 
+" ESQARU	A	International Joint Conference on Qualitative and Quantitative Practical Reasoning \n" + 
+" ESS	B	European Simulation Symposium \n" + 
+" ESWC	A	Extended Semantic Web Conference  \n" + 
+" ETC	B	European Transport Conference \n" + 
+" ETHICOMP	B	ETHICOMP Conference \n" + 
+" ETRA	B	Eye Tracking Research and Applications \n" + 
+" EUC	C	IEEE/IFIP International Conference on Embedded and Ubiquitous Computing \n" + 
+" EUFIT	C	European Congress on Intelligent Techniques and Soft Computing \n" + 
+" EUMAS	C	European Workshop on Multi-Agent Systems \n" + 
+" EURO	C	European Conference on Operations Research \n" + 
+" EUROBOT	C	European Workshop on Advanced Mobile Robots \n" + 
+" EUROCG	C	European Workshop on Computational Geometry \n" + 
+" EUROCOLT	C	European Conference on Computational Learning Theory  \n" + 
+" EUROCOMB	C	EuroConference on Combinatorics, Graph Theory and Applications \n" + 
+" EUROCRYPT	A*	International Conference on the Theory and Application of Cryptographic Techniques \n" + 
+" EUROGP	B	European Conference on Genetic Programming \n" + 
+" EUROGRAPH	A	European Graphics Conference \n" + 
+" EUROMPI	C	European MPI Users' Group Conference \n" + 
+" EURONLG	B	European Natural Language Generation Workshop \n" + 
+" EUROPAR	B	International European Conference on Parallel and Distributed Computing  \n" + 
+" EUROPKI	B	European PKI Workshop: Theory and Practice \n" + 
+" EUROPLOP	NA	European Conference on Pattern Languages of Programs \n" + 
+" EUROSP	NA	IEEE European Symposium on Security and Privacy \n" + 
+" EUROSPI	B	European SPI \n" + 
+" EUROSYS	A	Eurosys Conference \n" + 
+" EUROVA	C	Visual Analytics \n" + 
+" EUROVIS	B	Eurographics/IEEE Symposium on Visualization \n" + 
+" EUROVR	C	Euro Virtual Reality \n" + 
+" EUSFLAT	C	Conference of the European Society for Fuzzy Logic and Technologies \n" + 
+" EUSIPCO	B	European Signal Processing Conference \n" + 
+" EUSPN	NA	International Conference on Emerging Ubiquitous Systems and Pervasive Networks \n" + 
+" EVOAPPLICATIONS	B	International Conference on Applications of Evolutionary Computation \n" + 
+" EVOCOP	B	European Conference on Evolutionary Computation in Combinatorial Optimisation \n" + 
+" EVOTE	C	International Conference on Electronic Voting \n" + 
+" EVT	C	USENIX/ACCURATE Electronic Voting Technology Workshop \n" + 
+" EWLR	B	European Workshop on Learning Robots \n" + 
+" EWSN	B	International Conference on Embedded Wireless Systems and Networks  \n" + 
+" EXTREME	C	Extreme Markup Languages \n" + 
+" FANDB	C	Finite Differences-Finite Elements-Finite Volumes-Boundary Elements \n" + 
+" FASE	B	Fundamental Approaches to Software Engineering \n" + 
+" FAST	A	Conference on File and Storage Technologies \n" + 
+" FATES	C	A Satellite workshop on Formal Approaches to Testing of Software \n" + 
+" FAW	NA	International Frontiers of Algorithmics Workshop \n" + 
+" FC	A	Financial Cryptography and Data Security Conference \n" + 
+" FCC	C	Formal and Computational Cryptography \n" + 
+" FCCM	B	IEEE Symposium on Field Programmable Custom Computing Machines \n" + 
+" FCKAML	B	French Conference on Knowledge Acquisition and Machine Learning \n" + 
+" FCST	C	Japan-China Joint Workshop on Frontier of Computer Science and Technology \n" + 
+" FCT	B	International Symposium on Fundamentals of Computation Theory \n" + 
+" FDG	C	International Conference on the Foundations of Digital Games \n" + 
+" FDL	C	Forum on Specification and Design Languages \n" + 
+" FDPE	C	Functional and Declarative Programming in Education \n" + 
+" FDTC	C	Workshop on Fault Diagnosis and Tolerance in Cryptography \n" + 
+" FEDCSIS	B	CONFERENCE ON COMPUTER SCIENCE AND INTELLIGENCE SYSTEMS \n" + 
+" FEWFDB	C	Far East Workshop on Future DB Systems \n" + 
+" FG	C	IEEE International Conference on Automatic Face and Gesture Recognition \n" + 
+" FIE	C	Frontiers in Education \n" + 
+" FIRA	C	FIRA Robot World Congress \n" + 
+" FIT	NA	International Conference on Frontiers of Information Technology \n" + 
+" FLAIRS	NA	Florida Artificial Intelligence Research Society Conference \n" + 
+" FLINS	C	International FLINS Conference on Robotics and Artificial Intelligence  \n" + 
+" FLOPS	NA	International Symposium on Functional and Logic Programming \n" + 
+" FM	A	International Symposium on Formal Methods  \n" + 
+" FMCAD	B	Formal Methods in Computer-Aided Design \n" + 
+" FMICS	C	Int. Workshop on Formal Methods for Industrial Critical Systems \n" + 
+" FMIS	C	International Workshop on Formal Methods for interactive Systems \n" + 
+" FMLDO	C	International Workshop on Foundations of Models and Languages for Data and Objects \n" + 
+" FMOOD	C	International Conference on Formal Methods for Open Object-Based Distributed Systems \n" + 
+" FMP	C	Formal Methods Pacific \n" + 
+" FMPPTA	C	International Workshop on Formal Methods for Parallel Programming: Theory and Applications \n" + 
+" FMSE	C	ACM Workshop on Formal Methods in Security Engineering: From Specifications to Code \n" + 
+" FMSEDS	C	Formal Methods in Software Engineering and Defence Systems Workshop \n" + 
+" FNC	NA	The International Conference on Future Networks and Communications \n" + 
+" FOAL	C	Foundations of Aspect-Oriented Languages \n" + 
+" FOCS	A*	IEEE Symposium on Foundations of Computer Science \n" + 
+" FODO	A	International Conference on Foundation on Data Organization \n" + 
+" FOGA	A	Foundations of Genetic Algorithms \n" + 
+" FOIS	B	International Conference on Formal Ontology in Information Systems \n" + 
+" FOOL	C	International Workshop on Foundations of Object-Oriented Languages \n" + 
+" FORTE	B	IFIP Joint International Conference on Formal Description Techniques and Protocol Specification, Testing, And Verification \n" + 
+" FOSSACS	A	Foundations of Software Science and Computational Structures \n" + 
+" FPSAC	B	Formal Power Series and Algebraic Combinatorics \n" + 
+" FQAS	C	Flexible Query-Answering Systems \n" + 
+" FRUCT	NA	IEEE Conference of the Open Innovations Association FRUCT \n" + 
+" FSCD	NA	International Conference on Formal Structures for Computation and Deduction \n" + 
+" FSE	B	International Workshop on Fast Software Encryption \n" + 
+" FSKD	C	International Conference on Fuzzy Systems and Knowledge Discovery \n" + 
+" FSR	A	International Conference on Field and Service Robotics \n" + 
+" FSSSSN	C	International Workshop on Foundations for Secure/Survivable Systems and Networks \n" + 
+" FSTTCS	NA	Foundations of Software Technology and Theoretical Computer Science \n" + 
+" FTCS	C	International Symposium on Fault-Tolerant Computing \n" + 
+" FTDCS	C	IEEE International Workshop on Future Trends of Distributed Computing Systems \n" + 
+" FTFJP	C	Workshop on Formal Techniques for Java-like Programs \n" + 
+" FTP	B	International Workshops on First-Order Theorem Proving \n" + 
+" FTRTFT	B	Formal Techniques in Real-Time and Fault Tolerant Systems  \n" + 
+" FUN	NA	Conference on Fun with Algorithms \n" + 
+" FUSION	C	International Conference on Information Fusion \n" + 
+" FUZZIEEE	B	IEEE International Conference on Fuzzy Systems \n" + 
+" GADA	C	International Conference on Grid computing, high-performance and Distributed Applications \n" + 
+" GAMETHEORY	C	MSRI Combinatorial Game Theory Research Workshop \n" + 
+" GCA	C	International Conference on Grid Computing and Applications \n" + 
+" GCC	C	International Conference on Grid and Cooperative Computing \n" + 
+" GCCCE	C	Global Chinese Conference on Computers in Education \n" + 
+" GD	A	Graph Drawing \n" + 
+" GDC	C	Game Developers Conference \n" + 
+" GDN	B	International Conference of Society for Group Decision and Negotiation \n" + 
+" GECCO	A	Genetic and Evolutionary Computations \n" + 
+" GEFS	C	International Workshop on Genetic and Evolutionary Fuzzy Systems \n" + 
+" GEOCOMP	C	International Conference on GeoComputation \n" + 
+" GEOD	C	SIAM Conference on Geometric Design \n" + 
+" GEOMFEST	C	Geometry Festival: An international workshop on Discrete Geometry and Rigidity \n" + 
+" GEOMUNCERTAINTY	C	Workshop on Uncertainty in Geometric Computations \n" + 
+" GEOSHANGHAI	A	GeoShanghai International Conferences \n" + 
+" GEOVIZ	C	GeoVisualization and Information Visualization \n" + 
+" GHC	C	Grace Hopper Celebration of Women in Computing \n" + 
+" GI	C	Graphics Interface \n" + 
+" GIIS	C	IEEE Global Information Infrastructure Symposium \n" + 
+" GISPLANET	C	GIS Planet Conference \n" + 
+" GITMA	B	Global Information Technology Management Association World Conference \n" + 
+" GLOBECOM	B	IEEE Global Telecommunications Conference  \n" + 
+" GMAI	B	Geometric Modelling and Imaging, International Conference  \n" + 
+" GMP	B	Geometry Modeling and Processing \n" + 
+" GO	C	International Workshop on Global Optimization \n" + 
+" GOCP	C	International Workshop on Group-Oriented Cryptographic Protocols \n" + 
+" GOR	C	International Conference on Operations Research \n" + 
+" GPC	C	International Conference on Green, Pervasive and Cloud Computing  \n" + 
+" GPCE	B	International Conference on Generative Programming and Component Engineering \n" + 
+" GRACO	C	Brazilian Symposium on Graphs, Algorithms and Combinatorics \n" + 
+" GRAPHHOC	C	Workshop on Applications of Graph Theory in Wireless Ad hoc Networks and Sensor Networks \n" + 
+" GRC	C	IEEE International Conference on Granular Computing \n" + 
+" GRID	A	IEEE/ACM International Conference on Grid Computing \n" + 
+" GROUP	B	ACM Special Interest Group on Supporting Group Work  \n" + 
+" GWC	C	International Wordnet Conference  \n" + 
+" HAI	C	International Workshop on Human Aspects in Ambient Intelligence: Agent Technology, Human-Oriented Knowledge and Applications \n" + 
+" HAIS	NA	International Conference on Hybrid Artificial Intelligence Systems \n" + 
+" HASE	B	IEEE International Symposium on High Assurance Systems Engineering \n" + 
+" HASKELL	C	Haskell Workshop \n" + 
+" HB	A	Healthy Buildings \n" + 
+" HCI	NA	British Computer Society Conference on Human-Computer Interaction \n" + 
+" HCIST	NA	HCist - International Conference on Health and Social Care Information Systems and Technologies \n" + 
+" HCOMP	B	AAAI Conference on Human Computation and Crowdsourcing \n" + 
+" HCW	B	Heterogeneity in Computing Workshop \n" + 
+" HDKM	NA	Australasian Workshop on Health Data and Knowledge Management \n" + 
+" HEALTHCOM	C	IEEE international conference on ehealth networking applications and services  \n" + 
+" HEALTHINF	C	International Conference on Health Informatics \n" + 
+" HFESA	C	Human Factors and Ergonomics Conference  \n" + 
+" HIC	NA	Health Informatics Conference \n" + 
+" HICSS	A	Hawaii International Conference on System Sciences \n" + 
+" HIPC	NA	International Conference on High Performance Computing \n" + 
+" HIPS	C	International Workshop on High-Level Parallel Programming Models and Supportive Environments \n" + 
+" HIS	C	International Conference on Hybrid Intelligent Systems \n" + 
+" HKIVM	A	Hong Kong Institute of Value Management Conference \n" + 
+" HLDVT	C	IEEE International High Level Design Validation and Test Workshop \n" + 
+" HLPP	C	International workshop on High-Level Parallel Programming and Applications \n" + 
+" HLT	B	Human Language Technologies  \n" + 
+" HOTCHIPS	A	Symposium on High Performance Chips \n" + 
+" HOTCHIPSHCS	C	Symposium on High Performance Chips  \n" + 
+" HOTI	NA	IEEE Symposium on High-Performance Interconnects \n" + 
+" HOTMESH	C	IEEE WoWMoM Workshop on Hot Topics in Mesh Networking \n" + 
+" HOTMOBILE	NA	Workshop on Mobile Computing Systems and Applications \n" + 
+" HOTNETS	NA	ACM Workshop on Hot Topics in Networks \n" + 
+" HOTOS	A	USENIX Workshop on Hot Topics in Operating Systems \n" + 
+" HOTP2P	C	International Workshop on Hot topics in Peer-to-Peer Systems \n" + 
+" HOTPOWER	B	Workshop on Power Aware Computing and Systems \n" + 
+" HOTSWUP	C	ACM Workshop on Hot Topics in Software Upgrades \n" + 
+" HOTWEB	B	IEEE Workshop on Hot Topics in Web Systems and Technologies \n" + 
+" HPCA	A*	International Symposium on High Performance Computer Architecture \n" + 
+" HPCASIA	C	International Conference and Exhibition on High Performance Computing in the Asia-Pacific Region \n" + 
+" HPCC	B	IEEE International Conference on High Performance Computing and Communications \n" + 
+" HPCN	B	International Conference on High Performance Computing and Networking \n" + 
+" HPCNCS	B	International Conference on High Performance Computing, Networking and Communication Systems \n" + 
+" HPCSCANADA	C	High Performance Computing Symposium Canada \n" + 
+" HPDC	A	ACM International Symposium on High Performance Distributed Computing \n" + 
+" HPGRID	C	High-Performance Grid Computing Workshop  \n" + 
+" HPSC	NA	International Conference on High Performance Scientific Computing \n" + 
+" HPSR	C	IEEE Workshop on High Performance Switching and Routing \n" + 
+" HSI	C	Human System Interaction \n" + 
+" HUMANOIDS	C	IEEE-RAS International Conference on Humanoid Robots \n" + 
+" HUNABC	C	Hungarian National Conference on Agent Based Computation \n" + 
+" HWWS	C	SIGGRAPH/EUROGRAPHICS Conference On Graphics Hardware \n" + 
+" HYPERTEXT	A	ACM Conference on Hypertext and Social Media \n" + 
+" I3DG	B	ACM-SIGRAPH Interactive 3D Graphics and Games \n" + 
+" I4CS	C	International Conference on Innovations for Community Services  \n" + 
+" IA	A	Indoor Air \n" + 
+" IAAI	B	Innovative Applications in AI \n" + 
+" IACMAG	A	International Conference of the International Association for Computer Methods and Advances in Geomechanics \n" + 
+" IADISAC	C	IADIS International Conference Applied Computing \n" + 
+" IAIF	C	International Workshop on Image Analysis and Information Fusion \n" + 
+" IAIM	C	Annual Conference of the International Academy for Information Management \n" + 
+" IAMOT	C	International Conference on Management of Technology \n" + 
+" IAQVEC	A	International Conference on Indoor Air Quality, Ventilation and Energy Conservation in Buildings \n" + 
+" IARTW	C	IEEE International Augmented Reality Toolkit Workshop \n" + 
+" IAS	NA	IEEE Industry Applications Society Annual Conference \n" + 
+" IASDR	B	International Association of Societies of Design Research \n" + 
+" IASTE	B	International Association for the Study of Traditional Environments  \n" + 
+" IAWTIC	B	International Conference on Intelligent Agents, Web Technologies, and Internet Commerce \n" + 
+" IBIMA	B	International Business Information Management \n" + 
+" IBPRIA	C	Iberian Conference on Pattern Recognition and Image Analysis \n" + 
+" IBPSA	A	Symposium on ‘Building Simulation in the Southwest of England’ \n" + 
+" IC	B	International Conference on Internet Computing \n" + 
+" IC3K	C	International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management \n" + 
+" ICA	C	IFAC Conference on Automation \n" + 
+" ICA3PP	B	International Conference on Algorithms and Architectures for Parallel Processing \n" + 
+" ICAART	B	International Conference on Agents and Artificial Intelligence \n" + 
+" ICAC	B	IEEE International Conference on Autonomic Computing \n" + 
+" ICADL	A	International Conference of Asian Digital Libraries \n" + 
+" ICAI	NA	International Conference on Artificial Intelligence \n" + 
+" ICAIL	C	International Conference on Artificial Intelligence and Law \n" + 
+" ICAIS	C	IEEE International Conference on Adaptive and Intelligent Systems \n" + 
+" ICAISC	NA	International Conference on Artificial Intelligence and Soft Computing \n" + 
+" ICALP	A	International Colloquium on Automata Languages and Programming \n" + 
+" ICALT	B	IEEE International Conference on Advanced Learning Technologies \n" + 
+" ICANN	C	International Conference on Artificial Neural Networks \n" + 
+" ICANNGA	C	International Conference on Artificial Neural Networks and Genetic Algorithms \n" + 
+" ICAPRDT	C	International Conference on Advances in Pattern Recognition and Digital Techniques \n" + 
+" ICAPS	A*	International Conference on Automated Planning and Scheduling \n" + 
+" ICARCV	C	International Conference on Control, Automation, Robotics and Vision \n" + 
+" ICASSP	B	IEEE International Conference on Acoustics, Speech and Signal Processing \n" + 
+" ICAT	B	International Conference on Artificial Reality and Telexistence \n" + 
+" ICC	B	IEEE International Conference on Communications \n" + 
+" ICCAD	A	IEEE/ACM International Conference on Computer-Aided Design \n" + 
+" ICCAM	C	International Congress on Computational and Applied Mathematics \n" + 
+" ICCBR	B	International Conference on Case-Based Reasoning \n" + 
+" ICCBSS	C	IEEE International Conference on COTS-Based Software Systems \n" + 
+" ICCC	C	IEEE International Conference on Computational Cybernetics \n" + 
+" ICCCBE	C	Computing in Civil Engineering and Building International Conference \n" + 
+" ICCCI	B	International Conference on Computational Collective Intelligence \n" + 
+" ICCCN	B	International Conference on Computer Communication and Networks \n" + 
+" ICCE	B	International Conference on Computers in Education \n" + 
+" ICCEM	C	International Conference on Construction Engineering and Management \n" + 
+" ICCH	B	International Congress of Construction History \n" + 
+" ICCHP	C	International Conference on Computers Helping People with Special Needs \n" + 
+" ICCI	B	International Conference on Computing and Information \n" + 
+" ICCIDC	C	International Conference on Construction in Developing Countries \n" + 
+" ICCIMA	C	International Conference on Computational Intelligence and Multimedia \n" + 
+" ICCL	A	IEEE International Conference on Computer Languages \n" + 
+" ICCM	C	International Congress of Chinese Mathematicians \n" + 
+" ICCNMC	C	International Conference on Networking and Mobile Computing \n" + 
+" ICCP	NA	IEEE International Conference on Intelligent Computer Communication and Processing \n" + 
+" ICCREM	B	International Conference on Construction and Real Estate Management \n" + 
+" ICCRTS	C	International Command and Control Research and Technology Symposium \n" + 
+" ICCS	A	International Conference on Conceptual Structures \n" + 
+" ICCSA	C	International Conference on Computational Science and its Applications \n" + 
+" ICCTA	C	International Conference on Computer Theory and Applications \n" + 
+" ICCV	A*	IEEE International Conference on Computer Vision \n" + 
+" ICCVG	NA	International Conference on Computer Vision and Graphics \n" + 
+" ICDAR	A	IEEE International Conference on Document Analysis and Recognition \n" + 
+" ICDCIT	NA	International Conference on Distributed Computing and Internet Technologies \n" + 
+" ICDCN	NA	International Conference on Distributed Computing and Networking \n" + 
+" ICDCS	A	International Conference on Distributed Computing Systems \n" + 
+" ICDE	A*	International Conference on Data Engineering \n" + 
+" ICDEC	NA	International Conference on Digital Economy \n" + 
+" ICDM	A*	IEEE International Conference on Data Mining \n" + 
+" ICDS	C	International Conference on Digital Society \n" + 
+" ICDSC	B	ACM/IEEE International Conference on Distributed Smart Cameras \n" + 
+" ICDSE	NA	IEEE International Conference on Data Science and Engineering \n" + 
+" ICDT	A	International Conference on Database Theory \n" + 
+" ICEB	B	International Conference on e-Business \n" + 
+" ICEBE	B	IEEE International Conference on e-Business Engineering \n" + 
+" ICEC	B	International Conference on Electronic Commerce \n" + 
+" ICECCS	B	IEEE International Conference on Engineering of Complex Computer Systems \n" + 
+" ICED	B	International Conference on Engineering Design , The Design Society \n" + 
+" ICEE	C	International Conference on Engineering Education \n" + 
+" ICEIMT	C	International Conference on Enterprise Integration and Modelling Technology \n" + 
+" ICEIS	C	International Conference on Enterprise Information Systems \n" + 
+" ICEM	NA	1st International Conference on Engineering Management \n" + 
+" ICER	B	International Computing Education Research Workshop \n" + 
+" ICES	C	International Conference on Environmental Systems \n" + 
+" ICESS	C	International Conference on Embedded Software and Systems \n" + 
+" ICETE	C	International Joint Conference on e-Business and Telecommunications \n" + 
+" ICFCA	C	International Conference Formal Concept Analysis Conference \n" + 
+" ICFEC	C	IEEE International Conference on Fog and Edge Computing \n" + 
+" ICFEM	B	International Conference on Formal Engineering Methods \n" + 
+" ICFHR	B	International Conference on Frontiers of Handwriting Recognition \n" + 
+" ICFP	A	International Conference on Functional Programming \n" + 
+" ICGA	B	International Conference on Genetic Algorithms \n" + 
+" ICGSE	C	IEEE International Conference on Global Software Engineering \n" + 
+" ICGT	B	International Conference on Graph Transformations \n" + 
+" ICHIT	C	International Conference on Convergence and Hybrid Information Technology \n" + 
+" ICIAP	NA	International Conference on Image Analysis and Processing \n" + 
+" ICIAR	C	International Conference on Image Analysis and Recognition \n" + 
+" ICIAS	C	International Conference on Intelligent and Advanced Systems \n" + 
+" ICICS	B	International Conference on Information, Communications and Signal Processing \n" + 
+" ICICSE	C	International Conference on Internet Computing in Science and Engineering \n" + 
+" ICICT	C	International Conference on Information and Communications Technology \n" + 
+" ICICTE	C	International Conference on International and Communication Technologies \n" + 
+" ICIDS	C	International Conference on Interactive Digital Storytelling  \n" + 
+" ICIET	C	International Conference on Information and Emerging Technologies \n" + 
+" ICIG	NA	International Conference on Image and Graphics \n" + 
+" ICIIS	C	IEEE International Conference on Industrial and Information Systems \n" + 
+" ICIL	C	International Conference on Intelligent Systems \n" + 
+" ICIMP	C	International Conference on Internet Monitoring and Protection \n" + 
+" ICIN	NA	Conference on Innovation in Clouds, Internet and Networks \n" + 
+" ICINCO	C	International Conference on Informatics in Control, Automation and Robotics \n" + 
+" ICIP	B	IEEE International Conference on Image Processing \n" + 
+" ICIQ	NA	International Conference on Information Quality \n" + 
+" ICIS	A*	International Conference on Information Systems \n" + 
+" ICISC	NA	International Conference on Information Security and Cryptology \n" + 
+" ICISP	C	International Conference on Image and Signal Processing \n" + 
+" ICISS	NA	International Conference on Information Systems Security \n" + 
+" ICISSP	C	International Conference on Information Systems Security and Privacy \n" + 
+" ICITA	NA	International Conference on Information Technology and Applications \n" + 
+" ICITS	C	International Conference on Information Theoretic Security \n" + 
+" ICIW	C	International Conference on Internet and Web Applications and Services \n" + 
+" ICLP	A	International Conference on Logic Programming \n" + 
+" ICLR	A*	International Conference on Learning Representations \n" + 
+" ICM	C	International Congress of Mathematicians \n" + 
+" ICMAS	A	International Conference on Multi Agent Systems \n" + 
+" ICMB	C	International Conference on Mobile Business \n" + 
+" ICMCS	A	IEEE International Conference on Multimedia Computing and Systems \n" + 
+" ICME	A	IEEE International Conference on Multimedia and Expo \n" + 
+" ICMI	B	International Conference on Multimodal Interaction  \n" + 
+" ICMIT	C	Management of Innovation and Technology International Conference \n" + 
+" ICML	A*	International Conference on Machine Learning \n" + 
+" ICMLA	C	International Conference on Machine Learning and Applications \n" + 
+" ICMLC	NA	International Conference on Machine Learning and Cybernetics \n" + 
+" ICMR	B	International Conference on Multimedia Retrieval  \n" + 
+" ICMSO	C	IASTED International Conference on Modelling, Simulation and Optimisation \n" + 
+" ICMT	B	International Conference on Model Transformation \n" + 
+" ICMV	C	International Conference on Machine Vision \n" + 
+" ICNC	NA	International Conference on Natural Computation \n" + 
+" ICNN	B	IEEE International Conference on Neural Networks \n" + 
+" ICNP	A	International Conference on Network Protocols \n" + 
+" ICNSC	C	International Conference on Networking, Sensing and Control \n" + 
+" ICO	C	SIGOPT - International Conference on Optimization \n" + 
+" ICOCI	C	International Conference on Computing and Informatics \n" + 
+" ICON	B	IEEE International Conference on Networks \n" + 
+" ICONIP	B	International Conference on Neural Information Processing \n" + 
+" ICORES	C	International Conference on Operations Research and Enterprise Systems \n" + 
+" ICOST	C	International Conference on Smart homes and health Telematics \n" + 
+" ICOTA	C	International Conference on Optimization: Techniques And Applications \n" + 
+" ICPADS	B	International Conference on Parallel and Distributed Systems \n" + 
+" ICPC	A	IEEE International Conference on Program Comprehension  \n" + 
+" ICPCA	C	International Conference on Pervasive Computing and Applications \n" + 
+" ICPE	B	ACM/SPEC International Conference on Performance Engineering \n" + 
+" ICPP	A	International Conference on Parallel Processing \n" + 
+" ICPR	B	International Conference on Pattern Recognition \n" + 
+" ICPRAM	C	International Conference on Pattern Recognition Applications and Methods \n" + 
+" ICPS	C	International Conference on Pervasive Services \n" + 
+" ICRA	NA	IEEE International Conference on Robotics and Automation \n" + 
+" ICS	A	ACM International Conference on Supercomputing \n" + 
+" ICSA	A	International Conference on Software Architecture  \n" + 
+" ICSC	B	Canadian Society for Civil Engineering, International Construction Specialty Conference \n" + 
+" ICSC2	A	International Computer Symposium Conference \n" + 
+" ICSE	A*	International Conference on Software Engineering \n" + 
+" ICSEA	C	International Conference on Software Engineering Advances \n" + 
+" ICSENG	C	International Conference on Systems Engineering \n" + 
+" ICSFT2008	A	International Conference on Surface Finishing Technology and Surface Engineering \n" + 
+" ICSLP	C	International Conference on Spoken Language Processing \n" + 
+" ICSME	A	IEEE International Conference on Software Maintenance and Evolution  \n" + 
+" ICSMGE	A	International Conference on Soil Mechanics and Geotechnical Engineering \n" + 
+" ICSOC	A	International Conference on Service Oriented Computing \n" + 
+" ICSOFT	B	International Conference on Software and Data Technologies \n" + 
+" ICSPC	A	International Conference on Security in Pervasive Computing \n" + 
+" ICSR	B	International Conference on Software Reuse \n" + 
+" ICSRIC	C	International Conference on Systems Research, Informatics and Cybernetics \n" + 
+" ICSSEA	C	International Conference Software and Systems Engineering and their Applications \n" + 
+" ICSSP	B	International Conference on Software and System Processes  \n" + 
+" ICST	A	International Conference on Software Testing, Verification and Validation \n" + 
+" ICT	C	IEEE International Conference on Telecommunications \n" + 
+" ICT4AWE	C	International Conference on Information and Communication Technologies for Ageing Well and e-Health \n" + 
+" ICTAC	B	International Colloquium on Theoretical Aspects of Computing \n" + 
+" ICTAI	B	International Conference on Tools with Artificial Intelligence \n" + 
+" ICTBM	C	International Conference on Technology and Business Management \n" + 
+" ICTCS	C	Italian Conference on Theoretical Computer Science \n" + 
+" ICTD	C	International Conference on Information and Communication Technologies and Development \n" + 
+" ICTERI	NA	ICT in Education, Research, and Industrial Applications \n" + 
+" ICTIR	NA	International Conference on the Theory of Information Retrieval \n" + 
+" ICTL	A	International Conference on Temporal Logic \n" + 
+" ICTSS	C	International Conference on Testing Software and Systems \n" + 
+" ICTTA	C	International Conference on Telecom Technology and Applications \n" + 
+" ICUWB	C	IEEE Conference on Ultra Wideband Systems and Technologies \n" + 
+" ICVR	NA	International Conference on Virtual Rehabilitation \n" + 
+" ICVS	C	International Conference on Computer Vision Systems \n" + 
+" ICWE	B	International Conference on Web Engineering \n" + 
+" ICWITS	B	IEEE International Conference on Wireless Information Technology and Systems \n" + 
+" ICWS	A	IEEE International Conference on Web Services \n" + 
+" ICWSM	NA	International Conference on Web and Social Media \n" + 
+" IDA	B	Intelligent Data Analysis \n" + 
+" IDC	C	Interaction Design and Children  \n" + 
+" IDCW	NA	International Database Conference  \n" + 
+" IDDM	C	International Conference on Informatics & Data-Driven Medicine \n" + 
+" IDEA	B	Interior Design Educators Association  Conference \n" + 
+" IDEAL	C	International Conference on Intelligent Data Engineering and Automated Learning \n" + 
+" IDEAS	B	International Database Engineering and Applications Symposium \n" + 
+" IDEAW	NA	Integrated Data Environments Australia Workshop \n" + 
+" IDET	C	International Workshop on Interactive Entertainment \n" + 
+" IDFC	C	IDF Congress \n" + 
+" IDV	C	Intelligence Tools, Data Mining, Visualization \n" + 
+" IE	B	The International Conference on Intelligent Environments \n" + 
+" IEA	B	International Association of Ergonomics Societies Congress \n" + 
+" IEAAIE	C	International Conference on Industrial and Engineering Applications of Artificial Intelligence and Expert Systems \n" + 
+" IEE	C	Informatics Education Europe \n" + 
+" IEEE3DIC	C	IEEE International Conference on 3D Systems Integration  \n" + 
+" IEEEADPRL	C	IEEE International Symposium on Adaptive Dynamic Programming and Reinforcement Learning \n" + 
+" IEEEALIFE	C	IEEE International Symposium on Artificial Life \n" + 
+" IEEECCNC	B	IEEE Consumer Communications and Networking Conference \n" + 
+" IEEECIAA	C	IEEE Workshop on Computational Intelligence in Aerospace Applications \n" + 
+" IEEECIB	C	IEEE Workshop on Computational Intelligence in Biometrics: Theory, Algorithms, and Applications \n" + 
+" IEEECICA	C	IEEE Symposium on Computational Intelligence in Control and Automation \n" + 
+" IEEECICS	C	IEEE Symposium on Computational Intelligence in Cyber Security \n" + 
+" IEEECIFER	C	IEEE Symposium on Computational Intelligence for Financial Engineering \n" + 
+" IEEECIIP	C	IEEE Symposium on Computational intelligence for Image Processing \n" + 
+" IEEECIMSIVP	C	IEEE Symposium on Computational intelligence for Multimedia Signal and Vision Processing \n" + 
+" IEEECISCHED	C	IEEE Symposium on Computational Intelligence in Scheduling \n" + 
+" IEEECISDA	C	IEEE Symposium on Computational Intelligence for Security and Defence Applications \n" + 
+" IEEECIVE	C	IEEE Workshop on Computational Intelligence in Virtual Environments \n" + 
+" IEEECIVI	C	IEEE Workshop on Computational Intelligence for Visual Intelligence \n" + 
+" IEEECIWS	C	IEEE Workshop on Computational Intelligence in Vehicles and Vehicular Systems \n" + 
+" IEEEDEST	C	IEEE International Conference on Digital EcoSystems and Technologies Conference \n" + 
+" IEEEDYSPAN	B	IEEE International Dynamic Spectrum Access Networks Symposium \n" + 
+" IEEEESDIS	C	IEEE Workshop on Evolving and Self-Developing Intelligent Systems \n" + 
+" IEEEGLOBECOM	B	IEEE Global Telecommunications Conference \n" + 
+" IEEEHIMA	C	IEEE Workshop on Hybrid Intelligent Models and Applications \n" + 
+" IEEEHPCS	B	IEEE International Conference on High Performance Computing and Simulation \n" + 
+" IEEEIA	C	IEEE Symposium on Intelligent Agents \n" + 
+" IEEEICIA	NA	IEEE International Conference on Information and Automation \n" + 
+" IEEEINFOVIS	A*	IEEE Information Visualization Conference \n" + 
+" IEEEIS	C	IEEE International Conference on Intelligent Systems \n" + 
+" IEEEIV	B	Intelligent Vehicles Symposium \n" + 
+" IEEEMCDM	C	IEEE Symposium on Computational Intelligence in Multi-Criteria Decision-Making \n" + 
+" IEEENLPKE	C	Natural Language Processing and Knowledge Engineering \n" + 
+" IEEEOC	C	IEEE Workshop on Organic Computing \n" + 
+" IEEERFID	B	IEEE International Conference on Radio Frequency Identification \n" + 
+" IEEERIISS	C	IEEE Workshop on Robotic Intelligence in Informationally Structured Space \n" + 
+" IEEESIS	C	IEEE Swarm Intelligence Symposium \n" + 
+" IEEETKDE	A	IEEE Transactions on Knowledge and Data Engineering \n" + 
+" IEEEVAST	C	IEEE Symposium on Visual Analytics Science and Technology \n" + 
+" IEEEVIS	A	IEEE Visualization \n" + 
+" IEEEWEAH	C	IEEE Workshop on Evolvable and Adaptive Hardware \n" + 
+" IEEEWOMA	C	IEEE Workshop on Memetic Algorithms \n" + 
+" IEMSS	C	Intenational Environmental Modelling and Software Society \n" + 
+" IES	C	Asia Pacific Symposium on Intelligent and Evolutionary Systems  \n" + 
+" IFAC	C	International Federation of Automatic Control World Congress \n" + 
+" IFAWC	C	International Forum on Applied Wearable Computing \n" + 
+" IFIPSEC	B	IFIP Information Security & Privacy Conference \n" + 
+" IFIPTCS	C	IFIP International Conference on Theoretical Computer Science \n" + 
+" IFIPTM	C	Joint iTrust and PST Conferences on Privacy, Trust Management and Security \n" + 
+" IFM	B	Integrated Formal Methods \n" + 
+" IFS	B	Interiors Forum Scotland conference \n" + 
+" IFSA	C	IFSA World Congress \n" + 
+" IFW	B	Interiors Forum World, Politecnico di Milano \n" + 
+" IGARSS	C	IEEE International Geoscience and Remote Sensing Symposium \n" + 
+" IGLC	A	International Group for Lean Construction Conference \n" + 
+" IHMMSEC	C	Information Hiding and Multimedia Security Workshop \n" + 
+" IICISA	C	International ICSC Congress on Intelligent Systems and Applications \n" + 
+" IIWAS	C	Information Integration and Web-based Applications and Services \n" + 
+" IJCAI	A*	International Joint Conference on Artificial Intelligence \n" + 
+" IJCAR	A	International Joint Conference on Automated Reasoning \n" + 
+" IJCCI	C	International Joint Conference on Computational Intelligence \n" + 
+" IJCNLP	B	International Joint Conference on Natural Language Processing \n" + 
+" IJCNLP2	B	International Joint Conference on Computational Linguistics \n" + 
+" IJCNN	B	IEEE International Joint Conference on Neural Networks \n" + 
+" IJCRSWASRSCTC	C	International Joint Conference on Rough Sets  \n" + 
+" IJWCC	B	International Joint Workshop on Computational Creativity \n" + 
+" IKE	NA	International Conference on Information and Knowledge Engineering \n" + 
+" ILP	B	Inductive Logic Programming \n" + 
+" ILPS	A	International Logic Programming Symposium \n" + 
+" ILRN	C	International Conference of the Immersive Learning Research Network \n" + 
+" IM	B	IFIP/IEEE International Symposium on Integrated Management  \n" + 
+" IMACC	B	IMA International Conference on Cryptography and Coding \n" + 
+" IMC	A	Internet Measurement Conference \n" + 
+" IMETI	C	International Multi-Conference on Engineering and Technological Innovation \n" + 
+" IMMERSCOM	C	International Conference on Immersive Telecommunications \n" + 
+" IMS	C	International Conference on Advanced Information Management \n" + 
+" IMSA	C	IASTED International Conference on Internet, Multimedia Systems and Applications \n" + 
+" IMVIP	NA	International Machine Vision and Image Processing Conference \n" + 
+" IN	B	IEEE Intell Network Workshop \n" + 
+" INAP	C	International Conference on Applications of Prolog  \n" + 
+" INBS	B	IEEE International Symposium on Intelligence in Neural & Biological Systems \n" + 
+" INC	C	International Conference on Networked Computing \n" + 
+" INDIAHCI	NA	Indian Conference on Human-Computer Interaction \n" + 
+" INDOCRYPT	NA	International Conference on Cryptology in India \n" + 
+" INET	C	Internet Society Conference \n" + 
+" INEX	C	International Workshop of the Initiative for the Evaluation of XML Retrieval \n" + 
+" INFOCOM	A*	IEEE International Conference on Computer Communications \n" + 
+" INFOCOMP	NA	 International Conference on Advanced Communications and Computation \n" + 
+" INFORMATICS	NA	IEEE International Scientific Conference on Informatics \n" + 
+" INFORMATIONPROCESSING	C	IFIP Congress  \n" + 
+" INFVIS	C	Information Visualisation Theory and Practice \n" + 
+" INISTA	C	International Symposium on Innovations in Intelligent Systems and Applications \n" + 
+" INLG	B	International Natural Language Generation Conference \n" + 
+" INMIC	C	IEEE International Multioptic Conference \n" + 
+" INOC	C	International Network Optimization Conference \n" + 
+" INSCRYPT	NA	SKLOIS Conference on Information Security and Cryptology \n" + 
+" INSITE	C	Informing Science and Information Technology Education \n" + 
+" INTA	C	International Network for Tropical Architecture conferences \n" + 
+" INTERACT	B	IFIP TC13 Conference on Human-Computer Interaction \n" + 
+" INTERACTION	C	Interaction \n" + 
+" INTEROP	C	Interoperating Geographic Information Systems \n" + 
+" INTERSPEECH	A	Annual Conference of the International Speech Communication Association  \n" + 
+" INTUITION	C	INTUITION International Conference \n" + 
+" IOLTS	C	IEEE International On-Line Testing Symposium \n" + 
+" IOTBDS	C	International Conference on Internet of Things, Big Data and Security \n" + 
+" IPC	C	International Conference on Intelligent Pervasive Computing \n" + 
+" IPCCC	B	IEEE International Performance Computing and Communications Conference \n" + 
+" IPCO	A	Conference on Integer Programming and Combinatorial Optimization \n" + 
+" IPDPS	A	IEEE International Parallel and Distributed Processing Symposium  \n" + 
+" IPEC	B	International Symposium on Parameterized and Exact Computation  \n" + 
+" IPGRC	C	International Research Week Conference \n" + 
+" IPHS	B	International Planning History Society \n" + 
+" IPIN	C	International Conference on Indoor Positioning and Indoor Navigation \n" + 
+" IPMU	C	International Conference on Information Processing and Management of Uncertainty \n" + 
+" IPS	C	IEEE International Conference on Intelligent Processing Systems \n" + 
+" IPSN	A*	Information Processing in Sensor Networks \n" + 
+" IPYTHC	C	International Python Conference \n" + 
+" IRFC	NA	 Information Retrieval Facility Conference \n" + 
+" IRI	NA	IEEE International Conference on Information Reuse and Integration \n" + 
+" IRIS	C	Information Systems Research Seminar in Scandinavia \n" + 
+" IRMA	B	Information Resources Management Association International Conference \n" + 
+" IROS	A	IEEE/RSJ International Conference on Intelligent Robots and Systems \n" + 
+" ISA	C	International Conference on Information Security and Assurance \n" + 
+" ISAAC	A	International Symposium on Algorithms and Computation \n" + 
+" ISADS	C	International Symposium on Autonomous Decentralized Systems \n" + 
+" ISAGA	C	Conference for the International Simulation and Gaming Association \n" + 
+" ISAIM	NA	International Symposium on Artificial Intelligence and Mathematics \n" + 
+" ISARC	B	Automation and Robotics International Symposium \n" + 
+" ISAS	C	International Conference on Information Systems Analysis and Synthesis \n" + 
+" ISAT	NA	International Conference Information Systems Architecture and Technology \n" + 
+" ISAVIIA	C	International Symposium on Audio, Video, Image Processing and Intelligent Applications \n" + 
+" ISBE	C	Institute for Small Business and Entrepreneurship Annual Conference \n" + 
+" ISC	C	IASTED International Conference on Intelligent Systems and Control \n" + 
+" ISCA	A*	ACM International Symposium on Computer Architecture \n" + 
+" ISCC	B	IEEE Symposium on Computers and Communications \n" + 
+" ISCIS	C	International Symposium on Computer and Information Sciences \n" + 
+" ISCIT	B	International Symposium on Communications and Information Technologies \n" + 
+" ISCO	C	International Symposium on Combinatorial Optimisation \n" + 
+" ISD	A	International Conference on Information Systems Development \n" + 
+" ISDA	C	International Conference on Intelligent Systems Designs and Applications \n" + 
+" ISDPE	C	International Symposium on Data, privacy and E-Commerce \n" + 
+" ISDSS	C	Conference of the International Society for Decision Support Systems \n" + 
+" ISEAT	B	Integration of Software Engineering and Agent Technology \n" + 
+" ISECON	B	Information Systems Education Conference \n" + 
+" ISESE	B	International Symposium on Empirical Software Engineering \n" + 
+" ISFST	C	International Symposium on Future Software Technology \n" + 
+" ISGC	C	International Symposium on Grids and Clouds  \n" + 
+" ISI	C	IEEE International Conference on Intelligence and Security Informatics \n" + 
+" ISIC	B	IEEE International Symposium on Intelligent Control \n" + 
+" ISICT	C	International Symposium on Information and Communication Technologies \n" + 
+" ISIMP	C	International Symposium on Intelligent Multimedia, Video and Speech Processing \n" + 
+" ISIP	C	International Symposium on Information Processing \n" + 
+" ISIT	B	IEEE International Symposium on Information Theory \n" + 
+" ISITA	B	International Symposium on Information Theory and Its Applications \n" + 
+" ISKE	NA	International Conference on Intelligent Systems and Knowledge Engineering \n" + 
+" ISM	NA	Australian Information Security Management Conference \n" + 
+" ISMAR	A*	IEEE/ACM International Symposium on Mixed and Augmented Reality \n" + 
+" ISMB	NA	Intelligent Systems in Molecular Biology \n" + 
+" ISMIS	C	International Symposium on Foundations of Intelligent Systems \n" + 
+" ISMM	B	International Symposium on Mathematical Morphology \n" + 
+" ISNCC	C	International Symposium on Networks, Computers and Communications \n" + 
+" ISNN	C	International Symposium on Neural Networks \n" + 
+" ISOLA	C	International Symposium on Leveraging Applications of Formal Methods, Verification and Validation \n" + 
+" ISORC	C	IEEE International Symposium on Real-Time Distributed Computing \n" + 
+" ISOTAS	C	International Symposium on Object Technologies for Advanced Software \n" + 
+" ISPA	C	IEEE International Symposium on Parallel and Distributed Processing with Applications \n" + 
+" ISPAN	B	International Symposium on Parallel Architectures, Algorithms and Networks \n" + 
+" ISPASS	B	IEEE International Symposium on Performance Analysis of Systems and Software \n" + 
+" ISPDC	C	International Symposium on Parallel and Distributed Computing \n" + 
+" ISPEC	B	Information Security Practice and Experience Conference \n" + 
+" ISPR	B	Annual International Workshop on Presence \n" + 
+" ISR	A	International Symposium on Robotics \n" + 
+" ISRM	A	International Society of Rock Mechanics Series of Symposia and Conferences \n" + 
+" ISRR	A	International Symposium on Robotics Research \n" + 
+" ISS	NA	ACM International Conference on Interactive Surfaces and Spaces  \n" + 
+" ISSAC	A	International Symposium on Symbolic and Algebraic Computation \n" + 
+" ISSCC	A	IEEE International Solid-State Circuits Conference \n" + 
+" ISSDI	C	International Symposium on Spatial Data Infrastructures \n" + 
+" ISSDQ	C	International Symposium on Spatial Data Quality \n" + 
+" ISSNIP	B	International Conference on Intelligent Sensors, Sensor Networks and Information Processing \n" + 
+" ISSRE	A	International Symposium on Software Reliability Engineering \n" + 
+" ISSTA	A	International Symposium on Software Testing and Analysis \n" + 
+" ISTA	B	International Conference on Information Systems Technology and its Application \n" + 
+" ISTAS	C	International Symposium on Technology and Society \n" + 
+" ISTCS	A	Israel Symposium on Theory of Computing and Systems \n" + 
+" ISUVR	NA	International Symposium on Ubiquitous Virtual Reality \n" + 
+" ISVC	NA	International Symposium on Visual Computing \n" + 
+" ISVD	C	International Symposium on Voronoi diagrams in Science and Engineering \n" + 
+" ISWC	A	International Semantic Web Conference \n" + 
+" ITA	NA	International Conference on Internet Technologies and Applications \n" + 
+" ITC	B	IEEE International Test Conference \n" + 
+" ITCC	C	International Conference on Information Technology: Coding and Computing \n" + 
+" ITCS	A	Innovations in Theoretical Computer Science \n" + 
+" ITHET	C	International Conference on IT Based Higher Education and Training \n" + 
+" ITI	C	International Conference on Information Technology Interfaces \n" + 
+" ITICSE	A	Annual Conference on Innovation and Technology in Computer Science Education \n" + 
+" ITIRA	C	International Conference on Information Technology in Regional Areas \n" + 
+" ITIS	C	Symposium on Information Technology and Information Systems \n" + 
+" ITNAC	NA	International Telecommunication Networks and Applications Conference  \n" + 
+" ITP	A	Conference on Interactive Theorem Proving  \n" + 
+" ITRUST	C	International Conference on Trust Management \n" + 
+" ITS	B	International Conference on Intelligent Tutoring Systems \n" + 
+" ITW	B	Information Theory Workshop \n" + 
+" IUDC	C	International Urban Design Conference \n" + 
+" IUI	A	International Conference on Intelligent User Interfaces \n" + 
+" IV	B	International Conference on Information Visualisation \n" + 
+" IVA	B	Intelligent Virtual Agents \n" + 
+" IVAPP	C	Applications of Information Visualization \n" + 
+" IVBI	C	Information Visualization in Biomedical Informatics \n" + 
+" IVCNZ	NA	Image and Vision Computing Conference \n" + 
+" IVE	C	Information Visualization Evaluation \n" + 
+" IWAAG	C	The International Workshop on Algorithms and Graphs \n" + 
+" IWACO	C	International Workshop on Aliasing, Confinement and Ownership \n" + 
+" IWANN	NA	International Work-Conference on Artificial and Natural Neural Networks \n" + 
+" IWC	C	International Web Conference \n" + 
+" IWCASE	B	International Workshop on Computer-Aided Software Eng \n" + 
+" IWCC	C	IEEE International Workshop on Cluster Computing and the Grid  \n" + 
+" IWCIA	C	International Workshop on Combinatorial Image Analysis: Theory and Applications \n" + 
+" IWCMC	B	ACM International Wireless Communications and Mobile Computing Conference \n" + 
+" IWDOM	C	International Workshop on Distributed Object Management \n" + 
+" IWDW	C	International Workshop on Digital Watermarking \n" + 
+" IWIA	C	International Workshop on Intelligent Agents \n" + 
+" IWICSS	C	International Workshop on Incorporating COTS Software into Software Systems, Tools and Techniques \n" + 
+" IWINAC	NA	International Work-conference on the Interplay between Natural and Artificial Computation \n" + 
+" IWKDDS	C	International Workshop on Knowledge Discovery from Data Streams \n" + 
+" IWMMDBMS	C	Int. Workshop on Multi-Media Data Base Management Systems \n" + 
+" IWOCA	B	International Workshop on Combinatorial Algorithm \n" + 
+" IWP	B	International Workshop on Paraphrasing \n" + 
+" IWPT	B	International Workshop on Parsing Technologies \n" + 
+" IWQOS	B	IEEE International Workshop on Quality of Service \n" + 
+" IWSEC	NA	International Workshop on Security \n" + 
+" IWSM	C	International Workshop in Software Measurement  \n" + 
+" IWSMMENSURA	C	Joint Conference of the International Workshop on Software Measurement and the International Conference on Software Process and Product Measurement  \n" + 
+" IWSP	C	International Workshop on Security Protocols \n" + 
+" IWSPM	C	International Workshop on Software Product Management \n" + 
+" IWSSC	C	International Workshop on Satellite and Space Communications \n" + 
+" IWSTAR	C	International Workshop on Software Technology for Augmented Reality Systems \n" + 
+" JAC	C	Symposium on Cellular Automata \n" + 
+" JADT	C	International Conference on the Statistical Analysis of Textual Data \n" + 
+" JCCGG	C	Japan Conference on Computational Geometry and Graphs \n" + 
+" JCCWBDCDW	C	Chilean Database Workshop \n" + 
+" JCDCG	C	Japan Conference on Discrete and Computational Geometry \n" + 
+" JCDL	A*	ACM Conference on Digital Libraries  \n" + 
+" JCIS	C	Joint Conference on Information Sciences \n" + 
+" JECGI	C	Joint European Conference and Exhibition on Geographical Information Systems \n" + 
+" JELIA	A	Logics in Artificial Intelligence, European Conference \n" + 
+" JENC	C	Joint European Networking Conference \n" + 
+" JFPLC	C	International French Speaking Conference on Logic and Constraint Programming \n" + 
+" JGA	C	French Journées de Géométrie Algorithmique \n" + 
+" JH	C	Japanese-Hungarian Symposium on Discrete Mathematics and Its Applications \n" + 
+" JHPC	C	Workshop On Java For High-Performance Computing \n" + 
+" JMLC	B	Joint Modular Languages Conference \n" + 
+" JSSPP	B	Workshop on Job Scheduling Strategies for Parallel Processing \n" + 
+" JURIX	C	International Conference on Legal Knowledge and Information Systems \n" + 
+" KAW	C	Knowledge Acquisition, Modelling and Management Workshop  \n" + 
+" KCAP	B	Knowledge capture \n" + 
+" KDD	A*	ACM International Conference on Knowledge Discovery and Data Mining \n" + 
+" KDDMBD	C	Knowledge Discovery and Data Mining in Biological Databases Meeting \n" + 
+" KDEX	C	Knowledge and Data Engineering Exchange Workshop \n" + 
+" KDVIZ	NA	Knowledge Domain Visualisation \n" + 
+" KEOD	C	International Conference on Knowledge Engineering and Ontology Development \n" + 
+" KES	B	International Conference on Knowledge-Based and Intelligent Information and Engineering Systems \n" + 
+" KESAMSTA	C	International KES Conference on Agents and Multiagent systems - Technologies and Applications \n" + 
+" KESIDT	C	KES International Symposium on Intelligent Decision Technologies \n" + 
+" KESIIMSS	C	International Symposium on Intelligent and Interactive Multimedia: Systems and Services \n" + 
+" KI	C	German Conference on Artificial Intelligence \n" + 
+" KIES	C	International Conference on Knowledge-based Intelligent Electronic Systems \n" + 
+" KOALAPLOP	NA	Australasian Conference on Pattern Languages of Programs \n" + 
+" KOLICALLING	B	International Conference on Computing Education Research  \n" + 
+" KR	A*	International Conference on the Principles of Knowledge Representation and Reasoning \n" + 
+" KRDB	C	Knowledge Representation Meets Databases \n" + 
+" KSEM	B	International Conference on Knowledge Science, Engineering and Management \n" + 
+" KV	C	Knowledge Visualization and Visual Thinking \n" + 
+" KYOTOCGGT	C	Kyoto International Conference on Computational Geometry and Graph Theory \n" + 
+" LAGOS	C	Latin-American Algorithms, Graphs and Optimization Symposium \n" + 
+" LAK	A	International Conference on Learning Analytics and Knowledge \n" + 
+" LANMAN	C	IEEE LAN/MAN Workshop \n" + 
+" LARC	C	NASA LaRC Formal Methods Workshop \n" + 
+" LATA	C	International Conference on Language and Automata Theory and Applications \n" + 
+" LATIN	B	International Symposium on Latin American Theoretical Informatics \n" + 
+" LATINCOM	C	IEEE Latin-American Conference on Communications \n" + 
+" LAWEB	C	Latin American Web Congress \n" + 
+" LAWTECH	C	IASTED International conference Law and Technology \n" + 
+" LCCS	C	International Workshop on Logic and Complexity in Computer Science \n" + 
+" LCI	C	International Conference on High-Performance Clustered Computing  \n" + 
+" LCN	B	IEEE Conference on Local Computer Networks \n" + 
+" LCTES	B	ACM SIGPLAN Conference on Languages, Tools, and Compilers for Embedded Systems \n" + 
+" LDK	NA	Language, Data and Knowledge \n" + 
+" LDTA	B	Language Descriptions, Tools and Applications \n" + 
+" LENLS	B	Logic and Engineering of Natural Language Semantics \n" + 
+" LFCS	NA	Logical Foundations of Computer Science \n" + 
+" LI	C	Law via the Internet \n" + 
+" LICS	A*	IEEE Symposium on Logic in Computer Science \n" + 
+" LL	C	Workshop on Logic and Learning \n" + 
+" LOCALGOS	C	Workshop on Localized Algorithms and Protocols for Wireless Sensor Networks \n" + 
+" LOPSTR	B	International Symposium on Logic-based Program Synthesis and Transformation \n" + 
+" LPAR	A	Logic Programming and Automated Reasoning \n" + 
+" LPMA	B	International Workshop on Logic Programming and Multi-Agents \n" + 
+" LPNMR	B	International Conference on Logic Programming and Non-monotonic Reasoning \n" + 
+" LREC	C	Language Resources and Evaluation Conference \n" + 
+" M2VIP	B	Mechatronics and Machine Vision in Practice \n" + 
+" MAAMAW	C	European Workshop on Modelling Autonomous Agents in a Multi-Agent World \n" + 
+" MAAN	C	Modern Asian Architecture Network conferences \n" + 
+" MABS	C	International Workshop on MultiAgent Based Simulation \n" + 
+" MACIS	C	MACIS: International Conference of Mathematical Aspects of Computer and Information Sciences \n" + 
+" MADYMO	NA	Australian MADYMO Users Meeting \n" + 
+" MASCOTS	B	Symposium Model Analysis and Simulation of Computer and Telecommunications Systems \n" + 
+" MASS	B	IEEE International Conference on Mobile Ad-hoc and Sensor Systems \n" + 
+" MASSIVE	C	Workshop on Massive Data Algorithmics \n" + 
+" MASSPAR	A	Symposium on Frontiers of Massively Parallel Processing \n" + 
+" MATES	B	German Conference on Multi-Agent system Technologies \n" + 
+" MATESENASE	A	Net Object Days  \n" + 
+" MATHINFO	C	Colloquium on Mathematics and Computer Science: Algorithms, Trees, Combinatorics and Probabilities \n" + 
+" MATLAB	NA	Australian MATLAB Conference \n" + 
+" MCAAS	C	Multimedia Content Access: Algorithms and Systems  \n" + 
+" MCDA	NA	Australian Workshop on Mobile Computing, Databases and Applications \n" + 
+" MCSPO	NA	Australian Conference on Mathematics and Computers in Sport \n" + 
+" MCU	B	Machines, Computations and Universality  \n" + 
+" MDAI	B	International Conference on Modelling Decisions for Artificial Intelligence \n" + 
+" MDDS	C	Mobility in Databases and Distributed Systems \n" + 
+" MDM	B	International Conference on Mobile Data Management \n" + 
+" MDSRIA	C	International Workshop on Multimedia Data Storage, Retrieval, Integration and Applications \n" + 
+" MEDES	NA	International Conference on Management of Digital EcoSystems \n" + 
+" MEDI	C	International Conference on Model and Data Engineering \n" + 
+" MEDINFO	B	World Congress on Medical and Health Informatics \n" + 
+" MEDIVIS	C	International Conference on Medical Information  Visualisation \n" + 
+" MEGA	B	Methods Effectives en Geometrie Algebrique \n" + 
+" MEMOCODE	C	International Conference on Formal Methods and Models for Co-Design \n" + 
+" MEWS	C	Mining for Enhanced Web Search \n" + 
+" MFCS	A	International Symposium on Mathematical Foundations of Computer Science \n" + 
+" MFPS	B	International Conference on Mathematical Foundations of Programming Semantics \n" + 
+" MGC	C	International Workshop on Middleware for Grid Computing \n" + 
+" MIC	C	IASTED International Conference on Modelling, Identification, and Control \n" + 
+" MICC	NA	Malaysia International Conference on Communications  \n" + 
+" MICCAI	A	Medical Image Computing and Computer-Assisted Intervention \n" + 
+" MICRO	A	International Symposium on Microarchitecture \n" + 
+" MIDDLEWARE	A	ACM/IFIP/USENIX International Middleware Conference \n" + 
+" MIGHTY	C	Mid-West Conference on Combinatorics, Cryptography, and Computing \n" + 
+" MINDTREK	B	Entertainment and media in the ubiquitous era  \n" + 
+" MIS4TEL	NA	International Conference in Methodologies and Intelligent Systems for Technology Enhanced Learning \n" + 
+" MISE	C	International Workshop on Modelling in Software Engineering \n" + 
+" MISSI	NA	Multimedia and Network Information Systems \n" + 
+" MLMI	B	Joint workshop on Multimodal Interaction and Related Machine Learning Algorithms  \n" + 
+" MMAR	NA	International Conference on Methods and Models in Automation and Robotics \n" + 
+" MMC	B	Mobile Media \n" + 
+" MMCN	A	ACM/SPIE Multimedia Computing and Networking \n" + 
+" MMDB	C	ACM International Workshop On Multimedia Databases \n" + 
+" MME	C	IEEE International Conference on Multimedia in Education \n" + 
+" MMICS	C	Mathematical Methods in Computer Science \n" + 
+" MMM	B	International Conference on Multimedia Modelling \n" + 
+" MMSP	B	International Workshop on Multimedia Signal Processing \n" + 
+" MMVR	B	Medicine Meets Virtual Reality \n" + 
+" MOBICOM	A*	ACM International Conference on Mobile Computing and Networking \n" + 
+" MOBIDE	C	Workshop on Data Engineering for Wireless and Mobile Access \n" + 
+" MOBIHOC	A	ACM Symposium on Mobile Ad Hoc Networking and Computing \n" + 
+" MOBILEHCI	B	International Conference on Human-Computer Interaction with Mobile Devices and Services \n" + 
+" MOBILITY	C	The International Conference on Mobile Technology, Applications and Systems \n" + 
+" MOBIQUITOUS	B	International Conference on Mobile and Ubiquitous Systems: Networks and Services \n" + 
+" MOBISPC	NA	International Conference on Mobile Systems and Pervasive Computing \n" + 
+" MOBISYS	B	ACM SIGMOBILE International Conference on Mobile Systems, Applications and Services \n" + 
+" MOBIWAC	B	ACM International Workshop on. Mobility Management and Wireless Access \n" + 
+" MODELS	A	International Conference on Model Driven Engineering Languages and Systems  \n" + 
+" MODELSWARD	C	International Conference on Model-Driven Engineering and Software Development \n" + 
+" MODSIM	NA	International Congress on Modelling and Simulation \n" + 
+" MODSIM03	A	Congress of the Modelling and Simulation Society of Australia and New Zealand \n" + 
+" MODSS	C	Multiple Objective Decision Support System Conference \n" + 
+" MOMM	B	International Conference on Advances in Mobile Computing and Multimedia \n" + 
+" MOPTA	NA	Modelling and Optimization: Theory and Applications \n" + 
+" MOVEP	C	Summer School on Modelling and Verification of Parallel Processes \n" + 
+" MOVIX	C	International Workshop on Modelling and Visualization of XML and Semantic Web Data \n" + 
+" MPC	B	Mathematics of Program Construction \n" + 
+" MPCS	B	International Conference on Massively Parallel Computing Systems \n" + 
+" MPLR	C	International Conference on Managed Programming Languages and Runtimes  \n" + 
+" MPOOL	C	Workshop on Multiparadigm Programming with OO Languages \n" + 
+" MPPOI	B	Massively Parallel Processing Using Optional Interconnections \n" + 
+" MS	C	IASTED International Conference on Modelling and Simulation \n" + 
+" MSAS	C	SPIE International Conference on Multimedia Storage and Archiving Systems \n" + 
+" MSR	A	IEEE International Working Conference on Mining Software Repositories \n" + 
+" MSST	NA	IEEE Conference on Mass Storage Systems and Technologies \n" + 
+" MSV	C	International Conference on Modeling, Simulation and Visualization Methods \n" + 
+" MSVVEIS	C	International Workshop on Modelling, Simulation, Verification and Validation of Enterprise Information Systems \n" + 
+" MSWIM	A	ACM/IEEE International Conference on Modelling, Analysis and Simulation of Wireless and Mobile Systems \n" + 
+" MTNS	C	International Symposium on the Mathematical Theory of Networks and Systems \n" + 
+" MTSUMMIT	B	Machine Translation Summit \n" + 
+" MUC	NA	Mensch & Computer \n" + 
+" MUM	B	Mobile and Ubiquitous Multimedia  \n" + 
+" MUSE	C	International Workshop on Metamodelling - Utilization in Software Engineering \n" + 
+" MVA	NA	Machine Vision Applications \n" + 
+" NAACL	A	North American Association for Computational Linguistics \n" + 
+" NACCQ	C	National Advisory Committee on Computing Qualifications \n" + 
+" NACLP	C	North American Conference on Logic Programming \n" + 
+" NAFIPS	C	North American Fuzzy Information Processing Society Conference \n" + 
+" NAISO	C	NAISO Congress on Autonomous Intelligent Systems \n" + 
+" NATOSE	C	NATO Conference on software engineering \n" + 
+" NCA	B	IEEE International Symposium on Network Computing and Applications \n" + 
+" NCC	C	National Conference Communications \n" + 
+" NCCIS	C	National Conference on Computer and Information Systems \n" + 
+" NDB	C	National Database Conference  \n" + 
+" NDSS	A*	Usenix Network and Distributed System Security Symposium \n" + 
+" NEMLAP	C	Joint Conference on New Methods in Language Processing and Computational Natural Language Learning \n" + 
+" NETCOM	C	International Conference on Networks and Communications \n" + 
+" NETSOFT	B	International Conference on Network Softwarization \n" + 
+" NETSTORE	A	Network Storage Symposium \n" + 
+" NETWORKING	B	IFIP International Conference on Networking \n" + 
+" NEURIPS	A*	Advances in Neural Information Processing Systems  \n" + 
+" NEW2AN	C	International Conference on Next Generation Wired/Wireless Advanced Networking \n" + 
+" NFM	C	The Northern Formal Methods Workshops \n" + 
+" NGC	C	Networked Group Communication \n" + 
+" NGDB	C	International Symposium on Next Generation Data Base Systems and Applications \n" + 
+" NGDM	C	National Science Foundation symposium on Next Generation Data Mining and Cyber Enabled Discovery for Innovation  \n" + 
+" NISDIC	C	Workshop on Nature Inspired Distributed Computing \n" + 
+" NISS	C	International Conference on New Trends of Information and Service Science \n" + 
+" NISSC	C	National Information Systems Security Conference  \n" + 
+" NLDB	C	Applications of Natural Language to Data Bases \n" + 
+" NNSP	C	IEEE International Workshop on Neural Networks for Signal Processing \n" + 
+" NOMS	B	IEEE Network Operations and Management Symposium \n" + 
+" NORDCHI	C	Norwegian Computer Human Interaction \n" + 
+" NORDES	B	Nordic Design Research Conference \n" + 
+" NORDICHI	NA	Nordic Conference on Human-Computer Interaction \n" + 
+" NORDSEC	C	Nordic Workshop on Secure IT Systems \n" + 
+" NOSSDAV	B	Network and Operating System Support for Digital Audio and Video \n" + 
+" NPC	C	IFIP International Conference on Network and Parallel Computing \n" + 
+" NPDP	C	Annual IASTED International Conference on Networks, Parallel and Distributed Processing and Applications \n" + 
+" NPSC	C	International Conference on Neural, Parallel and Scientific Computations \n" + 
+" NRAC	C	International Workshop on Nonmonotonic Reasoning, Action and Change \n" + 
+" NRDM	C	Workshop on Network-Related Data Management \n" + 
+" NSDI	NA	Symposium on Networked Systems, Design and Implementation \n" + 
+" NSPW	C	New Security Paradigms Workshop \n" + 
+" NSS	B	International Conference on network and System Security \n" + 
+" NTMS	C	New Technologies Mobility and Security \n" + 
+" NUMGE	A	European Conference on Numerical Methods in Geotechnical Engineering \n" + 
+" NUMOG	A	Numerical Models in Geomechanics \n" + 
+" NWESP	C	International Conference on Next Generation Web Services Practices \n" + 
+" NZGDC	NA	New Zealand Game Developers Conference \n" + 
+" OASIS	C	Organisations and Society in Information Systems Workshop \n" + 
+" OCIS	A	AoM Organizational Communication and Information Systems \n" + 
+" ODLA	NA	Open and Distance Learning Association of Australia Bienniel Forum \n" + 
+" ODP	B	IFIP International Conference on Open Distributed Processing \n" + 
+" ODSA	C	Optimal Discrete Structures and Algorithms \n" + 
+" OESSIOCCACOFT	C	Joint OECC, IOCC & ACOFT \n" + 
+" OLA	C	Workshop on On-Line Algorithms \n" + 
+" ONWARD	C	Onward Software Engineering \n" + 
+" OODBS	C	Workshop on Object-Oriented Database Systems \n" + 
+" OOIS	C	International Conference on Object Oriented Information Systems \n" + 
+" OOPSLA	A	ACM Conference on Object Oriented Programming Systems Languages and Applications \n" + 
+" OP	C	SIAM Conference on Optimization \n" + 
+" OPENARCH	A	IEEE Conference on Open Architecture and Network Programming \n" + 
+" OPENSYM	C	International Symposium on Open Collaboration  \n" + 
+" OPODIS	B	International Conference on Principles of Distributed Systems \n" + 
+" ORDAL	C	Conference on Orders, Algorithms and Applications \n" + 
+" ORGSEM	B	The organizational semiotics Conference \n" + 
+" ORPA	C	Conference on Operational Research Practice in Africa \n" + 
+" OSDI	A*	Usenix Symposium on Operating Systems Design and Implementation \n" + 
+" OTA	C	Optimization: Techniques And Applications \n" + 
+" OZCHI	NA	Australian Computer Human Interaction Conference \n" + 
+" OZWIT	NA	Australian Women in IT Conference \n" + 
+" P2P	C	IEEE International Conference on Peer to Peer Computing \n" + 
+" P2PECON	C	Workshop on Economics of Peer-to-Peer Systems \n" + 
+" PAAM	C	Practical Application of Intelligent Agents and Multi-Agent Technology Conference \n" + 
+" PAAMS	B	Practical Applications of Agents and Multiagent Systems \n" + 
+" PACBB	NA	International Conference on Practical Applications of Computational Biology & Bioinformatics \n" + 
+" PACCS	NA	Post-Graduate ADFA Conference on Computer Science \n" + 
+" PACES	B	Pacific Asian Conference on Expert Systems \n" + 
+" PACIFICVIS	B	IEEE Pacific Visualization Symposium  \n" + 
+" PACIS	A	Pacific Asia Conference on Information Systems \n" + 
+" PACLIC	B	Pacific Asia Conference on Language, Information and Computation \n" + 
+" PACLING	B	Conference of the Pacific Association for Computational Linguistics \n" + 
+" PACT	B	International Conference on Parallel Architecture and Compilation Techniques \n" + 
+" PADD	C	Workshop on Parallel and Distributed Debugging ACM/ONR \n" + 
+" PADL	B	Practical Aspects of Declarative Languages \n" + 
+" PADO	C	Symposium on Programs as Data Objects \n" + 
+" PADS	B	ACM SIGSIM Conference on Principles of Advanced Discrete Simulation  \n" + 
+" PAIRING	C	International Conference on Pairing-based Cryptography \n" + 
+" PAKDD	A	Pacific-Asia Conference on Knowledge Discovery and Data Mining \n" + 
+" PAM	B	Passive and Active Measurement Conference \n" + 
+" PAPPACT	C	Practical Aspects of PROLOG/Constraint Technology \n" + 
+" PARAFPGA	C	Parallel Computing with FPGAs \n" + 
+" PARCO	C	Parallel Computing \n" + 
+" PASTE	B	ACM SIGSOFT Workshop on Program Analysis for Software Tools and Engineering \n" + 
+" PATAT	B	Practice and Theory of Automated Timetabling \n" + 
+" PAWEC	C	Pacific-Asia Workshop on Electronic Commerce \n" + 
+" PC	C	Workshop on Physics and Computation \n" + 
+" PCM	C	Pacific-Rim Conference on Multimedia \n" + 
+" PCNS	C	SPIE Conference on Performance and Control of Network Systems \n" + 
+" PCS	C	International Picture Coding Symposium \n" + 
+" PCW	C	International Parallel Computing Workshop \n" + 
+" PDC	B	Participatory Design Conference \n" + 
+" PDCAT	C	International Conference on Parallel and Distributed Computing, Applications and Technologies \n" + 
+" PDCN	C	IASTED International Conference on Parallel and Distributed Computing and Networks  \n" + 
+" PDCS	C	IASTED International Conference on Parallel and Distributed Computing and Systems  \n" + 
+" PDIS	C	Parallel and Distributed Information Systems \n" + 
+" PDK	C	Processing Declarative Knowledge, International Workshop \n" + 
+" PDP	C	Euromicro International Conference on Parallel, Distributed and Network Based Processing \n" + 
+" PDPTA	NA	International Conference on Parallel and Distributed Processing Techniques and Applications \n" + 
+" PECCON	C	Joint AUPEC & EECON  \n" + 
+" PEPM	C	ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation \n" + 
+" PERCOM	A*	IEEE International Conference on Pervasive Computing and Communications \n" + 
+" PERDIS	B	INTERNATIONAL SYMPOSIUM ON PERVASIVE DISPLAYS \n" + 
+" PERFORMANCE	B	IFIP International Symposium on Computing Performance, Modelling, Measurement and Evaluation \n" + 
+" PERSUASIVE	B	International Conference on Persuasive Technology \n" + 
+" PERVASIVE	A*	International Conference on Pervasive Computing  \n" + 
+" PETRINETS	B	International Conference on the Application and Theory of Petri Nets and Concurrency \n" + 
+" PETS	A	Privacy Enhancing Technologies Symposium  \n" + 
+" PG	NA	Pacific Conference on Computer Graphics and Applications \n" + 
+" PGT	C	Workshop on Probabilistic Graph Theory \n" + 
+" PHYSDES	C	International Symposium on Physical Design \n" + 
+" PI	C	PACES & ICIL \n" + 
+" PIA	C	Workshop on New Technologies for Personalized Information Access \n" + 
+" PICMET	A	Portland International Center for Management of Engineering and Technology Conference \n" + 
+" PIMRC	B	IEEE International Symposium on Personal and Indoor Mobile Radio Conference \n" + 
+" PKAW	B	Pacific Rim Knowledge Acquisition Workshop \n" + 
+" PKC	B	International Conference on Practice and Theory in Public Key Cryptography \n" + 
+" PKI	C	Annual PKI R&D Workshop \n" + 
+" PLANX	C	Programming Language Techniques for XML \n" + 
+" PLATE	C	Practices of Linking Aspect Technology and Evolution \n" + 
+" PLDI	A*	ACM-SIGPLAN Conference on Programming Language Design and Implementation \n" + 
+" PLEA	A	Passive and Low Energy Architecture  Annual International Conference \n" + 
+" PLILP	B	Symposium on Programming Language Implementation and Logic Programming \n" + 
+" PLOP	B	Pattern Languages of Programs \n" + 
+" PLOS	C	Workshop on Programming Languages and Operating Systems \n" + 
+" PMIP	C	IEEE Pacific-Rim Conference on Multimedia \n" + 
+" PMOZ	B	Project Management conference \n" + 
+" PODC	A*	ACM Symposium on Principles of Distributed Computing \n" + 
+" PODS	A*	ACM SIGMOD-SIGACT-SIGART Conference on Principles of Database Systems \n" + 
+" POEM	NA	IFIP WG8.1 Working Conference on the Practice of Enterprise Modeling \n" + 
+" POPL	A*	ACM-SIGACT Symposium on Principles of Programming Languages \n" + 
+" POST	NA	International Conference on Principles of Security and Trust \n" + 
+" PPAM	NA	International Conference on Parallel Processing and Applied Mathematics \n" + 
+" PPCIS	C	Pan Pacific Conference on Information Systems \n" + 
+" PPDP	C	International Conference on Principles and Practice of Declarative Programming \n" + 
+" PPIG	B	Annual PPIG Workshop \n" + 
+" PPOPP	A	Principles and Practice of Parallel Programming \n" + 
+" PPRES	A	Pacific Rim Real Estate Conference \n" + 
+" PPSN	A	Parallel Problem Solving from Nature \n" + 
+" PQCRYPTO	C	International Workshop on Post-Quantum Cryptography \n" + 
+" PRC	B	UK Ireland Planning Research Conference \n" + 
+" PRDC	B	Pacific Rim International Symposium on Dependable Computing \n" + 
+" PRICAI	B	Pacific Rim International Conference on Artificial Intelligence \n" + 
+" PRIMA	B	International Conference on Principles of Practice in Multi-Agent Systems  \n" + 
+" PRIS	C	International Workshop on Pattern Recognition in Information Systems \n" + 
+" PROBE	C	Postgraduate Researchers of the Built and Natural Environment Conference \n" + 
+" PROFES	B	Product Focused Software Process Improvement \n" + 
+" PROJMAN	NA	ProjMAN - International Conference on Project MANagement \n" + 
+" PROMAS	B	International Workshop Programming Multi-Agent Systems  \n" + 
+" PROSIM	B	International Workshop on Software Process Simulation and Modelling  \n" + 
+" PROVE	C	IFIP Working Conferences on Virtual Enterprises \n" + 
+" PROVSEC	B	International Conference on Provable Security \n" + 
+" PSB	NA	Pacific Symposium on Biocomputing \n" + 
+" PSC	NA	Prague Stringology Conference \n" + 
+" PSD	C	Privacy in Statistical Databases \n" + 
+" PSI	NA	Ershov Conference \n" + 
+" PSIVT	B	Pacific-Rim Symposium on Image and Video Technology \n" + 
+" PSOR	C	International Conference on Probability, Statistics and Operational Research \n" + 
+" PST	C	Annual Conference on Privacy, Security and Trust \n" + 
+" PT	A	Performance Tools - International Conference on Model Techniques & Tools for CPE \n" + 
+" PVW	C	Program Visualization Workshop \n" + 
+" QIP	C	Workshop on Quantum Information Processing \n" + 
+" QOIS	C	International Workshop on Quality of Information Systems \n" + 
+" QOSA	B	Conference on the Quality of Software Architectures \n" + 
+" QRS	B	Software Quality, Reliability, and Security  \n" + 
+" QSHINE	C	International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness  \n" + 
+" QSIC	C	Quantity Surveying International Convention \n" + 
+" QUALIT	B	International Conference on Qualitative Research in IT & IT in Qualitative Research \n" + 
+" QUANTCOM	C	International Conference on Experimental Implementation of Quantum Computation \n" + 
+" QUATIC	C	International Conference on the Quality of Information and Communications Technology \n" + 
+" QUOVADISCRYPTOLOGY	C	International Workshop on the Sate of the Art in Cryptology and New Challenges Ahead \n" + 
+" RAID	A	The International Symposium on Research in Attacks, Intrusions and Defenses  \n" + 
+" RAITA	C	International Conference on Recent Advances in Information Technology and Applications \n" + 
+" RAMICS	C	International Conference on Relational and AlgebraicMethods in Computer Science  \n" + 
+" RAMSE	C	Reflection, AOP and Meta-Data for Software Evolution \n" + 
+" RANDOM	A	International Workshop on Randomization and Computation \n" + 
+" RANLP	NA	International Conference on Recent Advances in Natural Language Processing \n" + 
+" RAOOL	C	Relationships and Associations in Object-Oriented Languages \n" + 
+" RBAC	C	ACM Workshop on Role Based Access Control  \n" + 
+" RCIS	B	International Conference on Research Challenges in Information Science \n" + 
+" RE	A	IEEE International Requirements Engineering Conference \n" + 
+" REBSE	C	International Workshop on Realising Evidence-based Software Engineering \n" + 
+" RECOMB	B	International Conference on Computational Molecular Biology \n" + 
+" RECSYS	A	ACM International Conference on Recommender Systems \n" + 
+" REDUNDANCY	NA	International Symposium Problems of Redundancy in Information and Control Systems \n" + 
+" REES	A	Research in Engineering Education Symposium \n" + 
+" REFSQ	B	International Workshop on Requirements Engineering: Foundation for Software Quality \n" + 
+" REV	B	International Workshop on Requirements Engineering Visualization \n" + 
+" RFF	C	International Conference on CAD/CAM, Robotics and Factories of the Future \n" + 
+" RFIDSEC	C	Conference on RFID Security \n" + 
+" RIDE	B	International Workshop on Research Issues in Data Engineering \n" + 
+" RM	C	IASTED International Conference on Robotics and Manufacturing \n" + 
+" ROBOCUP	B	Robot Soccer World Cup \n" + 
+" ROCOM	C	WSEAS International Conference on Robotics, Control and Manufacturing Technology \n" + 
+" ROGICS	C	International Conference on Relations, Orders and Graphs: Interaction with Computer Science \n" + 
+" ROVISP	NA	International Conference on Robotics, Vision, Signal Processing and Power Applications  \n" + 
+" RS	C	Annual Convention for Survey, Mapping and Remote Sensing \n" + 
+" RSP	C	IEEE International Symposium on Rapid System Prototyping  \n" + 
+" RSS	A*	Robotics: Science and Systems \n" + 
+" RTA	A	International Conference on Rewriting Techniques and Applications  \n" + 
+" RTAS	A	IEEE Real-Time and Embedded Technology and Applications Symposium \n" + 
+" RTCSA	B	International Conference on Embedded and Real Time Computing Systems and Applications \n" + 
+" RTDB	C	Workshop on Real-Time Databases \n" + 
+" RTNS	NA	International Conference on Real-Time and Network Systems \n" + 
+" RTSS	NA	Real Time Systems Symposium \n" + 
+" RULEML	B	RuleML: International Web Rule Symposium  \n" + 
+" RULEMLRR	B	International Joint Conference on Rules and Reasoning \n" + 
+" RV	B	International Conference on Runtime Verification  \n" + 
+" SABERC	C	South African Construction Health and Safety conference \n" + 
+" SAC	B	ACM Symposium on Applied Computing \n" + 
+" SACI	NA	International Symposium on Applied Computational Intelligence and Informatics \n" + 
+" SACMAT	C	ACM Symposium on Access Control Models and Technologies  \n" + 
+" SAFECOMP	B	International Conference on Computer Safety, Reliability and Security \n" + 
+" SAFEPROCESS	C	IFAC Symposium on Fault Detection, Supervision and Safety of Technical Processes \n" + 
+" SAGA	C	Symposium on Stochastic Algorithms, Foundations and Applications \n" + 
+" SAGT	B	International Symposium on Algorithmic Game Theory \n" + 
+" SAHANZ	A	Society of Architectural Historians, Australia and New Zealand  Annual Conference \n" + 
+" SAICSIT	C	Conference of South African Institute of Computer Scientists and Information Technologists \n" + 
+" SAIGTC	C	South African International Graph Theory Conference \n" + 
+" SAINT	C	International Symposium on Applications and the Internet \n" + 
+" SAMI	NA	International Symposium on Applied Machine Intelligence and Informatics \n" + 
+" SAMT	C	International Conference on Semantic and Digital Media Technologies \n" + 
+" SANER	A	IEEE International Conference on Software Analysis, Evolution and Reengineering \n" + 
+" SARA	B	Symposium on Abstraction, Reformulation and Approximation \n" + 
+" SARSSI	C	Conference on Security in Network Architectures and Information Systems \n" + 
+" SAS	B	Static Analysis Symposium \n" + 
+" SASC	C	State of the Art of Stream Ciphers \n" + 
+" SASHIMI	C	Simulation and Synthesis in Medical Imaging \n" + 
+" SAT	A	International Conference on Theory and Applications of Satisfiability Testing \n" + 
+" SB	C	World Sustainable Building Conference \n" + 
+" SBACPAD	B	International Symposium on Computer Architecture and High Performance Computing \n" + 
+" SBBD	C	Brazilian Symposium on Databases \n" + 
+" SBSEA	C	SEA - Conference on Sustainable Building South-East Asia  \n" + 
+" SBSEG	C	Brazilian Symposium on Information and Computer Systems Security \n" + 
+" SC	B	International Conference on Software Composition \n" + 
+" SCA	B	ACM SIGGRAPH/Eurographics Symposium on Computer Animation \n" + 
+" SCAI	B	Scandinavian Conference on Artificial Intelligence \n" + 
+" SCAM	C	IEEE International Workshop on Source Code Analysis and Manipulation \n" + 
+" SCC	C	IEEE International Conference on Services Computing \n" + 
+" SCCG	C	Spring Conference on Computer Graphics \n" + 
+" SCCGIV	C	Soft Computing in Computer Graphics, Imaging, and Vision \n" + 
+" SCMT	B	International Conference on Sustainable Construction Materials and Technologies \n" + 
+" SCN	NA	Conference on Security and Cryptography for Networks \n" + 
+" SCOPES	C	International Workshop on Software and Compilers for Embedded Systems \n" + 
+" SCSC	B	Summer Computer Simulation Conference \n" + 
+" SCSS	NA	Australian Workshop on Safety Critical Systems and Software \n" + 
+" SCW	C	IEEE Workshop on Speech Coding \n" + 
+" SDH	C	International Symposium on Spatial Data Handling \n" + 
+" SDM	A	SIAM International Conference on Data Mining \n" + 
+" SDSDI	A	Unix Symposium on Operating Systems Design and Implementation  \n" + 
+" SE	C	IASTED International Conference on Software Engineering  \n" + 
+" SEA	C	International Symposium on Experimental Algorithms \n" + 
+" SEAA	B	Euromicro Conference on Software Engineering and Advanced Applications \n" + 
+" SEAL	B	Asia-Pacific Conference on Simulated Evolution and Learning \n" + 
+" SEAMS	A	International Symposium on Software Engineering for Adaptive and Self-Managing Systems \n" + 
+" SEARCH	C	Search: Workshop on Search, Sorting and Coding \n" + 
+" SEB	A	International Conference on Sustainability in Energy and Buildings \n" + 
+" SEBD	C	Italian Symposium on Advanced Database Systems \n" + 
+" SEC	NA	ACM/IEEE Symposium on Edge Computing \n" + 
+" SECON	B	IEEE International Conference on Sensing, Communication and Networking \n" + 
+" SECOVAL	C	IEEE International Workshop on the Value of Security through Collaboration \n" + 
+" SECRYPT	B	International Conference on Information Security and Cryptography \n" + 
+" SECURECOMM	C	International Conference on Security and Privacy for Communication Networks \n" + 
+" SEE	C	The Conference on visualization of information \n" + 
+" SEEP	B	International Conference on Software Engineering: Education and Practice  \n" + 
+" SEFM	B	International Conference on Software Engineering and Formal Methods \n" + 
+" SEHPC	C	International Workshop on Software Engineering for High Performance Computing Applications \n" + 
+" SEIT	NA	International Conference on Sustainable Energy Information Technology  \n" + 
+" SEKE	B	International Conference on Software Engineering and Knowledge Engineering \n" + 
+" SEMANTICS	NA	Semantics - International Conference on Semantic Systems \n" + 
+" SENSORNETWORKS	C	Sensor Networks \n" + 
+" SENSYS	A*	ACM Conference on Embedded Networked Sensor Systems \n" + 
+" SERA	C	ACIS Conference on Software Engineering Research, Management and Applications \n" + 
+" SERVICES	B	IEEE Congress on Services \n" + 
+" SETA	B	International Conference on Sequences and their Applications \n" + 
+" SETE	C	Systems Engineering / Test and Evaluation Conference \n" + 
+" SETIT	NA	International Conference: Sciences of Electronics, Technologies of information and Telecommunication \n" + 
+" SETN	C	Hellenic Conference on Artificial Intelligence \n" + 
+" SETP	C	International Conference on Software Engineering Theory and Practice \n" + 
+" SETTA	NA	International Symposium on Software Engineering: Theories, Tools, and Applications \n" + 
+" SEVIZ	C	Visualization in Software Engineering \n" + 
+" SEW	C	IEEE Software Engineering Workshop \n" + 
+" SFP	C	Scottish Functional Programming Workshop \n" + 
+" SGAI	NA	SGAI International Conference on Artificial Intelligence \n" + 
+" SGP	B	Symposium on Geometry Processing \n" + 
+" SHARCS	C	Special-purpose Hardware for Attacking Cryptographic Systems \n" + 
+" SIBGRAPI	C	Brazilian Symposium on Computer Graphics and Image Processing \n" + 
+" SIBRAGEC	B	International Construction Management and Economics Conference \n" + 
+" SIDEKIC	C	Workshop on Scientific Knowledge, Information, and Computing \n" + 
+" SIEDS	C	IEEE Systems and Information Engineering Design Symposium \n" + 
+" SIGCHINZ	NA	International NZ Conference on Computer-Human Interaction  \n" + 
+" SIGCOMM	A*	ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication \n" + 
+" SIGCSE	A	ACM Special Interest Group on Computer Science Education Conference \n" + 
+" SIGDIAL	B	Annual Meeting of the Special Interest Group on Discourse and Dialog \n" + 
+" SIGGRAPH	A*	ACM SIG International Conference on Computer Graphics and Interactive Techniques \n" + 
+" SIGGRAPHA	NA	SIGGRAPH Asia \n" + 
+" SIGIR	A*	ACM International Conference on Research and Development in Information Retrieval \n" + 
+" SIGIRXML	C	ACM SIGIR Workshop on XML and Information Retrieval \n" + 
+" SIGITE	NA	ACM Information Technology Education \n" + 
+" SIGLEX	C	Lexical Semantics and Knowledge Representation \n" + 
+" SIGMETRICS	A*	Measurement and Modeling of Computer Systems \n" + 
+" SIGMOD	A*	ACM Special Interest Group on Management of Data Conference \n" + 
+" SIGOA	C	Conference on Office Information Systems \n" + 
+" SIGOPSEW	C	ACM SIGOPS European Workshops \n" + 
+" SIGSPATIAL	A	ACM International Conference on Advances in Geographic Information Systems \n" + 
+" SIGUCCS	NA	ACM SIGUCCS Conference on User Services \n" + 
+" SIMTECT	NA	Simulation Technology and Training Conference \n" + 
+" SIMULTECH	C	International Conference on Simulation and Modeling Methodologies, Technologies and Applications \n" + 
+" SIN	C	International Conference on Security of Information and Networks \n" + 
+" SIP	C	IASTED International Conference on Signal and Image Processing  \n" + 
+" SIRC	C	Spatial Information Research Centre Colloquium \n" + 
+" SIROCCO	B	International Colloquium on Structural Information and Communication Complexity \n" + 
+" SISAP	B	International Conference on Similarity Search and Applications \n" + 
+" SIST	C	Spatial Information Science and Technology Conference \n" + 
+" SISW	C	International IEEE Security in Storage Workshop \n" + 
+" SISY	NA	International Symposium on Intelligent Systems and Informatics \n" + 
+" SITE	C	Society for Information Technology and Teacher Education Conference  \n" + 
+" SKG	NA	International Conference on Semantics Knowledge and Grid \n" + 
+" SLE	B	International Conference on Software Language Engineering \n" + 
+" SLS	C	Stochastic Local Search Algorithms \n" + 
+" SMC	B	IEEE Conference on Systems, Man and Cybernetics \n" + 
+" SMS	A	IEEE International Symposium on Software Metrics  \n" + 
+" SNPD	C	International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing \n" + 
+" SOAC	A	State of Australian Cities  Conference \n" + 
+" SOCA	C	IEEE International Conference on Service-Oriented Computing and Applications \n" + 
+" SOCASE	C	Workshop on Service Oriented Computing \n" + 
+" SOCCER	C	Service Oriented Computing: Consequences for Engineering Requirements \n" + 
+" SOCG	A	International Symposium on Computational Geometry \n" + 
+" SOCGMA	C	Symposium on Computational Geometry for Mechanics and Applications \n" + 
+" SOCS	B	The Symposium of Combinatorial Search \n" + 
+" SODA	A*	ACM/SIAM Symposium on Discrete Algorithms \n" + 
+" SOFA	NA	International Workshop on Soft Computing Applications \n" + 
+" SOFSEM	B	Current Trends in Theory and Practice of Computer Science \n" + 
+" SOFTCOM	NA	Conference on Software in Telecommunications and Computer Networks \n" + 
+" SOMET	C	International Conference on Intelligent Software Methodologies, Tools, and Techniques  \n" + 
+" SOSP	A*	ACM SIGOPS Symposium on Operating Systems Principles \n" + 
+" SOUPS	B	Symposium On Usable Privacy and Security \n" + 
+" SP	A*	IEEE Symposium on Security and Privacy \n" + 
+" SPAA	A	Symposium on Parallelism in Algorithms and Architectures \n" + 
+" SPDS	C	ACM Symposium on Principles of Database Systems \n" + 
+" SPEC	C	Workshop on Security and Privacy in e-Commerce \n" + 
+" SPEED	C	Software Performance Enhancement for Encryption and Decryption \n" + 
+" SPICE	C	Software Process Improvement and Capability Determination  \n" + 
+" SPICIS	B	Singapore International Conference on Intelligent Systems \n" + 
+" SPIRE	B	International Symposium on String Processing and Information Retrieval \n" + 
+" SPLC	B	Software Product Lines Conference \n" + 
+" SPM	B	ACM Symposium on Solid and Physical Modelling \n" + 
+" SQC	C	Software Quality Conference \n" + 
+" SQM	C	International Conference on Software Quality Management \n" + 
+" SRDS	B	Symposium on Reliable Distributed Systems \n" + 
+" SREIS	C	Symposium on Requirements Engineering for Information Security \n" + 
+" SRIGET	C	Software Education Conference \n" + 
+" SRMD	C	Storage and Retrieval for Media Databases  \n" + 
+" SSBSE	B	International Symposium on Search Based Software Engineering \n" + 
+" SSDBM	B	International Conference on Scientific and Statistical Data Base Management \n" + 
+" SSGRR	C	International Conference on Advances in Infrastructure for Electronic Business, Science, and Education on the Internet \n" + 
+" SSNDS	C	IEEE International Symposium on Security in Networks and Distributed Systems \n" + 
+" SSPR	B	Structural and Syntactical Pattern Recognition \n" + 
+" SSR	A	ACM Symposium on Software Reusability  \n" + 
+" SSS	C	Symposium on Stabilization, Safety, and Security of Distributed Systems \n" + 
+" SSSC	C	IFAC Conference on System Structure and Control \n" + 
+" SST	NA	Australasian Speech Science and Technology \n" + 
+" SSTD	B	International Symposium on Spatial and Temporal Databases \n" + 
+" STACS	A	International Symposium on Theoretical Aspects of Computer Science \n" + 
+" STC	B	ACM Workshop on Scalable Trusted Computing \n" + 
+" STEP	B	Software Technology and Engineering Practice Conference \n" + 
+" STM	C	International Conference on Systems Thinking in Management \n" + 
+" STOC	A*	ACM Symposium on Theory of Computing \n" + 
+" STYLE	C	SIGIR workshop: Stylistic Analysis of Text For Information Access \n" + 
+" SUGARLOAFPLOP	C	Latin American Conference on Pattern Languages of Programming \n" + 
+" SWAT	B	Scandinavian Workshop on Algorithm Theory \n" + 
+" SWDC	B	International Conference on Software Development \n" + 
+" SWOD	C	IEEE International Workshop on Databases for Next-Generation Researchers \n" + 
+" SWS	C	ACM Workshop on Secure Web Services \n" + 
+" SWWS	C	The International Conference on Semantic Web and Web Services \n" + 
+" SYNASC	NA	International Symposium on Symbolic and Numeric Algorithms for Scientific Computing \n" + 
+" SYSCON	C	IEEE Systems Conference \n" + 
+" SYSTOR	NA	The ACM International System and Storage Conference \n" + 
+" TABLEAUX	B	International Conference on Theorem Proving with Analytic Tableaux and Related Methods \n" + 
+" TACAS	A	Tools and Algorithms for Construction and Analysis of Systems \n" + 
+" TACS	C	International Conference on Theory and Applications of Computational Science \n" + 
+" TAI	C	TAI: Algorithmic Information Theory: Kolmogorov Complexity \n" + 
+" TAKMA	C	Theory and Applications of Knowledge MAnagement \n" + 
+" TALN	C	Traitement Automatique des Langues Naturelles \n" + 
+" TAMC	B	Conference on Theory and Applications of Models of Computation \n" + 
+" TAP	C	International Conference on Tests and Proofs \n" + 
+" TAPIA	NA	Richard Tapia Celebration of Diversity in Computing Conference \n" + 
+" TAPSOFT	C	International Joint Conference CAAP/FASE on Theory and Practice of Software Development \n" + 
+" TARK	A	Theoretical Aspects of Rationality and Knowledge \n" + 
+" TASE	NA	International Symposium on Theoretical Aspects of Software Engineering \n" + 
+" TCC	A	Theory of Cryptography Conference \n" + 
+" TDB	C	International Workshop on Temporal Databases \n" + 
+" TE	C	International Conference on Technology Education \n" + 
+" TECHDEBT	NA	International Conference on Technical Debt \n" + 
+" TEI	NA	Tangible, Embedded, and Embodied Interaction \n" + 
+" TENCON	C	IEEE Tencon  \n" + 
+" TGGT	C	Topological and Geometric Graph Theory \n" + 
+" TIDSE	C	Technology for Interactive Digital Storytelling  \n" + 
+" TIME	B	International Symposium on Temporal Representation and Reasoning \n" + 
+" TIPPI	C	Trustworthy Interfaces for Passwords and Personal Information workshop \n" + 
+" TLDI	C	ACM SIGPLAN Workshop on Types in Language Design and Implementation  \n" + 
+" TMFCS	C	International Conference on Theoretical and Mathematical Foundations of Computer Science \n" + 
+" TMI	B	International Conference on Theoretical and Methodological Issues in machine Translation \n" + 
+" TOOLS	B	Technology of Object-Oriented Languages and Systems \n" + 
+" TPDL	B	International Conference on Theory and Practice of Digital Libraries  \n" + 
+" TPGT	C	Techniques and Problems in Graph Theory \n" + 
+" TRB	A	Transportation Research Board  Annual Meeting \n" + 
+" TREC	A	Text Retrieval Conference \n" + 
+" TRIADA	C	Annual International Conference on Ada \n" + 
+" TRIDENTCOM	NA	Testbeds and Research Infrastructures for the Development of Networks and Communities \n" + 
+" TRUSTBUS	NA	International Conference on Trust, Privacy and Security in Digital Business \n" + 
+" TRUSTCOM	B	International Conference on Trust, Security and Privacy in Computing and Communications \n" + 
+" UAI	A	Conference in Uncertainty in Artificial Intelligence \n" + 
+" UBICOMM	C	International Conference on Mobile Ubiquitous Computing, Systems, Services and Technologies \n" + 
+" UBICOMP	NA	ACM International Joint Conference on Pervasive and Ubiquitous Computing  \n" + 
+" UC	C	International Conference on Unconventional Computation and Natural Computation  \n" + 
+" UCC	NA	Utility and Cloud Computing \n" + 
+" UHPH	B	Urban History Planning History  \n" + 
+" UIC	B	International Conference on Ubiquitous Intelligence and Computing \n" + 
+" UIST	A*	ACM Symposium on User Interface Software and Technology \n" + 
+" UKAIS	C	UK Academy of Information Systems Conference \n" + 
+" UKESCIENCE	C	UK e-Science All Hands Meeting \n" + 
+" UKSS	B	United Kingdom Systems Society \n" + 
+" UMAP	B	International Conference on User Modelling, Adaptation, and Personalization  \n" + 
+" UMC	B	Unconventional Models of Computation \n" + 
+" UNSAT	A	International conference on unsaturated soils \n" + 
+" UNSATASIAN	A	Asian-Pacific conferences on unsaturated soils \n" + 
+" USEC	NA	Usable Security and Privacy \n" + 
+" USENIX	A	Usenix Annual Technical Conference \n" + 
+" USENIXEC	C	USENIX Workshop on Electronic Commerce \n" + 
+" USENIXSECURITY	A*	Usenix Security Symposium \n" + 
+" USITS	A	Unix Symposium on Internet Technologies \n" + 
+" UWACS	NA	University of Western Australia Computer Science Research Conference \n" + 
+" UWNTS	C	USENIX Windows NT Symposium \n" + 
+" VCIP	B	IEEE International Conference on Visual Communications and Image Processing  \n" + 
+" VDA	NA	Conference on Visualization and Data Analysis \n" + 
+" VDBS	B	IFIP Working Conference on Visual Database Systems \n" + 
+" VDEA	C	SPIE Conference on Visual Data Exploration and Analysis \n" + 
+" VECOS	C	The International Conference on Verification and Evaluation of Computer and Communication Systems  \n" + 
+" VECPAR	B	International Meeting on High Performance Computing for Computational Science  \n" + 
+" VEE	B	International Conference on Virtual Execution Environments \n" + 
+" VEHITS	C	International Conference on Vehicle Technology and Intelligent Transport Systems \n" + 
+" VI	C	Vision Interface \n" + 
+" VIIP	C	IASTED International Conference on Visualization, Imaging, and Image Processing \n" + 
+" VIKINGPLOP	C	Nordic Conference on Pattern Languages of Programs \n" + 
+" VINCI	C	Visual Information Communication and Interaction \n" + 
+" VIP	C	Pan-Sydney Area Workshop on Visual Information Processing \n" + 
+" VISAPP	C	International Conference on Vision Theory and Applications  \n" + 
+" VISIGRAPP	B	Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications  \n" + 
+" VISPLE	C	Visualization in Software Product Lines Workshop \n" + 
+" VISSOFT	B	IEEE International Working Conference on Software Visualisation \n" + 
+" VISUAL	C	International Conference on Visual Information Systems \n" + 
+" VISUALIZE	C	ENVI and IDL Data Analysis and Visualization Symposium \n" + 
+" VIZSEC	C	International Workshop on Visualization for Cyber Security \n" + 
+" VLDB	A*	International Conference on Very Large Databases \n" + 
+" VLFM	C	Visual Languages and Formal Methods \n" + 
+" VLHCC	B	IEEE Symposium on Visual Languages and Human-Centric Computing  \n" + 
+" VLSI	A	Symposia on VLSI Technology and Circuits \n" + 
+" VLSIC	A	IEEE Symposium on VLSI Circuits \n" + 
+" VLSID	NA	International Conference on VLSI Design \n" + 
+" VMCAI	B	Verification, Model Checking and Abstract Interpretation \n" + 
+" VR	A*	IEEE Conference on Virtual Reality and 3D User Interfaces \n" + 
+" VRSIG	C	United Kingdom Virtual Reality Special Interest Group Conference UK-VRSIG \n" + 
+" VRST	A	ACM Virtual Reality Software and Technology \n" + 
+" VSMM	B	International Conference on Virtual Systems and MultiMedia \n" + 
+" VSW	C	Semantic Web Visualisation \n" + 
+" VTC	B	IEEE Vehicular Technology Conference \n" + 
+" W2GIS	C	International Workshop on Web and Wireless Geographical Information Systems \n" + 
+" WAAAPL	C	Workshop on Algorithmic Aspects of Advanced Programming Languages \n" + 
+" WAAC	C	Japan-Korea Joint Workshop on Algorithms and Computations \n" + 
+" WABI	C	Workshop on Algorithms in Bioinformatics \n" + 
+" WACV	A	IEEE Workshop on Applications of Computer Vision \n" + 
+" WADS	B	Algorithms and Data Structures Symposium  \n" + 
+" WAE	B	Workshop on Algorithm Engineering \n" + 
+" WAFR	C	International Workshop on the Algorithmic Foundations of Robotics \n" + 
+" WAIFI	C	Workshop on the Arithmetic of Finite Fields \n" + 
+" WAIM	C	International Conference on Web-Age Information Management \n" + 
+" WAIS	B	International Workshop on Artificial Intelligence and Statistics \n" + 
+" WALCOM	B	International Conference and Workshops on Algorithms and Computation \n" + 
+" WAOA	B	Workshop on Approximation and Online Algorithms \n" + 
+" WARDS	C	IEEE Workshop on Advances in Techniques for Analysis of Remotely Sensed Data \n" + 
+" WARSEC	NA	Australian Information Warfare and Security Conference \n" + 
+" WASP	C	Workshop on Application Specific Processors \n" + 
+" WAW	C	Workshop on Algorithms And Models For The Web Graph \n" + 
+" WAWISR	NA	Western Australian Workshop on Information Systems Research \n" + 
+" WCAE	NA	Workshop on Computer Architecture Education \n" + 
+" WCAEBE	C	Accelerating excellence in the built environment World Conference \n" + 
+" WCAN	C	Workshop on Cryptography for Ad hoc Networks \n" + 
+" WCC	C	International Workshop on Coding and Cryptography \n" + 
+" WCCCE	C	Western Canadian Conference on Computing Education \n" + 
+" WCCE	C	World Conference on Computers in Education \n" + 
+" WCCI	A	IEEE World Congress on Computational Intelligence \n" + 
+" WCCM	A	World Congress on Computational Mechanics \n" + 
+" WCEAMIMS	C	World Congress on Engineering Asset Management \n" + 
+" WCES	B	World Congress on Expert Systems \n" + 
+" WCGTC	C	Workshop on Computational Graph Theory and Combinatorics \n" + 
+" WCNC	B	IEEE Wireless Communications and Networking Conference \n" + 
+" WCNN	B	World Congress on Neural Networks \n" + 
+" WCO	C	Workshop on Computational Optimization \n" + 
+" WCOP	C	Workshop on Component-Oriented Programming \n" + 
+" WCPM	B	World of Construction Project Management Conference \n" + 
+" WCRE	B	IEEE Working Conference on Reverse Engineering \n" + 
+" WCSN	C	IEEE Conference on Wireless Communication and Sensor Networks \n" + 
+" WCSS	B	World Congress on Systems Simulation \n" + 
+" WCTR	A	World Conference on Transport Research \n" + 
+" WCW	B	International Workshop on Web Content Caching and Distribution \n" + 
+" WD	C	Wireless Days \n" + 
+" WDAG	B	Workshop on Distributed Algorithms  \n" + 
+" WDAS	C	Workshop on Distributed Data and Structures \n" + 
+" WDDD	C	Workshop on Duplicating, Deconstructing, and Debunking \n" + 
+" WDSI	C	Western Decision Sciences Institute Conference \n" + 
+" WEA	B	International Workshop on Efficient Algorithms \n" + 
+" WEBDB	NA	International Workshop on the Web and Databases \n" + 
+" WEBIST	C	International Conference on Web Information Systems and Technologies \n" + 
+" WEBKDD	C	Workshop on Web Usage Analysis \n" + 
+" WEBNET	C	World Conference on the WWW and Internet \n" + 
+" WEBSIM	C	International Conference on Web-based Modelling and Simulation \n" + 
+" WEBVIZ	C	Web Visualization \n" + 
+" WEC	C	International Workshop on Entertainment Computing \n" + 
+" WETICE	C	International Workshops on Enabling Technologies: Infrastructures for Collaborative Enterprises \n" + 
+" WEWORC	C	Western European Workshop on Research in Cryptology \n" + 
+" WFLP	C	International Workshop on Functional and  Logic Programming \n" + 
+" WG	A	International Workshop on Graph-Theoretic Concepts in Computer Science \n" + 
+" WI	B	IEEE/WIC/ACM International Conference on Web Intelligence  \n" + 
+" WIC	NA	Australasian Women in Computing Workshop \n" + 
+" WICOM	C	International Conference on Wireless Communications, Networking and Mobile Computing \n" + 
+" WICON	C	International Wireless Internet Conference \n" + 
+" WICS	C	International Computer Symposium Workshop \n" + 
+" WIDM	B	ACM Workshop on Web Information and Data Management \n" + 
+" WIMESH	C	IEEE Workshop on Wireless Mesh Networks \n" + 
+" WIMOB	B	IEEE International Conference on Wireless and Mobile Computing, Networking and Communications \n" + 
+" WIMONE	C	International Workshop on Wireless and Mobile Networks \n" + 
+" WINCOM	NA	International Conference on Wireless Networks and Mobile Communications \n" + 
+" WINDSOR	A	Network for Comfort and Energy Use in Buildings Windsor Conference \n" + 
+" WIOPT	B	International Symposium on Modelling and Optimization in Mobile, Ad Hoc, and Wireless Networks \n" + 
+" WISA	NA	International Workshop on Information Security Applications \n" + 
+" WISE	B	International Conference on Web Information Systems Engineering \n" + 
+" WISM	C	International Workshop on Web Information Systems Modelling \n" + 
+" WISSEC	C	Benelux Workshop on Information and System Security \n" + 
+" WISTP	C	Workshop in Information Security Theory and Practices \n" + 
+" WITS	C	International Workshop on Issues in the Theory of Security \n" + 
+" WKDD	C	International Conference on Knowledge Discovery and Data Mining \n" + 
+" WMCS	C	International Workshop on Mobile Commerce and Services \n" + 
+" WMSCI	NA	World Multi-Conference on Systemics, Cybernetics and Informatics \n" + 
+" WOLLIC	B	Workshop on Logic, Language, Information and Computation \n" + 
+" WOOD	C	Workshop on Object-Oriented Development \n" + 
+" WOPP	C	IEEE International Conference on Parallel Processing Workshops \n" + 
+" WORDS	B	IEEE International Workshop on Object-Oriented Real-Time Dependable Systems \n" + 
+" WORLDCIST	C	World Conference on Information Systems and Technologies \n" + 
+" WORLDCOMP	NA	World Congress in Computer Science, Computer Engineering, and Applied Computing \n" + 
+" WOSIS	C	International Workshop on Security in Information Systems \n" + 
+" WOSQ	C	International Workshop on Software Quality \n" + 
+" WOTE	C	IAVoSS Workshop On Trustworthy Elections \n" + 
+" WOWMOM	B	IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks \n" + 
+" WPC	C	Workshop on Parameterized Complexity \n" + 
+" WPMC	C	International Symposium on Wireless Personal Multimedia Communications \n" + 
+" WRSO	C	Workshop on Robust Shape Operations \n" + 
+" WSC	B	Winter Simulation Conference \n" + 
+" WSCG	NA	International Conferences in Central Europe on Computer Graphics, Visualization and Computer Vision \n" + 
+" WSDM	A*	ACM International Conference on Web Search and Data Mining \n" + 
+" WSE	C	IEEE International Symposium on Web Systems Evolution \n" + 
+" WTASA	C	Workshop on Theoretical and Algorithmic Aspects of Sensor and Ad-hoc Networks \n" + 
+" WWCA	C	International Conference on Worldwide Computing and Its Applications \n" + 
+" WWIC	B	International Conference on Wired / Wireless Internet Communications \n" + 
+" WWW	A*	International World Wide Web Conference \n" + 
+" XP	B	Conference on Agile Software Development \n" + 
+" XSCHEMAS	C	International Workshop on Schema Languages for XML \n" + 
+" XSYM	C	International XML Database Symposium \n" + 

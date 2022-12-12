@@ -18,7 +18,7 @@
     "storage",
     "activeTab"
   ],
- "options_page": "popup.html",
+ "options_page": "options.html",
   "action": {
     "default_title": "Rapid Journal Quality Check",
     "default_popup": "popup.html",
