@@ -1,6 +1,8 @@
 chrome.runtime.onInstalled.addListener(function(details){
     
-    chrome.storage.local.set({
+  if( (details.reason == "install") || (details.reason === 'update' && details.previousVersion < '4.0.0') ) {
+         
+    chrome.storage.sync.set({
         ext_on: true,
         SJR: true,
         VHB: false,
@@ -17,5 +19,7 @@ chrome.runtime.onInstalled.addListener(function(details){
     });
      
     chrome.runtime.openOptionsPage();
+   
+  }
    
 });

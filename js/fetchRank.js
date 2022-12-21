@@ -8,7 +8,7 @@
 
 function fetchRank(node, title, compl, site, elid, author, settings) {
     
- chrome.storage.local.get(['CORE'], function(result) {
+ chrome.storage.sync.get(['CORE'], function(result) {
 /* if(result.CORE === true) { */
 
 if(1 === 1) {

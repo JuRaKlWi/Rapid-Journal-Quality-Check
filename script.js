@@ -2,7 +2,7 @@ scholar.rankSpanList.push(ccf.getRankSpan);
 
 function loadSettings() {
     return new Promise(function(resolve, reject) {
-        chrome.storage.local.get(function(items) {
+        chrome.storage.sync.get(function(items) {
             resolve(items);
          })
     });
