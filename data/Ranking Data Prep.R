@@ -355,6 +355,10 @@ Names.FullRank.txt <- c("ccf.FullRank_Names = \" ", c( paste(n, "\\", b, "/", co
                         apply(Names [1:19], 1, function(x) 
                         paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), " \" ")
 
+Names.FullRank.pop.txt <- c("let = FullRank_Names = \" ", c( paste(n, "\\", b, "/", collapse=" ", sep=""), "X_X"), 
+                        apply(Names [1:19], 1, function(x) 
+                          paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), " \" ")
+
 fileConn<-file("ccf.FullRank_Names.js")
 writeLines(Names.FullRank.txt, fileConn, sep="", useBytes=T)
 close(fileConn)
@@ -366,9 +370,29 @@ Acro.FullRank.txt <- c("ccf.FullRank_Acro = \" ", c( paste(n, "\\", b, "/", coll
                         apply(Acro [1:3], 1, function(x) 
                           paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), " \" ")
 
+Acro.FullRank.pop.txt <- c("let = FullRank_Acro = \" ", c( paste(n, "\\", b, "/", collapse=" ", sep=""), "X_X"), 
+                       apply(Acro [1:3], 1, function(x) 
+                         paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), " \" ")
+
 fileConn<-file("ccf.FullRank_Acro.js")
 writeLines(Acro.FullRank.txt, fileConn, sep="", useBytes=T)
 close(fileConn)
+
+
+#### Add Names- and Acronym-lists to the popup search functionality.
+
+file_contents <- readLines("../popup.js")
+
+start_index <- which(grepl("### ranking start ###", file_contents))
+end_index <- which(grepl("### ranking end ###", file_contents))
+
+file_contents <- paste( file_contents[-((start_index):(end_index))], collapse="\n" )
+file_contents <- c("/* ### ranking start ### */", "\n", Names.FullRank.pop.txt, "\n \n", Acro.FullRank.pop.txt, "\n", 
+                   "/* ### ranking end ### */", "\n \n", file_contents)
+
+# Write the modified file back to disk
+writeLines(file_contents, "../popup.js", sep="", useBytes=T)
+
 
 
 # Show all ranks
