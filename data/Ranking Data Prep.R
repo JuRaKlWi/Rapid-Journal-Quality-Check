@@ -75,6 +75,22 @@ VHB.red$VHB <- ifelse(VHB.red$VHB %in% c("k.R.", "k.w.Z."), NA, VHB.red$VHB)
 
 
 
+
+Meta <- as.data.frame( read_excel("Ranking Data/Meta_Rating_2023_Download.xlsx", skip=2) ) [,1:3]
+Meta$ISSN <- gsub("-", "", Meta$ISSN)
+Meta$'...3' <- gsub("Kategorie ", "", Meta$'...3')
+
+Meta$Title <- titel_prep_slim(Meta$Journal)
+Meta$Title2 <- titel_prep(Meta$Journal)
+
+Meta$Meta <- Meta$'...3'
+
+Meta.red <- Meta [,c("Title", "Title2", "Meta", "ISSN")]
+
+table(Meta.red$Meta)
+
+
+
 FNEGE <- as.data.frame( read_excel("Ranking Data/FNEGE.xlsx") )
 FNEGE$ISSN_Offline <- gsub("-", "", FNEGE$ISSN_Offline)
 FNEGE$ISSN_Online <- gsub("-", "", FNEGE$ISSN_Online)
@@ -261,21 +277,43 @@ ISSNs <- merge(ISSNs, CORE_jour.red [!duplicated(CORE_jour.red$ISSN), !(colnames
 ISSNs <- merge(ISSNs, DAEN.red [!duplicated(DAEN.red$ISSN), !(colnames(DAEN.red) %in% c("Title", "Title2"))], all.x=T, by="ISSN", sort=F)
 ISSNs <- merge(ISSNs, ABS.red [!duplicated(ABS.red$ISSN), !(colnames(ABS.red) %in% c("Title", "Title2"))], all.x=T, by="ISSN", sort=F)
 ISSNs <- merge(ISSNs, ABDC.red [!duplicated(ABDC.red$ISSN), !(colnames(ABDC.red) %in% c("Title", "Title2"))], all.x=T, by="ISSN", sort=F)
+ISSNs <- merge(ISSNs, Meta.red [!duplicated(Meta.red$ISSN), !(colnames(Meta.red) %in% c("Title", "Title2"))], all.x=T, by="ISSN", sort=F)
 
 ISSNs <- merge(ISSNs, ISSNs_Title, all.x=T, by="ISSN", sort=F)
 ISSNs <- ISSNs [(order(ISSNs$Title)), ]
 ISSNs <- ISSNs [!duplicated(ISSNs$ISSN), ]
 
+ISSNs$ISSN <- gsub(" ", "", ISSNs$ISSN)
+ISSNs <- ISSNs [-which(ISSNs$ISSN %in% c("", NA, "-", ".", "keine", "verschiedeneISBN", "encours")), ]
+ISSNs$ISSN <- trimws(ISSNs$ISSN, which="b")
+ISSNs$ISSN <- str_replace_all(ISSNs$ISSN, "[^[:alnum:]]", "")
+
+
+# Compressing lists by putting journals with the exaxt same ratings into one row 
+ISSNs_comp <- as.data.table(ISSNs)
+ISSNs_comp$id <- 1:NROW(ISSNs_comp$ISSN)
+
+ISSNs_comp2 <- ISSNs_comp [, `:=` (dup = seq_len(.N) > 1, ref = first(id)), 
+                           by = c( names(ISSNs_comp) [c(2,4:(NCOL(ISSNs_comp)-2))] ) ] [dup == FALSE, ref := NA]
+ISSNs_comp2$ref [is.na(ISSNs_comp2$ref)] <- ISSNs_comp2$id [is.na(ISSNs_comp2$ref)]
+ISSNs_comp2$ISSN_Hindex <- paste0(ISSNs_comp2$ISSN, "\\0/", ISSNs_comp2$SJR_Hindex, sep="")
+
+ISSNs_comp3 <- ISSNs_comp2 [, lapply(.SD, function(x) paste("X_X", x, collapse = "\\1/", sep="")), by=.(ref), .SDcols=c("ISSN_Hindex")]
+ISSNs_comp3$ISSN_Hindex <- paste(ISSNs_comp3$ISSN_Hindex, "\\1/", sep="")
+
+ISSNs_comp4 <- merge(ISSNs_comp3, unique(ISSNs_comp2 [,-c("ISSN_Hindex", "dup", "id", "Title", "ISSN", "SJR_Hindex"), with=F]), by="ref")
+
+
 
 #ALL NAMES
 temp <- data.frame("Names"=c(SJR.red$Title2, VHB.red$Title2, FNEGE.red$Title2, HCERES_CoNRS.red$Title2, 
                             CORE_jour.red$Title2, CORE_conf.red$Title2, CCF.red$Title2,
-                            DAEN.red$Title2, ABS.red$Title2, ABDC.red$Title2, FT50.red$Title2))
+                            DAEN.red$Title2, ABS.red$Title2, ABDC.red$Title2, FT50.red$Title2, Meta.red$Title2))
 
 Names_Title <- data.frame("Names"=temp)
 Names_Title$Title <- c(SJR.red$Title, VHB.red$Title, FNEGE.red$Title, HCERES_CoNRS.red$Title, 
                        CORE_jour.red$Title, CORE_conf.red$Title, CCF.red$Title,
-                       DAEN.red$Title, ABS.red$Title, ABDC.red$Title, FT50.red$Title)
+                       DAEN.red$Title, ABS.red$Title, ABDC.red$Title, FT50.red$Title, Meta.red$Title)
 Names_Title <- unique(Names_Title)
 
 Names <- data.frame("Names"=unique(temp$Names))
@@ -292,10 +330,37 @@ Names <- merge(Names,  DAEN.red [!duplicated(DAEN.red$Title2), !(colnames(DAEN.r
 Names <- merge(Names,  ABS.red [!duplicated(ABS.red$Title2), !(colnames(ABS.red) %in% c("Title", "ISSN"))], all.x=T, by.x="Names", by.y="Title2", sort=F)
 Names <- merge(Names,  ABDC.red [!duplicated(ABDC.red$Title2), !(colnames(ABDC.red) %in% c("Title", "ISSN"))], all.x=T, by.x="Names", by.y="Title2", sort=F)
 Names <- merge(Names,  FT50.red [!duplicated(FT50.red$Title2), !(colnames(FT50.red) %in% c("Title", "ISSN"))], all.x=T, by.x="Names", by.y="Title2", sort=F)
+Names <- merge(Names,  Meta.red [!duplicated(Meta.red$Title2), !(colnames(Meta.red) %in% c("Title", "ISSN"))], all.x=T, by.x="Names", by.y="Title2", sort=F)
+
 
 Names <- merge(Names, Names_Title, all.x=T, by="Names", sort=F)
 Names <- Names [(order(Names$Title)), ]
 Names <- Names [!duplicated(Names$Names), ]
+
+Names$Names <- gsub(" ", "", Names$Names)
+Names <- Names [-which(Names$Names %in% c("", NA, "-", ".")), ]
+Names$Names <- trimws(Names$Names, which="b")
+Names$Names <- str_replace_all(Names$Names, "[^[:alnum:]]", "")
+
+
+# Compressing lists by putting journals with the exaxt same ratings into one row 
+Names_comp <- as.data.table(Names)
+Names_comp$id <- 1:NROW(Names_comp$Names)
+
+Names_comp2 <- Names_comp [, `:=` (dup = seq_len(.N) > 1, ref = first(id)), 
+                           by = c( names(Names_comp) [c(2,4:(NCOL(Names_comp)-2))] ) ] [dup == FALSE, ref := NA]
+Names_comp2$ref [is.na(Names_comp2$ref)] <- Names_comp2$id [is.na(Names_comp2$ref)]
+Names_comp2$Names_Hindex <- paste0(Names_comp2$Names, "\\0/", Names_comp2$SJR_Hindex, sep="")
+
+#Names_comp3 <- Names_comp2 [, lapply(.SD, function(x) paste("X_X", x, collapse = "\\1/", sep="")), by=.(ref), .SDcols=c("Names_Hindex")]
+#Names_comp3$Names_Hindex <- paste(Names_comp3$Names_Hindex, "\\1/", sep="")
+
+Names_comp3 <- Names_comp2 [, lapply(.SD, function(x) paste("X_X", x, collapse = "\\1/NA", sep="")), by=.(ref), .SDcols=c("Names_Hindex")]
+Names_comp3$Names_Hindex <- paste(Names_comp3$Names_Hindex, "\\1/NA", sep="")
+
+
+Names_comp4 <- merge(Names_comp3, unique(Names_comp2 [,-c("Names_Hindex", "dup", "id", "Title", "Names", "SJR_Hindex"), with=F]), by="ref")
+
 
 
 #ALL ACRONYMS CORE_conf
@@ -316,63 +381,74 @@ Acro <- Acro [!duplicated(Acro$Acro), ]
 
 
 
-ISSNs.txt <- apply(ISSNs, 1, function(x) paste("\"", paste(x, collapse="\t"), "\\n\" + ") )
+ISSNs.txt <- apply(ISSNs_comp4, 1, function(x) paste("\"", paste(x, collapse="\t"), "\\n\" + ") )
 
-fileConn<-file("ISSNs.txt")
-writeLines(ISSNs.txt, fileConn)
-close(fileConn)
+# fileConn<-file("ISSNs.txt")
+# writeLines(ISSNs.txt, fileConn)
+# close(fileConn)
 
 
-Names.txt <- apply(Names, 1, function(x) paste("\"", paste(x, collapse="\t"), "\\n\" + ") )
+Names.txt <- apply(Names_comp4, 1, function(x) paste("\"", paste(x, collapse="\t"), "\\n\" + ") )
 
-fileConn<-file("Names.txt")
-writeLines(Names.txt, fileConn, sep="\n")
-close(fileConn)
+# fileConn<-file("Names.txt")
+# writeLines(Names.txt, fileConn, sep="\n")
+# close(fileConn)
 
 
 Acro.txt <- apply(Acro, 1, function(x) paste("\"", paste(x, collapse="\t"), "\\n\" + ") )
 
-fileConn<-file("Acro.txt")
-writeLines(Acro.txt, fileConn)
-close(fileConn)
+# fileConn<-file("Acro.txt")
+# writeLines(Acro.txt, fileConn)
+# close(fileConn)
 
 
-b <- c(1:17) [-17]
-n <- substr(colnames(ISSNs), 1, 5) [-17]
+b <- c(1:NCOL(ISSNs_comp4)) [-1]
+n <- substr(colnames(ISSNs_comp4), 1, 5) [-1]
 ISSNs.FullRank.txt <- c("ccf.FullRank_ISSNs = \" ", c( paste(n, "\\", b, "/", collapse=" ", sep=""), "X_X"), 
-                        apply(ISSNs [,1:16], 1, function(x) 
-                        #paste( paste( x, " < ", b, "-", n, "-", b, collapse=" -- ", sep=""), "X_X") ), " \" ")
-                        paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), " \" ")
+                        apply(ISSNs_comp4 [,2:NCOL(ISSNs_comp4), with=F], 1, function(x) 
+                        paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), sep="") ), " \" ")
+
+
+ISSNs_comp4$CORE_conf <- NA 
+ISSNs_comp4$CCF <- NA 
+ISSNs_comp4$FT50 <- NA
+ISSNs_comp4$Names_Hindex <- ISSNs_comp4$ISSN_Hindex
+ISSNs_comp5 <- ISSNs_comp4 [, names(Names_comp4), with=F]
+b <- c(1:NCOL(ISSNs_comp5)) [-1]
+n <- substr(colnames(ISSNs_comp5), 1, 5) [-1]
+ISSNs.FullRank.pop.txt <- c( c( paste(n, "\\", b, "/", collapse=" ", sep=""), "X_X"), 
+                            apply(ISSNs_comp5 [,2:NCOL(ISSNs_comp5), with=F], 1, function(x) 
+                              paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), sep="") ), 
+                            " \" ")
 
 fileConn<-file("ccf.FullRank_ISSNs.js")
 writeLines(ISSNs.FullRank.txt, fileConn, sep="", useBytes=T)
 close(fileConn)
 
 
-b <- c(1:20) [-20]
-n <- substr(colnames(Names), 1, 6) [-20]
+b <- c(1:NCOL(Names_comp4)) [-1]
+n <- substr(colnames(Names_comp4), 1, 6) [-1]
 Names.FullRank.txt <- c("ccf.FullRank_Names = \" ", c( paste(n, "\\", b, "/", collapse=" ", sep=""), "X_X"), 
-                        apply(Names [1:19], 1, function(x) 
+                        apply(Names_comp4 [,2:NCOL(Names_comp4), with=F], 1, function(x) 
+                        #paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), " \" ")
                         paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), " \" ")
 
-Names.FullRank.pop.txt <- c("let = FullRank_Names = \" ", c( paste(n, "\\", b, "/", collapse=" ", sep=""), "X_X"), 
-                        apply(Names [1:19], 1, function(x) 
-                          paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), " \" ")
+Names.FullRank.pop.txt <- c("let FullRank_Names = \" ", 
+                            c( paste(n, "\\", b, "/", collapse=" ", sep=""), "X_X"), 
+                            apply(Names_comp4 [,2:NCOL(Names_comp4), with=F], 1, function(x) 
+                              paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), 
+                            " ")
 
 fileConn<-file("ccf.FullRank_Names.js")
 writeLines(Names.FullRank.txt, fileConn, sep="", useBytes=T)
 close(fileConn)
 
 
-b <- c(1:3)
+b <- c(1:NCOL(Acro))
 n <- substr(colnames(Acro), 1, 6)
 Acro.FullRank.txt <- c("ccf.FullRank_Acro = \" ", c( paste(n, "\\", b, "/", collapse=" ", sep=""), "X_X"), 
-                        apply(Acro [1:3], 1, function(x) 
+                        apply(Acro [1:NCOL(Acro)], 1, function(x) 
                           paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), " \" ")
-
-Acro.FullRank.pop.txt <- c("let = FullRank_Acro = \" ", c( paste(n, "\\", b, "/", collapse=" ", sep=""), "X_X"), 
-                       apply(Acro [1:3], 1, function(x) 
-                         paste( paste( trimws(x), "\\", b, "/", collapse="", sep=""), "X_X", sep="") ), " \" ")
 
 fileConn<-file("ccf.FullRank_Acro.js")
 writeLines(Acro.FullRank.txt, fileConn, sep="", useBytes=T)
@@ -387,8 +463,10 @@ start_index <- which(grepl("### ranking start ###", file_contents))
 end_index <- which(grepl("### ranking end ###", file_contents))
 
 file_contents <- paste( file_contents[-((start_index):(end_index))], collapse="\n" )
-file_contents <- c("/* ### ranking start ### */", "\n", Names.FullRank.pop.txt, "\n \n", Acro.FullRank.pop.txt, "\n", 
+file_contents <- c("/* ### ranking start ### */", "\n", c(Names.FullRank.pop.txt, ISSNs.FullRank.pop.txt), "\n", 
                    "/* ### ranking end ### */", "\n \n", file_contents)
+
+#c(Names.FullRank.pop.txt, ISSNs.FullRank.pop.txt)
 
 # Write the modified file back to disk
 writeLines(file_contents, "../popup.js", sep="", useBytes=T)
@@ -408,7 +486,8 @@ names(table(Names [,11])),
 names(table(Names [,12])),
 names(table(Names [,13])),
 names(table(Names [,18])),
-names(table(Names [,19])))
+names(table(Names [,19])),
+names(table(Names [,20])))
 
 all_ranks_ISSNs <- c(
 names(table(ISSNs [,2])),
@@ -419,7 +498,8 @@ names(table(ISSNs [,7])),
 names(table(ISSNs [,8])),
 names(table(ISSNs [,10])),
 names(table(ISSNs [,11])),
-names(table(ISSNs [,16])))
+names(table(ISSNs [,16])),
+names(table(ISSNs [,17])))
 
 all_ranks_Names
 all_ranks_ISSNs
