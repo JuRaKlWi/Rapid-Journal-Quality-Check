@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> RapidJournalQualCheck </h1> 
+<h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> Rapid Journal Quality Check </h1> 
 <h3 align="center"> Rapid Quality Check for Academic Journals in Google Scholar Search Results </h3>
 </br>
 <p align="center">
