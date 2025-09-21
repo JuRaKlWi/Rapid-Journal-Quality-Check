@@ -227,6 +227,58 @@ table {
   </tr>
   
   <tr>
+    <td colspan="3"> <span class="header1">Custom Rankings</span> </td>
+  </tr>
+
+  <tr>
+    <td> <span> Enable Custom Rankings </span> </td>
+    <td style="text-align: center; vertical-align: middle;"> 
+    	<label class="switch_s">
+ 	 	<input type="checkbox" id="customRankingsEnabled">
+  		<span class="slider_s round"> </span>
+	</td>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Enable or disable custom journal rankings. &#10;Custom rankings take priority over built-in rankings when enabled." style="margin:0 auto">?</div> </td>
+        <td> <span> Enable or disable custom journal rankings. &#10;</span>
+    	 	 <span> </br> Custom rankings take priority over built-in rankings when enabled. </span> </td>
+  </tr>
+
+  <tr>
+    <td colspan="4" style="text-align: left; padding: 10px;">
+      <div style="margin-bottom: 10px;">
+        <span style="font-weight: bold;">Import Custom Rankings:</span>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <label for="customRankingFile">Choose CSV or JSON file:</label>
+        <input type="file" id="customRankingFile" accept=".csv,.json" style="margin-left: 10px;">
+        <button id="importCustomRankings" style="margin-left: 10px; padding: 5px 10px;">Import</button>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <span style="font-size: 11px; color: #666;">
+          CSV format: ISSN, Name, Rank, Description (header row required)<br/>
+          JSON format: {"1234-5678": "A*"} or [{"issn": "1234-5678", "name": "Journal", "rank": "A*"}]
+        </span>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <textarea id="customRankingText" placeholder="Or paste CSV/JSON data here..." style="width: 100%; height: 100px; font-family: monospace; font-size: 11px;"></textarea>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <button id="parseCustomRankings" style="padding: 5px 10px;">Parse Data</button>
+        <button id="clearCustomRankings" style="padding: 5px 10px; margin-left: 10px;">Clear All</button>
+        <span id="customRankingStatus" style="margin-left: 10px; font-size: 11px;"></span>
+      </div>
+      <div>
+        <span style="font-weight: bold;">Current custom rankings: </span>
+        <span id="customRankingCount">0</span>
+        <span> entries</span>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="3"> </td>
+  </tr>
+
+  <tr>
     <td colspan="3"> <span class="header1">Select rankings</span> </td>
   </tr>
 
@@ -309,8 +361,8 @@ table {
  	 	<input type="checkbox" id="FNEGE" checked>
   		<span class="slider_s round"> </span>
 	</td>
-    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Foundation National pour l’Enseignement de la Gestion des Enterprises (FNEGE). &#10;Management Sciences, 720 journals ranked, &#10;1*: most notable journals - 4: good journals, fnege.org" style="margin:0 auto">?</div> </td>
-            <td> <span> Foundation National pour l’Enseignement de la Gestion des Enterprises (FNEGE). &#10;Management Sciences, </span>
+    <td style="text-align: center; vertical-align: middle;"> <div class="circle" title="Foundation National pour lï¿½Enseignement de la Gestion des Enterprises (FNEGE). &#10;Management Sciences, 720 journals ranked, &#10;1*: most notable journals - 4: good journals, fnege.org" style="margin:0 auto">?</div> </td>
+            <td> <span> Foundation National pour lï¿½Enseignement de la Gestion des Enterprises (FNEGE). &#10;Management Sciences, </span>
     	 	 <span> </br> 720 journals ranked, &#10;1*: most notable journals - 4: good journals, fnege.org  </span> </td>
   </tr>  
 
@@ -392,6 +444,7 @@ table {
  
 </table>
 
+<script src="js/customRankings.js"></script>
 <script src="popup.js"> </script>
 
 

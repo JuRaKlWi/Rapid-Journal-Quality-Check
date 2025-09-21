@@ -306,6 +306,51 @@
     background-color: var(--na-color);
 }
 
+/* Custom ranking styles */
+.ccf-custom {
+    background-color: #6f42c1; /* Purple for custom rankings */
+}
+
+.ccf-astar {
+    background-color: var(--aplus-color);
+}
+
+.ccf-aplus {
+    background-color: var(--aplus-color);
+}
+
+.ccf-a {
+    background-color: var(--a-color);
+}
+
+.ccf-b {
+    background-color: var(--b-color);
+}
+
+.ccf-c {
+    background-color: var(--c-color);
+}
+
+.ccf-d {
+    background-color: var(--d-color);
+}
+
+.ccf-q1 {
+    background-color: var(--a-color);
+}
+
+.ccf-q2 {
+    background-color: var(--b-color);
+}
+
+.ccf-q3 {
+    background-color: var(--c-color);
+}
+
+.ccf-q4 {
+    background-color: var(--d-color);
+}
+
 
 .ccf-tooltip {
     display: inline-block;

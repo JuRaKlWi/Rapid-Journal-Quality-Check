@@ -24,12 +24,26 @@ loadSettings().then(function(items) {
     settings.FT50 = items.FT50;
     settings.turbo = items.turbo;
     settings.ext_on = items.ext_on;
+    settings.customRankingsEnabled = items.customRankingsEnabled;
 
-    if(settings.ext_on === true) { 
-        if(settings.turbo === true) {    
-                scholar_turbo.run(settings);
-        } else if (settings.turbo === false) {    
-                scholar.run(settings);
+    // Load custom rankings data
+    if (typeof customRankings !== 'undefined') {
+        customRankings.load().then(function() {
+            if(settings.ext_on === true) { 
+                if(settings.turbo === true) {    
+                        scholar_turbo.run(settings);
+                } else if (settings.turbo === false) {    
+                        scholar.run(settings);
+                }
+            }
+        });
+    } else {
+        if(settings.ext_on === true) { 
+            if(settings.turbo === true) {    
+                    scholar_turbo.run(settings);
+            } else if (settings.turbo === false) {    
+                    scholar.run(settings);
+            }
         }
     }
 });    
