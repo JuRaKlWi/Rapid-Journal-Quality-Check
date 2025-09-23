@@ -25,6 +25,39 @@ ccf.getRankInfo = function (refine, type, ISSN1, ISSN2, dblp_venue) {
 
     refine = refine.replace(/&amp;/g, "&");
 
+    // Check for custom rankings first (if enabled and available)
+    if (typeof customRankings !== 'undefined' && typeof settings !== 'undefined' && settings.customRankingsEnabled) {
+        const customRank = customRankings.getRanking(ISSN1 || ISSN2, refine);
+        if (customRank) {
+            rankInfo.AllRanks.CUSTOM = customRank.rank;
+            rankInfo.ranks.push(customRank.rank);
+            rankInfo.info = "Custom ranking: " + customRank.rank;
+            if (customRank.description) {
+                rankInfo.info += " - " + customRank.description;
+            }
+            rankInfo.info2 = "Source: " + (customRank.source || 'Custom');
+            
+            // Also populate other rank fields for backward compatibility
+            rankInfo.AllRanks.SJR_Q2 = customRank.rank;
+            rankInfo.AllRanks.VHB = "NA";
+            rankInfo.AllRanks.FNEGE = "NA";
+            rankInfo.AllRanks.CoNRS = "NA";
+            rankInfo.AllRanks.HCERE = "NA";
+            rankInfo.AllRanks.CORE = "NA";
+            rankInfo.AllRanks.CCF = "NA";
+            rankInfo.AllRanks.DAEN = "NA";
+            rankInfo.AllRanks.AJG = "NA";
+            rankInfo.AllRanks.JCR = "NA";
+            rankInfo.AllRanks.SNIP = "NA";
+            rankInfo.AllRanks.SJR = "NA";
+            rankInfo.AllRanks.CiteScore = "NA";
+            rankInfo.AllRanks.ABDC = "NA";
+            rankInfo.AllRanks.FT50 = "NA";
+            
+            return rankInfo;
+        }
+    }
+
     url = refine;
     url = url.toUpperCase();
     url = url.replace(/&AMP;/g, "&");
@@ -600,7 +633,20 @@ ccf.getRankSpan = function (refine, type, doi, elid, ISSN1, ISSN2, dblp_venue, d
     let allNA = 1;
  
     let rankInfo = ccf.getRankInfo(refine, type, ISSN1, ISSN2, dblp_venue);
- 
+
+    // Custom rankings span
+    let spanCustom = $("<span>");
+    let customRank = rankInfo.AllRanks.CUSTOM;
+    if (customRank != "NA" && customRank != undefined && settings.customRankingsEnabled) {
+        allNA = allNA + 1;
+        const customRankClass = typeof customRankings !== 'undefined' ? 
+                               customRankings.getRankClass(customRank) : 'ccf-custom';
+        spanCustom
+            .addClass("ccf-rank")
+            .addClass(customRankClass)
+            .text("C:" + customRank); 
+    }
+
     let span1 = $("<span>");
     let rank = rankInfo.AllRanks.SJR_Q2;
     if (rank != "NA" && rank != undefined) {
@@ -739,6 +785,13 @@ ccf.getRankSpan = function (refine, type, doi, elid, ISSN1, ISSN2, dblp_venue, d
 
     let Ranks_chosen = [];
     let Ranks_additional = [];
+    
+      // Custom rankings (prioritized first)
+      if(settings.customRankingsEnabled === true && rankInfo.AllRanks.CUSTOM && rankInfo.AllRanks.CUSTOM != "NA") { 
+          span123.append(spanCustom); 
+          popup_text += "Custom: " + rankInfo.AllRanks.CUSTOM + "   ";
+          Ranks_chosen.push(rankInfo.AllRanks.CUSTOM); 
+        }
     
       if(settings.SJR === true) { 
           span123.append(span1); 

@@ -118,6 +118,7 @@
         "js/scholar.js",
         "js/scholar_turbo.js",
         "js/ccf.js",
+        "js/customRankings.js",
         "js/fetchRank.js",
         "data/ccf.FullRank_ISSNs.js",
         "data/ccf.FullRank_Names.js",

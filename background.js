@@ -15,7 +15,9 @@ chrome.runtime.onInstalled.addListener(function(details){
         AJG: false,
         ABDC: true,
         FT50: true,
-        turbo: true
+        turbo: true,
+        customRankings: {},
+        customRankingsEnabled: false
     });
      
     chrome.runtime.openOptionsPage();
