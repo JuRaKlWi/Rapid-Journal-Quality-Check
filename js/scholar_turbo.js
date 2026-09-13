@@ -217,8 +217,7 @@ scholar_turbo.appendRanks = function (settings) {
             .find("div.gs_gray").last()
             .text();
 
-        let journal3 = journal.replace(/[^A-Z ]/ig, "");
-        journal3 = journal3.replace(/^\s+|\s+$|\s+(?=\s)/g, "");
+        let journal3 = scholarVenueName(journal);
 
         let r3 = journal3.indexOf("…");
                 

@@ -8,6 +8,26 @@
 
 const scholar = {};
 
+/**
+ * Returns the venue name of a Google Scholar profile row, whose venue line is
+ * rendered as "<venue> <volume> (<issue>), <pages>, <year>".
+ *
+ * The volume, issue, pages and year are removed before non-letters are stripped.
+ * Otherwise letters inside them stay attached to the name, e.g.
+ * "Journal of Clinical Oncology 43 (16_suppl), 1515-1515" or
+ * "Journal of Thoracic Oncology 20 (10), S392" become
+ * "Journal of Clinical Oncology suppl" / "Journal of Thoracic Oncology S"
+ * and the name lookup fails.
+ */
+function scholarVenueName(venue) {
+    let name = String(venue || "");
+    name = name.replace(/,\s*\d{4}\s*$/, "");
+    name = name.replace(/\s+\d[^\s,(]*(\s*\([^)]*\))?(\s*,\s*[^\s,]+)?\s*$/, "");
+    name = name.replace(/\s*\([^)]*\d[^)]*\)(\s*,\s*[^\s,]+)?\s*$/, "");
+    name = name.replace(/[^A-Z ]/ig, "");
+    return name.replace(/^\s+|\s+$|\s+(?=\s)/g, "");
+}
+
 CircumventCrossRef = function (journal3, node, title, compl, scholar, elid, author, settings) {
     let url;
     
@@ -152,8 +172,7 @@ scholar.appendRanks = function (settings) {
             .find("div.gs_gray").last()
             .text();
 
-        let journal3 = journal.replace(/[^A-Z ]/ig, "");
-        journal3 = journal3.replace(/^\s+|\s+$|\s+(?=\s)/g, "");
+        let journal3 = scholarVenueName(journal);
 
         let r3 = journal3.indexOf("…");
                 
